@@ -1,5 +1,5 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-26 01:11:21
+Time: 2026-09-26 01:15:23
 Source: 9706c06
 Error: Отказано в доступе по данному пути.
 
@@ -75,11 +75,11 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 (Filename: Assets/Editor/BhopLevelPolish.cs Line: 17)
 
 Importing 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a - Path: Assets/Resources/BhopUI/m9_preview.png' with importer (TextureImporter)
-Imported 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a' -> (Import Result ID: '5f7c121877ee4fd1dba1b556f7e40874') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7fc1656ed8d0190fd9240ef76f187a27 DependenciesID=ed4123fc835b875f3101332173980137 StaticDependenciesID=e1e2b224ce30622e4a4013441ac19f62 
-Asset Pipeline Refresh (id=50229d148b0df414cb53e336252f09f1): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a' -> (Import Result ID: '54ea64c423dbad20b7fb0bbdcaf074a5') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2e7174bbb80422b9d6a78323227488 DependenciesID=80ddb7c012949a2d858a28e020ccc6b7 StaticDependenciesID=e8c68849dc867ca474e69274f8f3787e 
+Asset Pipeline Refresh (id=8c8b598daec979544bff446081fa9a3c): Total: 0.113 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a - Path: Assets/Resources/BhopUI/m9_preview.png' with importer (TextureImporter)
-Imported 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a' -> (Import Result ID: '54ea64c423dbad20b7fb0bbdcaf074a5') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2e7174bbb80422b9d6a78323227488 DependenciesID=80ddb7c012949a2d858a28e020ccc6b7 StaticDependenciesID=e8c68849dc867ca474e69274f8f3787e 
-Asset Pipeline Refresh (id=68c7c7ecd25170e4eb9d31d9c4392b0e): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a' -> (Import Result ID: '54ea64c423dbad20b7fb0bbdcaf074a5') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2e7174bbb80422b9d6a78323227488 DependenciesID=80ddb7c012949a2d858a28e020ccc6b7 StaticDependenciesID=e8c68849dc867ca474e69274f8f3787e 
+Asset Pipeline Refresh (id=09f878d8b141687448200d5e746ce9b2): Total: 0.038 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 M9_SHOP_PREVIEW_REFRESHED
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -93,7 +93,7 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:41)
 (Filename: Assets/Editor/BhopViewPolish.cs Line: 126)
 
 Importing 'GUID: 87b2ffeae917c594daacb77e87062617 - Path: Assets/Materials/Classic_Panel.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 87b2ffeae917c594daacb77e87062617' -> (Import Result ID: '6cc86b91a90536c2e56105cf023ca340') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=5be0052c6401d1ba6a6a0e07dfe9062d DependenciesID=f2ffac52d4bafebcb08074ae1d8fe729 StaticDependenciesID=48cf35c6bfb7eb9ba582d65723286413 
+Imported 'GUID: 87b2ffeae917c594daacb77e87062617' -> (Import Result ID: '6cc86b91a90536c2e56105cf023ca340') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=5be0052c6401d1ba6a6a0e07dfe9062d DependenciesID=f2ffac52d4bafebcb08074ae1d8fe729 StaticDependenciesID=48cf35c6bfb7eb9ba582d65723286413 
 Importing 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf - Path: Assets/Materials/Classic_Accent.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf' -> (Import Result ID: 'f3485076338e6e791c739716b3c08f4d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f8f96a4af722f8322ac8248102438238 DependenciesID=fc55897f5889ea1311497a4b15e8078f StaticDependenciesID=56b3490b93fe6a29a565633dce310738 
 Importing 'GUID: 1bcab16c1bef93641852d7805ac4a9cd - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
@@ -102,21 +102,21 @@ Importing 'GUID: 834e2fdd2382cb544a740409c72e8ce2 - Path: Assets/Art/PSXArms/PSX
 Imported 'GUID: 834e2fdd2382cb544a740409c72e8ce2' -> (Import Result ID: '15d6e8442d1522bb3ef836e4ee11e775') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=6176294777d09513f9bf559d362fc5fd DependenciesID=c3eee1d01d0d206268921759ee10119c StaticDependenciesID=b2b3d225410b525ff3d08045d1bf0d5e 
 Importing 'GUID: bd657c5de98c9ef458ecbb99f154459b - Path: Assets/Art/PSXArms/PSX_RightArm_Clean.asset' with importer (NativeFormatImporter)
 Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
-Asset Pipeline Refresh (id=529c8eb103617204a8e0054ca2543a4d): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=f77af140dc8f8af49bc718ae7406fe20): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: a2de4fb016636614f87f1a9e2d19a8d9 - Path: Assets/Scenes/Bhop_Classic.unity' with importer (DefaultImporter)
-Imported 'GUID: a2de4fb016636614f87f1a9e2d19a8d9' -> (Import Result ID: 'c5e6c8b7512d655eca10ef8b49363070') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=e52c2caea7cd9be20faf6719caa020a0 DependenciesID=3e8b3a0037edff3addd1fc249cbc4431 StaticDependenciesID=e7990c9aa49c5467795b97dc58d1d6f8 
-Asset Pipeline Refresh (id=9a74a38d74f1dab4ab57aa3bbdd782d9): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: a2de4fb016636614f87f1a9e2d19a8d9' -> (Import Result ID: 'a856a8c5e39030e2063e2d40da95d399') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=e52c2caea7cd9be20faf6719caa020a0 DependenciesID=5e41c7bdc1e8bbdf35e6f9f43f9f8cd8 StaticDependenciesID=c21e673d2f04d65a9f6e10c7f8ecc5d0 
+Asset Pipeline Refresh (id=c2f9ac1a75375db419a9bf53f0e1e40f): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Opening scene 'Assets/Scenes/Bhop_Classic.unity'
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
-	Deserialize:            11.180 ms
-	Integration:            5.706 ms
-	Integration of assets:  0.008 ms
-	Thread Wait Time:       0.037 ms
-	Total Operation Time:   16.930 ms
-Unloading 189 unused Assets / (24.3 KB). Loaded Objects now: 2007.
-Memory consumption went from 212.6 MB to 212.6 MB.
-Total: 7.402500 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.082600 ms MarkObjects: 6.771700 ms  DeleteObjects: 0.341300 ms)
+	Deserialize:            16.926 ms
+	Integration:            5.546 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.119 ms
+	Total Operation Time:   22.598 ms
+Unloading 189 unused Assets / (Unknown). Loaded Objects now: 2007.
+Memory consumption went from 213.3 MB to 213.4 MB.
+Total: 6.255100 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.087600 ms MarkObjects: 5.726700 ms  DeleteObjects: 0.245500 ms)
 
 BHOP_SCENE_VALIDATION_OK
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -133,14 +133,14 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:59)
 Opening scene 'Assets/Scenes/Bhop_Classic.unity'
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
-	Deserialize:            11.065 ms
-	Integration:            4.594 ms
-	Integration of assets:  0.005 ms
-	Thread Wait Time:       0.037 ms
-	Total Operation Time:   15.701 ms
+	Deserialize:            14.250 ms
+	Integration:            6.749 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   21.038 ms
 Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 2007.
-Memory consumption went from 208.2 MB to 208.2 MB.
-Total: 5.512400 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.036900 ms MarkObjects: 5.220900 ms  DeleteObjects: 0.031600 ms)
+Memory consumption went from 209.2 MB to 209.2 MB.
+Total: 7.540800 ms (FindLiveObjects: 0.206200 ms CreateObjectMapping: 0.029100 ms MarkObjects: 7.272600 ms  DeleteObjects: 0.031400 ms)
 
 BHOP_MECHANICS_TEST_OK ground=260u apex=1,45m flight=0,75s airGain=1,7u
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -165,12 +165,12 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:62)
 
 (Filename: Assets/Editor/BhopViewPolish.cs Line: 62)
 
-Worker ready: AssetImportWorkerHW0 0
-Batchmode quit successfully invoked - shutting down!
 Curl error 42: Callback aborted
+Batchmode quit successfully invoked - shutting down!
 Importing 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf - Path: Assets/Materials/Classic_Accent.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf' -> (Import Result ID: '921682f0f70004c370e03ee82970fd63') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=f8f96a4af722f8322ac8248102438238 DependenciesID=38a94ec99acb9a98c644cb16d2b62f2c StaticDependenciesID=7b2fe68dbeaf9966a4aa6b3c00721338 
-Asset Pipeline Refresh (id=7ed7d2c1ae9172c43830319ee26916e8): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf' -> (Import Result ID: '921682f0f70004c370e03ee82970fd63') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=f8f96a4af722f8322ac8248102438238 DependenciesID=38a94ec99acb9a98c644cb16d2b62f2c StaticDependenciesID=7b2fe68dbeaf9966a4aa6b3c00721338 
+Asset Pipeline Refresh (id=03dcce2b19fc30e4c88d09c3559c0f5c): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Worker ready: AssetImportWorkerHW0 0
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
@@ -186,6 +186,8 @@ Exiting batchmode successfully now!
 Exiting without the bug reporter. Application will terminate with return code 0
 
 ===== UNITY_WEBGL.log =====
+    After built-in stripping:   1
+    After scriptable stripping: 1
     Processed in 0.00 seconds
   Pass Default (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
     Prepared data for serialisation in 0.00s
@@ -263,7 +265,6 @@ Compiling shader "Hidden/Physics2D/SDF_Point"
     Prepared data for serialisation in 0.00s
 Serialized binary data for shader Hidden/Physics2D/SDF_Point in 0.00s
     gles3 (total internal programs: 1, unique: 1)
-Worker ready: AssetImportWorkerHW0 0
 
 ***Player size statistics***
 Level 0 'Assets/Scenes/Bhop_Classic.unity' uses 4.7 MB compressed / 8.7 MB uncompressed.
@@ -272,7 +273,7 @@ SpriteAtlasDatabase::Cleanup
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --profile="Library/Bee/backend1.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 DisplayProgressbar: Incremental Player Build
-ExitCode: 3 Duration: 1m:07s
+ExitCode: 3 Duration: 1m:10s
 Building Library\Bee\artifacts\WebGL\build\debug_WebGL_wasm\build.js failed with output:
 warning: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/lib_webgpu.js:7: #warning "Firefox browser before version 149 has issues with WebGPU (e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=2023423 )"
 warning: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/lib_webgpu.js:7: #warning "Firefox browser before version 149 has issues with WebGPU (e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=2023423 )"
@@ -282,7 +283,7 @@ Traceback (most recent call last):
   File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\shutil.py", line 856, in move
     os.rename(src, real_dst)
     ~~~~~~~~~^^^^^^^^^^^^^^^
-FileExistsError: [WinError 183] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 'C:\\Users\\User\\AppData\\Local\\Temp\\emscripten_temp_6q2tr8e0\\build.jso1.js.modular.js' -> 'C:\\Users\\User\\Documents\\BHOP_Yandex\\Library\\Bee\\artifacts\\WebGL\\build\\debug_WebGL_wasm\\build.js'
+FileExistsError: [WinError 183] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 'C:\\Users\\User\\AppData\\Local\\Temp\\emscripten_temp_p5iwxspr\\build.jso1.js.modular.js' -> 'C:\\Users\\User\\Documents\\BHOP_Yandex\\Library\\Bee\\artifacts\\WebGL\\build\\debug_WebGL_wasm\\build.js'
 
 During handling of the above exception, another exception occurred:
 
@@ -340,24 +341,23 @@ BhopValidationBuild:BuildWebGLSmoke () (at Assets/Editor/BhopValidation.cs:75)
 
 (Filename: /home/bokken/build/output/unity/unity/PlatformDependent/WebGL/Extensions/Unity.WebGL.extensions/BuildPostprocessor.cs Line: 36)
 
-[Licensing::Client] Successfully resolved entitlement details
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (23.8 KB). Loaded Objects now: 929.
-Memory consumption went from 206.8 MB to 206.8 MB.
-Total: 11.530700 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.034000 ms MarkObjects: 11.131100 ms  DeleteObjects: 0.101500 ms)
+Unloading 13 unused Assets / (23.4 KB). Loaded Objects now: 929.
+Memory consumption went from 207.4 MB to 207.3 MB.
+Total: 15.484700 ms (FindLiveObjects: 0.453100 ms CreateObjectMapping: 0.027300 ms MarkObjects: 14.739300 ms  DeleteObjects: 0.259500 ms)
 
 Build Finished, Result: Failure.
-##utp:{"success":false,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1790374275812,"processId":10860,"steps":[{"description":"Preprocess Player","duration":13},{"description":"Prepare For Build","duration":0},{"description":"ProducePlayerScriptAssemblies","duration":628},{"description":"Verify Build setup","duration":24},{"description":"Prepare assets for target platform","duration":3},{"description":"Prepare splash screen","duration":0},{"description":"Build scripts DLLs","duration":26},{"description":"Building scenes","duration":91},{"description":"Build GlobalGameManagers file","duration":295},{"description":"Writing asset files","duration":126},{"description":"Building Resources/unity_builtin_extra","duration":112},{"description":"Creating compressed player package","duration":756},{"description":"Write data build dirty tracking information","duration":12},{"description":"Postprocess built player","duration":68353}],"duration":70439}
+##utp:{"success":false,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1790374519206,"processId":768,"steps":[{"description":"Preprocess Player","duration":21},{"description":"Prepare For Build","duration":1},{"description":"ProducePlayerScriptAssemblies","duration":5089},{"description":"Verify Build setup","duration":24},{"description":"Prepare assets for target platform","duration":3},{"description":"Prepare splash screen","duration":0},{"description":"Build scripts DLLs","duration":25},{"description":"Building scenes","duration":99},{"description":"Build GlobalGameManagers file","duration":307},{"description":"Writing asset files","duration":140},{"description":"Building Resources/unity_builtin_extra","duration":113},{"description":"Creating compressed player package","duration":753},{"description":"Write data build dirty tracking information","duration":14},{"description":"Postprocess built player","duration":71000}],"duration":77589}
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.023 ms
-	Integration:            6.057 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.013 ms
-	Total Operation Time:   7.095 ms
-Unloading 0 unused Assets / (Unknown). Loaded Objects now: 922.
-Memory consumption went from 205.2 MB to 205.2 MB.
-Total: 7.334500 ms (FindLiveObjects: 0.071100 ms CreateObjectMapping: 0.026100 ms MarkObjects: 7.229600 ms  DeleteObjects: 0.006000 ms)
+	Deserialize:            1.961 ms
+	Integration:            9.541 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   11.529 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 922.
+Memory consumption went from 205.8 MB to 205.8 MB.
+Total: 8.793900 ms (FindLiveObjects: 0.104200 ms CreateObjectMapping: 0.030300 ms MarkObjects: 8.645200 ms  DeleteObjects: 0.012100 ms)
 
 Exception: WebGL build failed: Failed
   at BhopValidationBuild.BuildWebGLSmoke () [0x000f6] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopValidation.cs:84 
