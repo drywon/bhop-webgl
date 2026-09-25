@@ -1,5 +1,5 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-26 01:21:10
+Time: 2026-09-26 01:37:09
 Source: 3e8f91d
 Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
@@ -8,11 +8,11 @@ Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents
 Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 7893 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-25T22:21:08.512184Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-25T22:21:08Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13704, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Date: 2026-09-25T22:37:07Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-25T22:37:07.5220661Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18388, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 
 COMMAND LINE ARGUMENTS:
@@ -31,12 +31,12 @@ C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 Successfully changed project path to: C:\Users\User\Documents\BHOP_Yandex
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              f2a5b48e4e5f45b8bbf9e135055f5320
-  Correlation Id:          5fce1928d69d3c5cbb02fe2d799d3bdf
-  External correlation Id: 5539668076576443865
+  Session Id:              a895f18762f64d3aa0fdd9cc23bf467b
+  Correlation Id:          94962d3b6ee9bb588e11e2c865507e63
+  External correlation Id: 4777661263367854215
   Machine Id:              TMgRpsI/FwwaJ28/AdK/gUkor3c=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.06s, handshake: 0.11s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-25T22:21:08.6881551Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.03s, handshake: 0.15s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-25T22:37:07.6954427Z"
 [Licensing::Module] Error: Access token is unavailable; failed to update
 C:/Users/User/Documents/BHOP_Yandex
 Exiting without the bug reporter. Application will terminate with return code 1
@@ -203,22 +203,22 @@ Total compressed size 4.7 MB. Total uncompressed size 8.7 MB.
 SpriteAtlasDatabase::Cleanup
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --profile="Library/Bee/backend1.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
-ExitCode: 4 Duration: 0s31ms
+ExitCode: 4 Duration: 0s28ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram0.traceevents"
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 DisplayProgressbar: Incremental Player Build
-ExitCode: 0 Duration: 0s667ms
+ExitCode: 0 Duration: 0s712ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend2.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram1.traceevents"
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
-ExitCode: 4 Duration: 42s
-ExitCode: 0 Duration: 0s680ms
+ExitCode: 4 Duration: 39s
+ExitCode: 0 Duration: 0s639ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend3.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram2.traceevents"
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
-ExitCode: 4 Duration: 5s12ms
-ExitCode: 0 Duration: 0s813ms
+ExitCode: 4 Duration: 4s720ms
+ExitCode: 0 Duration: 0s521ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend4.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
