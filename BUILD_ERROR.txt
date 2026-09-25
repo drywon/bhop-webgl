@@ -1,191 +1,122 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-26 01:15:23
-Source: 9706c06
-Error: Отказано в доступе по данному пути.
+Time: 2026-09-26 01:21:10
+Source: 3e8f91d
+Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_APPLY.log =====
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 208)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 7893 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-25T22:21:08.512184Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-25T22:21:08Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13704, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
 
-RIGHT_GRIP_AUTHORED_FIT scale=0,8603 width=0,0928->0,0846 length=0,1236->0,1004 handErr=0,0060 indexErr=0,0051 pinkyErr=0,0051
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:AlignRightHandToAuthoredGrip (UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:300)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:81)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:146)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 300)
-
-RIGHT_FINGERS_RETARGETED_TO_AUTHORED_M9
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:RetargetRightFingerPose (UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:231)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:89)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:146)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 231)
-
-PSX_OLD_ARM L tris=500
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:EnsureSideMesh (UnityEngine.SkinnedMeshRenderer,bool) (at Assets/Editor/BhopHybridViewmodel.cs:208)
-BhopHybridViewmodel:BuildCleanSide (UnityEngine.GameObject,UnityEngine.Material,bool,UnityEngine.Transform,string) (at Assets/Editor/BhopHybridViewmodel.cs:139)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:92)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:146)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 208)
-
-PSX_ROLLBACK_OK R=(0.828, 0.068, 0.355) L=(0.195, 0.145, 0.279) knife=(0.650, 0.250, 0.395) palmR=0,080 palmL=0,080
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:115)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:146)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 115)
-
-BHOP_LEVEL_POLISH_APPLIED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopLevelPolish:ApplyToCurrentScene () (at Assets/Editor/BhopLevelPolish.cs:17)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
-
-(Filename: Assets/Editor/BhopLevelPolish.cs Line: 17)
-
-Importing 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a - Path: Assets/Resources/BhopUI/m9_preview.png' with importer (TextureImporter)
-Imported 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a' -> (Import Result ID: '54ea64c423dbad20b7fb0bbdcaf074a5') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2e7174bbb80422b9d6a78323227488 DependenciesID=80ddb7c012949a2d858a28e020ccc6b7 StaticDependenciesID=e8c68849dc867ca474e69274f8f3787e 
-Asset Pipeline Refresh (id=8c8b598daec979544bff446081fa9a3c): Total: 0.113 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a - Path: Assets/Resources/BhopUI/m9_preview.png' with importer (TextureImporter)
-Imported 'GUID: 4e3f11e2b1d1bd5489a363d8146da91a' -> (Import Result ID: '54ea64c423dbad20b7fb0bbdcaf074a5') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2e7174bbb80422b9d6a78323227488 DependenciesID=80ddb7c012949a2d858a28e020ccc6b7 StaticDependenciesID=e8c68849dc867ca474e69274f8f3787e 
-Asset Pipeline Refresh (id=09f878d8b141687448200d5e746ce9b2): Total: 0.038 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-M9_SHOP_PREVIEW_REFRESHED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopViewPolish:CaptureM9ShopPreview () (at Assets/Editor/BhopViewPolish.cs:126)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:41)
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 126)
-
-Importing 'GUID: 87b2ffeae917c594daacb77e87062617 - Path: Assets/Materials/Classic_Panel.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 87b2ffeae917c594daacb77e87062617' -> (Import Result ID: '6cc86b91a90536c2e56105cf023ca340') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=5be0052c6401d1ba6a6a0e07dfe9062d DependenciesID=f2ffac52d4bafebcb08074ae1d8fe729 StaticDependenciesID=48cf35c6bfb7eb9ba582d65723286413 
-Importing 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf - Path: Assets/Materials/Classic_Accent.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf' -> (Import Result ID: 'f3485076338e6e791c739716b3c08f4d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f8f96a4af722f8322ac8248102438238 DependenciesID=fc55897f5889ea1311497a4b15e8078f StaticDependenciesID=56b3490b93fe6a29a565633dce310738 
-Importing 'GUID: 1bcab16c1bef93641852d7805ac4a9cd - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 1bcab16c1bef93641852d7805ac4a9cd' -> (Import Result ID: '79cdcd2a016aa1f73b1c439edf7ead2f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9bcd2026e97b6b768341725bd6269793 DependenciesID=56949296fd845a46282ae48642b38d21 StaticDependenciesID=5d09b00b61e6d1c78d49bbc23b9d4fbf 
-Importing 'GUID: 834e2fdd2382cb544a740409c72e8ce2 - Path: Assets/Art/PSXArms/PSX_LeftArm_Clean.asset' with importer (NativeFormatImporter)
-Imported 'GUID: 834e2fdd2382cb544a740409c72e8ce2' -> (Import Result ID: '15d6e8442d1522bb3ef836e4ee11e775') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=6176294777d09513f9bf559d362fc5fd DependenciesID=c3eee1d01d0d206268921759ee10119c StaticDependenciesID=b2b3d225410b525ff3d08045d1bf0d5e 
-Importing 'GUID: bd657c5de98c9ef458ecbb99f154459b - Path: Assets/Art/PSXArms/PSX_RightArm_Clean.asset' with importer (NativeFormatImporter)
-Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
-Asset Pipeline Refresh (id=f77af140dc8f8af49bc718ae7406fe20): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: a2de4fb016636614f87f1a9e2d19a8d9 - Path: Assets/Scenes/Bhop_Classic.unity' with importer (DefaultImporter)
-Imported 'GUID: a2de4fb016636614f87f1a9e2d19a8d9' -> (Import Result ID: 'a856a8c5e39030e2063e2d40da95d399') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=e52c2caea7cd9be20faf6719caa020a0 DependenciesID=5e41c7bdc1e8bbdf35e6f9f43f9f8cd8 StaticDependenciesID=c21e673d2f04d65a9f6e10c7f8ecc5d0 
-Asset Pipeline Refresh (id=c2f9ac1a75375db419a9bf53f0e1e40f): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Opening scene 'Assets/Scenes/Bhop_Classic.unity'
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
-	Deserialize:            16.926 ms
-	Integration:            5.546 ms
-	Integration of assets:  0.007 ms
-	Thread Wait Time:       0.119 ms
-	Total Operation Time:   22.598 ms
-Unloading 189 unused Assets / (Unknown). Loaded Objects now: 2007.
-Memory consumption went from 213.3 MB to 213.4 MB.
-Total: 6.255100 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.087600 ms MarkObjects: 5.726700 ms  DeleteObjects: 0.245500 ms)
-
-BHOP_SCENE_VALIDATION_OK
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:44)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:59)
-
-(Filename: Assets/Editor/BhopValidation.cs Line: 44)
-
-Opening scene 'Assets/Scenes/Bhop_Classic.unity'
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
-	Deserialize:            14.250 ms
-	Integration:            6.749 ms
-	Integration of assets:  0.021 ms
-	Thread Wait Time:       0.018 ms
-	Total Operation Time:   21.038 ms
-Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 2007.
-Memory consumption went from 209.2 MB to 209.2 MB.
-Total: 7.540800 ms (FindLiveObjects: 0.206200 ms CreateObjectMapping: 0.029100 ms MarkObjects: 7.272600 ms  DeleteObjects: 0.031400 ms)
-
-BHOP_MECHANICS_TEST_OK ground=260u apex=1,45m flight=0,75s airGain=1,7u
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopMechanicsSelfTest:Run () (at Assets/Editor/BhopMechanicsSelfTest.cs:46)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:60)
-
-(Filename: Assets/Editor/BhopMechanicsSelfTest.cs Line: 46)
-
-M9_POLISH_APPLIED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:62)
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 62)
-
-Curl error 42: Callback aborted
-Batchmode quit successfully invoked - shutting down!
-Importing 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf - Path: Assets/Materials/Classic_Accent.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 4a8fe7503a8f73a4aa8912dc1e1b75bf' -> (Import Result ID: '921682f0f70004c370e03ee82970fd63') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=f8f96a4af722f8322ac8248102438238 DependenciesID=38a94ec99acb9a98c644cb16d2b62f2c StaticDependenciesID=7b2fe68dbeaf9966a4aa6b3c00721338 
-Asset Pipeline Refresh (id=03dcce2b19fc30e4c88d09c3559c0f5c): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Worker ready: AssetImportWorkerHW0 0
-[Physics::Module] Cleanup current backend.
-[Physics::Module] Id: 0xf2b8ea05
-Input System module state changed to: ShutdownInProgress.
-Input Polling Thread exited.
-Input System module state changed to: Shutdown.
-[Licensing::IpcConnector] LicenseClient-User-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-Lingering sessions upon destruction of worker manager
-AcceleratorClientConnectionCallback - disconnected - :0
-Cleanup mono
-CodeReloadManager destroyed
-Exiting batchmode successfully now!
-Exiting without the bug reporter. Application will terminate with return code 0
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-batchmode
+-quit
+-noUpm
+-job-worker-count
+1
+-projectPath
+C:\Users\User\Documents\BHOP_Yandex
+-executeMethod
+BhopViewPolish.Apply
+-logFile
+C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+Successfully changed project path to: C:\Users\User\Documents\BHOP_Yandex
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              f2a5b48e4e5f45b8bbf9e135055f5320
+  Correlation Id:          5fce1928d69d3c5cbb02fe2d799d3bdf
+  External correlation Id: 5539668076576443865
+  Machine Id:              TMgRpsI/FwwaJ28/AdK/gUkor3c=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.06s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-09-25T22:21:08.6881551Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+C:/Users/User/Documents/BHOP_Yandex
+Exiting without the bug reporter. Application will terminate with return code 1
 
 ===== UNITY_WEBGL.log =====
+    Processed in 0.00 seconds
+  Pass "" (vp)
+    Target graphics API: gles3
+    Full variant space:         1
+    After settings filtering:   1
+    After built-in stripping:   1
+    After scriptable stripping: 1
+    Processed in 0.00 seconds
+  Pass "" (vp)
+    Target graphics API: gles3
+    Full variant space:         1
+    After settings filtering:   1
+    After built-in stripping:   1
+    After scriptable stripping: 1
+    Processed in 0.00 seconds
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+Serialized binary data for shader Hidden/Internal-ODSWorldTexture in 0.00s
+    gles3 (total internal programs: 10, unique: 9)
+Compiling shader "Hidden/Internal-CubemapToEquirect"
+  Pass "" (vp)
+    Target graphics API: gles3
+    Full variant space:         1
+    After settings filtering:   1
+    After built-in stripping:   1
+    After scriptable stripping: 1
+    Processed in 0.00 seconds
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+Serialized binary data for shader Hidden/Internal-CubemapToEquirect in 0.00s
+    gles3 (total internal programs: 1, unique: 1)
+Compiling shader "Hidden/VR/BlitFromTex2DToTexArraySlice"
+  Pass "" (vp)
+    Target graphics API: gles3
+    Full variant space:         1
+    After settings filtering:   1
+    After built-in stripping:   1
+    After scriptable stripping: 1
+    Processed in 0.00 seconds
+  Pass "" (vp)
+    Target graphics API: gles3
+    Full variant space:         1
+    After settings filtering:   1
+    After built-in stripping:   1
+    After scriptable stripping: 1
+    Processed in 0.00 seconds
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+  Pass  (vp, gles3) finished in 0.00 seconds. Local cache hits 1 (0.00s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time), skipped 0 variants.
+    Prepared data for serialisation in 0.00s
+Serialized binary data for shader Hidden/VR/BlitFromTex2DToTexArraySlice in 0.00s
+    gles3 (total internal programs: 2, unique: 2)
+Compiling shader "Hidden/VideoComposite"
+  Pass "Default" (vp)
+    Target graphics API: gles3
+    Full variant space:         1
+    After settings filtering:   1
     After built-in stripping:   1
     After scriptable stripping: 1
     Processed in 0.00 seconds
@@ -272,97 +203,22 @@ Total compressed size 4.7 MB. Total uncompressed size 8.7 MB.
 SpriteAtlasDatabase::Cleanup
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --profile="Library/Bee/backend1.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
+ExitCode: 4 Duration: 0s31ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 DisplayProgressbar: Incremental Player Build
-ExitCode: 3 Duration: 1m:10s
-Building Library\Bee\artifacts\WebGL\build\debug_WebGL_wasm\build.js failed with output:
-warning: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/lib_webgpu.js:7: #warning "Firefox browser before version 149 has issues with WebGPU (e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=2023423 )"
-warning: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/lib_webgpu.js:7: #warning "Firefox browser before version 149 has issues with WebGPU (e.g. https://bugzilla.mozilla.org/show_bug.cgi?id=2023423 )"
-warning: JS library symbol '$stackTrace' is deprecated. Please open a bug if you have a continuing need for this symbol [-Wdeprecated]
-emcc: warning: warnings in JS library compilation [-Wjs-compiler]
-Traceback (most recent call last):
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\shutil.py", line 856, in move
-    os.rename(src, real_dst)
-    ~~~~~~~~~^^^^^^^^^^^^^^^
-FileExistsError: [WinError 183] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 'C:\\Users\\User\\AppData\\Local\\Temp\\emscripten_temp_p5iwxspr\\build.jso1.js.modular.js' -> 'C:\\Users\\User\\Documents\\BHOP_Yandex\\Library\\Bee\\artifacts\\WebGL\\build\\debug_WebGL_wasm\\build.js'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\emcc.py", line 595, in <module>
-    sys.exit(main(sys.argv))
-             ~~~~^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\contextlib.py", line 85, in inner
-    return func(*args, **kwds)
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\emcc.py", line 321, in main
-    return link.run(options, linker_args)
-           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\tools\link.py", line 3274, in run
-    phase_post_link(options, wasm_target, wasm_target, target, js_syms, base_metadata)
-    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\contextlib.py", line 85, in inner
-    return func(*args, **kwds)
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\tools\link.py", line 2021, in phase_post_link
-    phase_final_emitting(options, target, js_target, wasm_target)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\contextlib.py", line 85, in inner
-    return func(*args, **kwds)
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\tools\link.py", line 2301, in phase_final_emitting
-    move_file(final_js, js_target)
-    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\tools\link.py", line 3040, in move_file
-    shutil.move(src, dst)
-    ~~~~~~~~~~~^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\shutil.py", line 876, in move
-    copy_function(src, real_dst)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\shutil.py", line 468, in copy2
-    copyfile(src, dst, follow_symlinks=follow_symlinks)
-    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\Lib\shutil.py", line 262, in copyfile
-    with open(dst, 'wb') as fdst:
-         ~~~~^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: 'C:\\Users\\User\\Documents\\BHOP_Yandex\\Library\\Bee\\artifacts\\WebGL\\build\\debug_WebGL_wasm\\build.js'
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.Modules.BeeBuildPostprocessor:DefaultResultProcessor (Bee.BinLog.NodeFinishedMessage,bool,bool)
-UnityEditor.WebGL.WebGlBuildPostprocessor:WebGLLinkerResultProcessor (Bee.BinLog.NodeFinishedMessage) (at /home/bokken/build/output/unity/unity/PlatformDependent/WebGL/Extensions/Unity.WebGL.extensions/BuildPostprocessor.cs:36)
-UnityEditor.Modules.BeeBuildPostprocessor:ReportBuildResults ()
-UnityEditor.Modules.BeeBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs)
-UnityEditor.WebGL.WebGlBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs) (at /home/bokken/build/output/unity/unity/PlatformDependent/WebGL/Extensions/Unity.WebGL.extensions/BuildPostprocessor.cs:252)
-UnityEditor.Modules.BeeBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,UnityEditor.BuildProperties&)
-UnityEditor.PostprocessBuildPlayer:Postprocess (UnityEditor.BuildTarget,int,string,string,string,UnityEditor.BuildOptions,UnityEditor.RuntimeClassRegistry,UnityEditor.Build.Reporting.BuildReport)
-UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],string[],bool)
-UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
-BhopValidationBuild:BuildWebGLSmoke () (at Assets/Editor/BhopValidation.cs:75)
-
-(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/WebGL/Extensions/Unity.WebGL.extensions/BuildPostprocessor.cs Line: 36)
-
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (23.4 KB). Loaded Objects now: 929.
-Memory consumption went from 207.4 MB to 207.3 MB.
-Total: 15.484700 ms (FindLiveObjects: 0.453100 ms CreateObjectMapping: 0.027300 ms MarkObjects: 14.739300 ms  DeleteObjects: 0.259500 ms)
-
-Build Finished, Result: Failure.
-##utp:{"success":false,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1790374519206,"processId":768,"steps":[{"description":"Preprocess Player","duration":21},{"description":"Prepare For Build","duration":1},{"description":"ProducePlayerScriptAssemblies","duration":5089},{"description":"Verify Build setup","duration":24},{"description":"Prepare assets for target platform","duration":3},{"description":"Prepare splash screen","duration":0},{"description":"Build scripts DLLs","duration":25},{"description":"Building scenes","duration":99},{"description":"Build GlobalGameManagers file","duration":307},{"description":"Writing asset files","duration":140},{"description":"Building Resources/unity_builtin_extra","duration":113},{"description":"Creating compressed player package","duration":753},{"description":"Write data build dirty tracking information","duration":14},{"description":"Postprocess built player","duration":71000}],"duration":77589}
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.961 ms
-	Integration:            9.541 ms
-	Integration of assets:  0.006 ms
-	Thread Wait Time:       0.021 ms
-	Total Operation Time:   11.529 ms
-Unloading 0 unused Assets / (0 B). Loaded Objects now: 922.
-Memory consumption went from 205.8 MB to 205.8 MB.
-Total: 8.793900 ms (FindLiveObjects: 0.104200 ms CreateObjectMapping: 0.030300 ms MarkObjects: 8.645200 ms  DeleteObjects: 0.012100 ms)
-
-Exception: WebGL build failed: Failed
-  at BhopValidationBuild.BuildWebGLSmoke () [0x000f6] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopValidation.cs:84 
-
-(Filename: Assets/Editor/BhopValidation.cs Line: 84)
-
-executeMethod method BhopValidationBuild.BuildWebGLSmoke threw exception.
-Exiting without the bug reporter. Application will terminate with return code 1
+ExitCode: 0 Duration: 0s667ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend2.traceevents" Player
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram1.traceevents"
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
+ExitCode: 4 Duration: 42s
+ExitCode: 0 Duration: 0s680ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend3.traceevents" Player
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram2.traceevents"
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
+ExitCode: 4 Duration: 5s12ms
+ExitCode: 0 Duration: 0s813ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend4.traceevents" Player
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
