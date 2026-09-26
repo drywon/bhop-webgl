@@ -1,17 +1,17 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-26 03:19:14
-Source: 683d124
+Time: 2026-09-26 03:43:13
+Source: 8a75d20
 Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_APPLY.log =====
-Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
 [Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-26T00:43:10.3449174Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 7893 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-26T00:19:11Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-26T00:19:11.4509468Z"
+Date: 2026-09-26T00:43:10Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
@@ -28,8 +28,6 @@ BhopViewPolish.Apply
 C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 Successfully changed project path to: C:\Users\User\Documents\BHOP_Yandex
 C:/Users/User/Documents/BHOP_Yandex
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4304, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
 Exiting without the bug reporter. Application will terminate with return code 1
 
 ===== UNITY_WEBGL.log =====
@@ -189,8 +187,8 @@ Serialized binary data for shader Hidden/Physics2D/SDF_Point in 0.00s
     gles3 (total internal programs: 1, unique: 1)
 
 ***Player size statistics***
-Level 0 'Assets/Scenes/Bhop_Classic.unity' uses 4.8 MB compressed / 9.7 MB uncompressed.
-Total compressed size 4.8 MB. Total uncompressed size 9.7 MB.
+Level 0 'Assets/Scenes/Bhop_Classic.unity' uses 4.8 MB compressed / 9.8 MB uncompressed.
+Total compressed size 4.8 MB. Total uncompressed size 9.8 MB.
 SpriteAtlasDatabase::Cleanup
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --profile="Library/Bee/backend1.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
@@ -198,18 +196,18 @@ ExitCode: 4 Duration: 0s29ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram0.traceevents"
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 DisplayProgressbar: Incremental Player Build
-ExitCode: 0 Duration: 0s682ms
+ExitCode: 0 Duration: 0s721ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend2.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram1.traceevents"
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
-ExitCode: 4 Duration: 44s
-ExitCode: 0 Duration: 0s574ms
+ExitCode: 4 Duration: 45s
+ExitCode: 0 Duration: 0s676ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend3.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\PlaybackEngines\WebGLSupport\WebGLPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Playere3d3984e.dag.json" "Library/Bee/Playere3d3984e-inputdata.json" "Library\Bee\buildprogram2.traceevents"
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
-ExitCode: 4 Duration: 4s853ms
-ExitCode: 0 Duration: 0s720ms
+ExitCode: 4 Duration: 6s330ms
+ExitCode: 0 Duration: 0s684ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend4.traceevents" Player
 WorkingDir: C:/Users/User/Documents/BHOP_Yandex
