@@ -77,7 +77,7 @@ function Log([string]$m){
 
 try{
     Log 'Supervisor started.'
-    & powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File $bootstrap
+    & powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File $bootstrap -HealthCheck
     while($true){
         Start-Sleep -Seconds 60
         if(Test-Path -LiteralPath $bootstrap){
@@ -126,11 +126,49 @@ Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction Silen
     ForEach-Object { try{ Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }catch{} }
 
 Start-Sleep -Seconds 1
+
+# Start the fixed bootstrap once in the foreground so installation cannot claim
+# success unless the watcher actually starts.
+& $psExe -NoLogo -NoProfile -ExecutionPolicy Bypass -File $bootstrapTarget
+if($LASTEXITCODE -ne 0){
+    $bootLog=Join-Path $Project 'AutoDeployLogs\AUTO_DEPLOY_BOOTSTRAP.log'
+    if(Test-Path -LiteralPath $bootLog){
+        Write-Host ''
+        Write-Host '--- bootstrap log tail ---'
+        Get-Content -LiteralPath $bootLog -Tail 25
+    }
+    throw ('Bootstrap failed with exit code '+$LASTEXITCODE)
+}
+
+Start-Sleep -Seconds 3
+$watcher=Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction SilentlyContinue |
+    Where-Object {
+        $_.CommandLine -and
+        $_.CommandLine.IndexOf('AUTO_DEPLOY.ps1',[System.StringComparison]::OrdinalIgnoreCase) -ge 0 -and
+        $_.CommandLine.IndexOf($Project,[System.StringComparison]::OrdinalIgnoreCase) -ge 0
+    } |
+    Select-Object -First 1
+
+if(-not $watcher){
+    $bootLog=Join-Path $Project 'AutoDeployLogs\AUTO_DEPLOY_BOOTSTRAP.log'
+    if(Test-Path -LiteralPath $bootLog){
+        Write-Host ''
+        Write-Host '--- bootstrap log tail ---'
+        Get-Content -LiteralPath $bootLog -Tail 25
+    }
+    throw 'AUTO_DEPLOY watcher did not start.'
+}
+
 Start-Process -FilePath $psExe -ArgumentList ('-NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+$supervisorTarget+'"') -WindowStyle Hidden
+Start-Sleep -Seconds 2
+
+$head=(& $git -C $Project rev-parse --short HEAD).Trim()
 
 Write-Host ''
-Write-Host '[OK] BHOP FULL AUTO DEPLOY V2 INSTALLED'
+Write-Host '[OK] BHOP FULL AUTO DEPLOY V3 INSTALLED'
 Write-Host ('Project: '+$Project)
+Write-Host ('Source HEAD: '+$head)
+Write-Host ('Watcher PID: '+$watcher.ProcessId+' RUNNING')
 Write-Host 'Supervisor: RUNNING'
 Write-Host 'GitHub watcher: self-healing every 60 sec'
 Write-Host 'Auto-start: HKCU Run + Startup fallback'
