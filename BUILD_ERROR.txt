@@ -1,17 +1,9 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-27 01:56:02
+Time: 2026-09-27 01:58:16
 Source: a790df2
-Error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+Error: BhopViewPolish.Apply failed with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== AUTO_DEPLOY.log =====
-[2026-09-26 23:16:57] Publishing to GitHub Pages...
-[2026-09-26 23:17:13] GitHub Pages push complete.
-[2026-09-26 23:17:13] READY: https://drywon.github.io/bhop-webgl/  commit=5f73862
-[2026-09-26 23:39:43] New source commit found: 94d9163
-[2026-09-26 23:39:43] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
-[2026-09-26 23:40:08] New source commit found: 94d9163
-[2026-09-26 23:40:08] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
-[2026-09-26 23:40:32] New source commit found: 94d9163
 [2026-09-26 23:40:33] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
 [2026-09-26 23:40:57] New source commit found: 94d9163
 [2026-09-26 23:40:57] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
@@ -184,188 +176,14 @@ Error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attem
 [2026-09-27 01:54:19] Waiting 30s for Unity licensing refresh, attempt 2/3...
 [2026-09-27 01:55:09] Waiting 38s for Unity licensing refresh, attempt 3/3...
 [2026-09-27 01:56:02] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-
-===== UNITY_APPLY.log =====
-KARAMBIT_CS_IDLE_OK center=(0.780, 0.269, 0.481) ring=(0.701, 0.273, 0.436) tip=(0.856, 0.279, 0.540) ringError=0,0000 screenSpan=0,156
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:BuildKarambit (UnityEngine.Transform,UnityEngine.Camera,UnityEngine.SkinnedMeshRenderer,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:223)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:95)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:503)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 223)
-
-PSX_OLD_ARM L tris=500
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:EnsureSideMesh (UnityEngine.SkinnedMeshRenderer,bool) (at Assets/Editor/BhopHybridViewmodel.cs:346)
-BhopHybridViewmodel:BuildCleanSide (UnityEngine.GameObject,UnityEngine.Material,bool,UnityEngine.Transform,string) (at Assets/Editor/BhopHybridViewmodel.cs:277)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:98)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:503)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 346)
-
-PSX_ROLLBACK_OK R=(0.828, 0.068, 0.355) L=(0.170, 0.120, 0.279) knife=(0.650, 0.250, 0.395) palmR=0,080 palmL=0,080
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:121)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:503)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
-
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 121)
-
-BHOP_LEVEL_POLISH_APPLIED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopLevelPolish:ApplyToCurrentScene () (at Assets/Editor/BhopLevelPolish.cs:17)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
-
-(Filename: Assets/Editor/BhopLevelPolish.cs Line: 17)
-
-Importing 'GUID: 1d627a5e191ed414386427c7a294e24b - Path: Assets/Resources/BhopUI/vertical_preview.png' with importer (TextureImporter)
-Imported 'GUID: 1d627a5e191ed414386427c7a294e24b' -> (Import Result ID: 'a226a6234353ed325163329468ff5299') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c776d220c48b2866e9ef80359a51a75 DependenciesID=5fe2db635762a1483cf0ee71ef3e7f80 StaticDependenciesID=0e1d10b2775465f7e982ffbf35b7ee4b 
-Asset Pipeline Refresh (id=4489cbc3fcc305f4897de8319aa77720): Total: 0.161 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 1d627a5e191ed414386427c7a294e24b - Path: Assets/Resources/BhopUI/vertical_preview.png' with importer (TextureImporter)
-Imported 'GUID: 1d627a5e191ed414386427c7a294e24b' -> (Import Result ID: 'a226a6234353ed325163329468ff5299') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c776d220c48b2866e9ef80359a51a75 DependenciesID=5fe2db635762a1483cf0ee71ef3e7f80 StaticDependenciesID=0e1d10b2775465f7e982ffbf35b7ee4b 
-Asset Pipeline Refresh (id=66baa5547cfb7cf4ab670bb5160cc71e): Total: 0.069 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 865d660a7f9a08349bb82660f34483dc - Path: Assets/Resources/BhopUI/skyline_preview.png' with importer (TextureImporter)
-Imported 'GUID: 865d660a7f9a08349bb82660f34483dc' -> (Import Result ID: '09d7fbe1893749ec4e67e845d8de9c17') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8847c2efa011a2f90a4637e02ba9e2b0 DependenciesID=d1f28646a57000fb61d08d82a2153e97 StaticDependenciesID=46d202f9755027014a5b7d26497eb7bd 
-Asset Pipeline Refresh (id=3f2ed3afbc2e37c4bbefa627f8fb5fa6): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 865d660a7f9a08349bb82660f34483dc - Path: Assets/Resources/BhopUI/skyline_preview.png' with importer (TextureImporter)
-Imported 'GUID: 865d660a7f9a08349bb82660f34483dc' -> (Import Result ID: '09d7fbe1893749ec4e67e845d8de9c17') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8847c2efa011a2f90a4637e02ba9e2b0 DependenciesID=d1f28646a57000fb61d08d82a2153e97 StaticDependenciesID=46d202f9755027014a5b7d26497eb7bd 
-Asset Pipeline Refresh (id=21b917f27f4bfe24a935e87fb02cf7af): Total: 0.042 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: c2daf7b4b0946084ba8b06bb7cfaa5f7 - Path: Assets/Resources/BhopUI/underground_preview.png' with importer (TextureImporter)
-Imported 'GUID: c2daf7b4b0946084ba8b06bb7cfaa5f7' -> (Import Result ID: '87ba28bf9833edf932b87e2078e7c1a6') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb02b790879383d0bfd6212ebba966f5 DependenciesID=fb0cce133352a7cc044d4ef497b6e70a StaticDependenciesID=e6acead97d93cf292b7639b3ed7b767e 
-Asset Pipeline Refresh (id=d329635e8c6eb6a46a535bb856e0ef1d): Total: 0.057 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: c2daf7b4b0946084ba8b06bb7cfaa5f7 - Path: Assets/Resources/BhopUI/underground_preview.png' with importer (TextureImporter)
-Imported 'GUID: c2daf7b4b0946084ba8b06bb7cfaa5f7' -> (Import Result ID: '87ba28bf9833edf932b87e2078e7c1a6') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb02b790879383d0bfd6212ebba966f5 DependenciesID=fb0cce133352a7cc044d4ef497b6e70a StaticDependenciesID=e6acead97d93cf292b7639b3ed7b767e 
-Asset Pipeline Refresh (id=ef4c9f86dae826c4baecc6dca18b2c20): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 075934ed9a2c9ab48bf75c3a7df8845b - Path: Assets/Resources/BhopUI/construction_preview.png' with importer (TextureImporter)
-Imported 'GUID: 075934ed9a2c9ab48bf75c3a7df8845b' -> (Import Result ID: 'c9d7c825e3a70a9a3224cec5d8b44fe9') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ffcd18bc1e3e21a97702f2590a68b7ea DependenciesID=5c0c9c1b385e63a50026c68f791b9ccb StaticDependenciesID=3d42406bb1f225e8ca56c5625e0ff826 
-Asset Pipeline Refresh (id=4162b4ae44fb22f45ae0b652b28e87c5): Total: 0.067 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 075934ed9a2c9ab48bf75c3a7df8845b - Path: Assets/Resources/BhopUI/construction_preview.png' with importer (TextureImporter)
-Imported 'GUID: 075934ed9a2c9ab48bf75c3a7df8845b' -> (Import Result ID: 'c9d7c825e3a70a9a3224cec5d8b44fe9') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ffcd18bc1e3e21a97702f2590a68b7ea DependenciesID=5c0c9c1b385e63a50026c68f791b9ccb StaticDependenciesID=3d42406bb1f225e8ca56c5625e0ff826 
-Asset Pipeline Refresh (id=3b288ec15dd4b1f4d8a87f1315447222): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 7313712394e7f454fb1315aa7af6e5c3 - Path: Assets/Resources/BhopUI/facility_preview.png' with importer (TextureImporter)
-Imported 'GUID: 7313712394e7f454fb1315aa7af6e5c3' -> (Import Result ID: '6dbcb61b37b31f0660b832981a38f132') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=412abd570fec1c1c1e396802c17cf5ea DependenciesID=7296952a75a04b02f2b49853c66c76dd StaticDependenciesID=36f4c643c9f466bb61b642a491c1bfa0 
-Asset Pipeline Refresh (id=9de87cfd1d52fcd499e25230726dc6d8): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 7313712394e7f454fb1315aa7af6e5c3 - Path: Assets/Resources/BhopUI/facility_preview.png' with importer (TextureImporter)
-Imported 'GUID: 7313712394e7f454fb1315aa7af6e5c3' -> (Import Result ID: '6dbcb61b37b31f0660b832981a38f132') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=412abd570fec1c1c1e396802c17cf5ea DependenciesID=7296952a75a04b02f2b49853c66c76dd StaticDependenciesID=36f4c643c9f466bb61b642a491c1bfa0 
-Asset Pipeline Refresh (id=91c06f6ee09fb0c4db975664f809aa4b): Total: 0.038 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-BHOP_EXTRA_MAPS_READY count=5
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopExtraMaps:BuildAll () (at Assets/Editor/BhopExtraMaps.cs:36)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:41)
-
-(Filename: Assets/Editor/BhopExtraMaps.cs Line: 36)
-
-Importing 'GUID: 5c6a749864be3dc4da6f5f966f6cdad1 - Path: Assets/Resources/BhopUI/m9_standard_preview.png' with importer (TextureImporter)
-Imported 'GUID: 5c6a749864be3dc4da6f5f966f6cdad1' -> (Import Result ID: '91e07a89fcb23a347523f665abf2714c') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73073d864710f5fcf6b33861e1898ec2 DependenciesID=13b338c8cac2b28614c14173805ec15d StaticDependenciesID=5ec337d30f6f91e7cc46922f4c9d2977 
-Asset Pipeline Refresh (id=a84806fd88be6cd44b0dff9c4b9166d5): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 5c6a749864be3dc4da6f5f966f6cdad1 - Path: Assets/Resources/BhopUI/m9_standard_preview.png' with importer (TextureImporter)
-Imported 'GUID: 5c6a749864be3dc4da6f5f966f6cdad1' -> (Import Result ID: '91e07a89fcb23a347523f665abf2714c') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73073d864710f5fcf6b33861e1898ec2 DependenciesID=13b338c8cac2b28614c14173805ec15d StaticDependenciesID=5ec337d30f6f91e7cc46922f4c9d2977 
-Asset Pipeline Refresh (id=7decbf93ef2c7d1469b2b208b60ae2d0): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-M9_STANDARD_PREVIEW_REFRESHED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:482)
-BhopViewPolish:CaptureM9SkinPreviews () (at Assets/Editor/BhopViewPolish.cs:357)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:42)
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 482)
-
-Importing 'GUID: 31dad6bd99ce8fe4a974386da569f2cc - Path: Assets/Resources/BhopUI/m9_black_preview.png' with importer (TextureImporter)
-Imported 'GUID: 31dad6bd99ce8fe4a974386da569f2cc' -> (Import Result ID: 'fbe0cf629963cb20343f28ef54800e15') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69c5caec15640eed33e597a8072f1bef DependenciesID=acdbe0c052f387a02111effeb8c4e65f StaticDependenciesID=2513f746053c4f551f19685721ee06d6 
-Asset Pipeline Refresh (id=ac39805fbc27fa646bef3ca0941819c3): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 31dad6bd99ce8fe4a974386da569f2cc - Path: Assets/Resources/BhopUI/m9_black_preview.png' with importer (TextureImporter)
-Imported 'GUID: 31dad6bd99ce8fe4a974386da569f2cc' -> (Import Result ID: 'fbe0cf629963cb20343f28ef54800e15') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69c5caec15640eed33e597a8072f1bef DependenciesID=acdbe0c052f387a02111effeb8c4e65f StaticDependenciesID=2513f746053c4f551f19685721ee06d6 
-Asset Pipeline Refresh (id=e0107a5a771a42a428da2c43f91b74c8): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-M9_BLACK_PREVIEW_REFRESHED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:482)
-BhopViewPolish:CaptureM9SkinPreviews () (at Assets/Editor/BhopViewPolish.cs:357)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:42)
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 482)
-
-Importing 'GUID: 013547e5381635d488fa9533c8d969ec - Path: Assets/Resources/BhopUI/m9_blue_preview.png' with importer (TextureImporter)
-Imported 'GUID: 013547e5381635d488fa9533c8d969ec' -> (Import Result ID: 'cab325877aa8f7f7c82321f5198f5911') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=967ff50c3014e622229c8352eb816dde DependenciesID=8b57db19e998bdc44509719e694f7c1a StaticDependenciesID=1caea74d42c01f2e0fe0a4913759a0a7 
-Asset Pipeline Refresh (id=3fd14ec7108cd13488be260e0abd4518): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 013547e5381635d488fa9533c8d969ec - Path: Assets/Resources/BhopUI/m9_blue_preview.png' with importer (TextureImporter)
-Imported 'GUID: 013547e5381635d488fa9533c8d969ec' -> (Import Result ID: 'cab325877aa8f7f7c82321f5198f5911') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=967ff50c3014e622229c8352eb816dde DependenciesID=8b57db19e998bdc44509719e694f7c1a StaticDependenciesID=1caea74d42c01f2e0fe0a4913759a0a7 
-Asset Pipeline Refresh (id=722c198a8c2660e48b00114c9fe64dca): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-M9_BLUE_PREVIEW_REFRESHED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:482)
-BhopViewPolish:CaptureM9SkinPreviews () (at Assets/Editor/BhopViewPolish.cs:357)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:42)
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 482)
-
-Importing 'GUID: e04155e2fadae4f4d9166e00535ba4c3 - Path: Assets/Resources/BhopUI/m9_heat_preview.png' with importer (TextureImporter)
-Imported 'GUID: e04155e2fadae4f4d9166e00535ba4c3' -> (Import Result ID: '456de603ef0981f7ffbbc6057bfe31e5') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c71b03f909d8764434d35e9898dc5d8d DependenciesID=40b351fc30efd516f981394c1c8110f7 StaticDependenciesID=728667b1c43f3b45e8d4fe8eecc25a49 
-Asset Pipeline Refresh (id=93cf7d87b2a28454285bf428708b5852): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: e04155e2fadae4f4d9166e00535ba4c3 - Path: Assets/Resources/BhopUI/m9_heat_preview.png' with importer (TextureImporter)
-Imported 'GUID: e04155e2fadae4f4d9166e00535ba4c3' -> (Import Result ID: '456de603ef0981f7ffbbc6057bfe31e5') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c71b03f909d8764434d35e9898dc5d8d DependenciesID=40b351fc30efd516f981394c1c8110f7 StaticDependenciesID=728667b1c43f3b45e8d4fe8eecc25a49 
-Asset Pipeline Refresh (id=22517c757a35a9042a65f71e6bf62b61): Total: 0.039 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-M9_HEAT_PREVIEW_REFRESHED
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:482)
-BhopViewPolish:CaptureM9SkinPreviews () (at Assets/Editor/BhopViewPolish.cs:357)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:42)
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 482)
-
-Exception: M9 skin material missing: Assets/Art/FacepunchViewmodel/Facepunch_M9_Crimson.mat
-  at BhopViewPolish.CaptureM9SkinPreviews () [0x00148] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:349 
-  at BhopViewPolish.Apply () [0x00029] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:42 
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 349)
-
-executeMethod method BhopViewPolish.Apply threw exception.
-Exiting without the bug reporter. Application will terminate with return code 1
+[2026-09-27 01:56:11] Will retry this commit in 120 seconds.
+[2026-09-27 01:56:17] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:56:17] Building source commit a790df2...
+[2026-09-27 01:56:18] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:58:15] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:58:15] Building source commit a790df2...
+[2026-09-27 01:58:15] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:58:16] Build/publish error: BhopViewPolish.Apply failed with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_WEBGL.log =====
 Levels                 0.0 kb	 0.0% 
