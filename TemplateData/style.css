@@ -16,5 +16,8 @@ body { padding: 0; margin: 0 }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
 
 /* BHOP_TOUCH_LOCK */
-html, body { overflow: hidden; overscroll-behavior: none; -webkit-user-select: none; user-select: none; }
-#unity-canvas { touch-action: none; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #101820; overscroll-behavior: none; -webkit-user-select: none; user-select: none; }
+#unity-container, #unity-container.unity-desktop, #unity-container.unity-mobile { position: fixed !important; inset: 0 !important; width: 100% !important; height: 100% !important; transform: none !important; }
+#unity-canvas { display: block; width: 100% !important; height: 100% !important; background: #101820; touch-action: none; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+#unity-footer { display: none !important; }
+#unity-loading-bar { left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; }
