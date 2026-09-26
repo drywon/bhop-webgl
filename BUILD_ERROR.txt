@@ -1,0 +1,378 @@
+﻿BHOP AUTO DEPLOY FAILURE
+Time: 2026-09-27 01:49:56
+Source: a790df2
+Error: BhopViewPolish.Apply retry failed for a non-licensing reason with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+
+===== AUTO_DEPLOY.log =====
+[2026-09-26 23:09:25] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:09:33] New source commit found: 5f73862
+[2026-09-26 23:09:33] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:09:50] New source commit found: 5f73862
+[2026-09-26 23:09:50] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:09:58] New source commit found: 5f73862
+[2026-09-26 23:09:58] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:10:15] New source commit found: 5f73862
+[2026-09-26 23:10:15] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:10:22] New source commit found: 5f73862
+[2026-09-26 23:10:23] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:11:34] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-26 23:11:34] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-26 23:11:34] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-26 23:11:34] Git command smoke test passed.
+[2026-09-26 23:11:34] Building source commit 5f73862...
+[2026-09-26 23:11:35] Applying scene/viewmodel changes and running validation...
+[2026-09-26 23:12:10] Building WebGL...
+[2026-09-26 23:16:57] WebGL build ready. bytes=14384497
+[2026-09-26 23:16:57] Publishing to GitHub Pages...
+[2026-09-26 23:17:13] GitHub Pages push complete.
+[2026-09-26 23:17:13] READY: https://drywon.github.io/bhop-webgl/  commit=5f73862
+[2026-09-26 23:39:43] New source commit found: 94d9163
+[2026-09-26 23:39:43] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:40:08] New source commit found: 94d9163
+[2026-09-26 23:40:08] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:40:32] New source commit found: 94d9163
+[2026-09-26 23:40:33] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:40:57] New source commit found: 94d9163
+[2026-09-26 23:40:57] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:41:22] New source commit found: 94d9163
+[2026-09-26 23:41:22] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:41:47] New source commit found: 94d9163
+[2026-09-26 23:41:47] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:42:11] New source commit found: 94d9163
+[2026-09-26 23:42:12] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:42:36] New source commit found: 94d9163
+[2026-09-26 23:42:36] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:43:01] New source commit found: 94d9163
+[2026-09-26 23:43:01] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:43:27] New source commit found: 5cc6835
+[2026-09-26 23:43:27] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:43:51] New source commit found: 5cc6835
+[2026-09-26 23:43:52] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:44:17] New source commit found: a4451cb
+[2026-09-26 23:44:17] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:44:42] New source commit found: a4451cb
+[2026-09-26 23:44:42] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:45:07] New source commit found: a4451cb
+[2026-09-26 23:45:07] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:45:32] New source commit found: a4451cb
+[2026-09-26 23:45:32] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-26 23:46:15] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-26 23:46:15] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-26 23:46:15] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-26 23:46:15] Git command smoke test passed.
+[2026-09-26 23:46:15] Building source commit a4451cb...
+[2026-09-26 23:46:16] Applying scene/viewmodel changes and running validation...
+[2026-09-26 23:46:57] Building WebGL...
+[2026-09-26 23:51:33] WebGL build ready. bytes=14495300
+[2026-09-26 23:51:33] Publishing to GitHub Pages...
+[2026-09-26 23:51:49] GitHub Pages push complete.
+[2026-09-26 23:51:50] READY: https://drywon.github.io/bhop-webgl/  commit=a4451cb
+[2026-09-27 00:06:39] New source commit found: 2d7ae70
+[2026-09-27 00:06:39] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:07:03] New source commit found: 2d7ae70
+[2026-09-27 00:07:04] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:07:28] New source commit found: 2d7ae70
+[2026-09-27 00:07:28] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:07:53] New source commit found: 2d7ae70
+[2026-09-27 00:07:53] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:08:17] New source commit found: 2d7ae70
+[2026-09-27 00:08:17] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:08:42] New source commit found: 2d7ae70
+[2026-09-27 00:08:42] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:09:07] New source commit found: 2d7ae70
+[2026-09-27 00:09:07] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:09:31] New source commit found: 2d7ae70
+[2026-09-27 00:09:31] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:09:56] New source commit found: 2d7ae70
+[2026-09-27 00:09:56] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:10:21] New source commit found: 2d7ae70
+[2026-09-27 00:10:21] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:10:45] New source commit found: 2d7ae70
+[2026-09-27 00:10:45] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:11:10] New source commit found: 2d7ae70
+[2026-09-27 00:11:10] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:11:35] New source commit found: 2d7ae70
+[2026-09-27 00:11:35] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:11:59] New source commit found: 2d7ae70
+[2026-09-27 00:11:59] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:12:24] New source commit found: 2d7ae70
+[2026-09-27 00:12:24] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:12:58] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 00:12:58] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 00:12:58] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 00:12:58] Git command smoke test passed.
+[2026-09-27 00:12:58] Building source commit 2d7ae70...
+[2026-09-27 00:12:59] Applying scene/viewmodel changes and running validation...
+[2026-09-27 00:13:34] Building WebGL...
+[2026-09-27 00:18:45] WebGL build ready. bytes=14586551
+[2026-09-27 00:18:45] Publishing to GitHub Pages...
+[2026-09-27 00:19:02] GitHub Pages push complete.
+[2026-09-27 00:19:03] READY: https://drywon.github.io/bhop-webgl/  commit=2d7ae70
+[2026-09-27 00:19:08] New source commit found: 8f7d7bb
+[2026-09-27 00:19:08] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:19:33] New source commit found: 8f7d7bb
+[2026-09-27 00:19:33] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:19:57] New source commit found: 8f7d7bb
+[2026-09-27 00:19:57] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:20:22] New source commit found: 8f7d7bb
+[2026-09-27 00:20:22] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:20:47] New source commit found: 8f7d7bb
+[2026-09-27 00:20:47] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:21:11] New source commit found: 8f7d7bb
+[2026-09-27 00:21:12] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:21:36] New source commit found: 8f7d7bb
+[2026-09-27 00:21:36] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:22:01] New source commit found: 8f7d7bb
+[2026-09-27 00:22:01] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:22:25] New source commit found: 8f7d7bb
+[2026-09-27 00:22:26] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:22:50] New source commit found: 8f7d7bb
+[2026-09-27 00:22:50] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:23:15] New source commit found: 8f7d7bb
+[2026-09-27 00:23:15] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:23:39] New source commit found: 8f7d7bb
+[2026-09-27 00:23:39] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:24:04] New source commit found: 8f7d7bb
+[2026-09-27 00:24:04] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:24:29] New source commit found: 8f7d7bb
+[2026-09-27 00:24:29] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:24:53] New source commit found: 8f7d7bb
+[2026-09-27 00:24:54] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:25:18] New source commit found: 8f7d7bb
+[2026-09-27 00:25:18] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:25:43] New source commit found: 8f7d7bb
+[2026-09-27 00:25:43] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:26:07] New source commit found: 8f7d7bb
+[2026-09-27 00:26:07] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:26:32] New source commit found: 8f7d7bb
+[2026-09-27 00:26:32] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:26:57] New source commit found: 8f7d7bb
+[2026-09-27 00:26:57] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:27:21] New source commit found: 8f7d7bb
+[2026-09-27 00:27:22] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:27:46] New source commit found: 8f7d7bb
+[2026-09-27 00:27:46] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:28:11] New source commit found: 8f7d7bb
+[2026-09-27 00:28:11] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:28:36] New source commit found: 8f7d7bb
+[2026-09-27 00:28:36] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:29:01] New source commit found: 8f7d7bb
+[2026-09-27 00:29:01] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:29:26] New source commit found: 8f7d7bb
+[2026-09-27 00:29:26] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:29:51] New source commit found: 8f7d7bb
+[2026-09-27 00:29:51] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 00:30:15] New source commit found: 8f7d7bb
+[2026-09-27 00:30:16] Remote main changed, but local working tree has uncommitted changes. AUTO DEPLOY will not reset them. Commit/push with GitHub Desktop first.
+[2026-09-27 01:47:37] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 01:47:37] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 01:47:37] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 01:47:37] Git command smoke test passed.
+[2026-09-27 01:47:41] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:47:42] Building source commit a790df2...
+[2026-09-27 01:47:42] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:48:24] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 01:48:24] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 01:48:24] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 01:48:24] Git command smoke test passed.
+[2026-09-27 01:48:31] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:48:33] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:48:33] Building source commit a790df2...
+[2026-09-27 01:48:33] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:48:36] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:49:00] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:49:05] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:49:23] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 01:49:56] Build/publish error: BhopViewPolish.Apply retry failed for a non-licensing reason with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+
+===== UNITY_APPLY.log =====
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-09-26T22:49:56.4852702Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 7893 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-26T22:49:56Z
+
+===== UNITY_WEBGL.log =====
+Levels                 0.0 kb	 0.0% 
+File headers           4.3 kb	 0.0% 
+Total User Assets      16.1 mb	 100.0% 
+Complete build size    12.7 mb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 2.7 mb	 20.9% Assets/Art/FacepunchViewmodel/M9_Normal.png
+ 1.3 mb	 10.5% Assets/Art/FacepunchViewmodel/M9_Albedo.png
+ 1.3 mb	 10.5% Assets/Art/FacepunchViewmodel/M9_ORM.png
+ 1.1 mb	 8.8% Assets/Art/FacepunchViewmodel/Facepunch_M9_Arms_Combined.fbx
+ 634.0 kb	 4.9% Resources/unity_builtin_extra
+ 341.5 kb	 2.6% Assets/Resources/BhopUI/classic_preview.png
+ 260.8 kb	 2.0% Assets/Resources/KarambitDiamonddog/scene.bytes
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/underground_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/qa_karambit_inspect.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/m9_standard_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/construction_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/vertical_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/skyline_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/qa_m9_inspect.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/m9_heat_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/m9_blue_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/m9_black_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/karambit_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/facility_preview.png
+ 256.1 kb	 2.0% Assets/Resources/BhopUI/m9_preview.png
+ 170.8 kb	 1.3% Assets/Art/PSXArms/arms_gloves_01.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_glacier.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_amethyst.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_glacier.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_amethyst.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_tide.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_solar.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_slate.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_oxide.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_olive.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_ivory.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/1_ember.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_tide.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_solar.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_slate.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_oxide.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_olive.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_ivory.png
+ 170.8 kb	 1.3% Assets/Resources/BhopFinishes/0_ember.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_glacier.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_amethyst.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_glacier.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_amethyst.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_tide.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_steel.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_solar.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_slate.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_oxide.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_olive.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_ivory.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_1_ember.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_tide.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_steel.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_solar.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_slate.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_oxide.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_olive.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_ivory.png
+ 85.5 kb	 0.7% Assets/Resources/BhopFinishes/Preview_0_ember.png
+ 67.3 kb	 0.5% Assets/Art/PSXArms/PSX_RightArm_Clean.asset
+ 67.3 kb	 0.5% Assets/Art/PSXArms/PSX_LeftArm_Clean.asset
+ 42.8 kb	 0.3% Assets/Art/Textures/concrete_wall.png
+ 42.8 kb	 0.3% Assets/Art/Textures/concrete_light.png
+ 42.8 kb	 0.3% Assets/Art/Textures/concrete_dark.png
+ 42.8 kb	 0.3% Assets/Art/Textures/water_tile.png
+ 1.4 kb	 0.0% Assets/Materials/Classic_ConcreteDark.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Water.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Concrete.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Trim.mat
+ 0.9 kb	 0.0% Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_glacier.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_amethyst.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_tide.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_steel.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_solar.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_slate.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_oxide.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_olive.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_ivory.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/0_ember.mat
+ 0.9 kb	 0.0% Assets/Materials/View_PSXGloves.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Panel.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Landing.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Accent.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_glacier.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_amethyst.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Wall.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_tide.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_steel.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_solar.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_slate.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_oxide.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_olive.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_ivory.mat
+ 0.9 kb	 0.0% Assets/Resources/BhopFinishes/1_ember.mat
+ 0.1 kb	 0.0% Assets/Scripts/KarambitDiamonddogModel.cs
+ 0.1 kb	 0.0% Assets/Scripts/MobilePlatformBridge.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopRuntimeSelfTest.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopRenderBenchmark.cs
+ 0.1 kb	 0.0% Assets/Scripts/WebPerformance.cs
+ 0.1 kb	 0.0% Assets/Scripts/MobileControls.cs
+ 0.1 kb	 0.0% Assets/Scripts/FinishTrigger.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopMapDirector.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopKnifeLoadout.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopController.cs
+ 0.1 kb	 0.0% Assets/Scripts/FPSArmPose.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopSound.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopMenuUI.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopFinishes.cs
+ 0.1 kb	 0.0% Assets/TutorialInfo/Scripts/Readme.cs
+ 0.1 kb	 0.0% Assets/Scripts/RunTimer.cs
+ 0.1 kb	 0.0% Assets/Scripts/FPSArms.cs
+-------------------------------------------------------------------------------
+Unloading 97 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (64.2 KB). Loaded Objects now: 940.
+Memory consumption went from 219.1 MB to 219.0 MB.
+Total: 29.651600 ms (FindLiveObjects: 1.431100 ms CreateObjectMapping: 0.053400 ms MarkObjects: 27.462100 ms  DeleteObjects: 0.701500 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+##utp:{"success":true,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1790457521558,"processId":6008,"steps":[{"description":"Preprocess Player","duration":27},{"description":"Prepare For Build","duration":588},{"description":"ProducePlayerScriptAssemblies","duration":10849},{"description":"Verify Build setup","duration":21},{"description":"Prepare assets for target platform","duration":0},{"description":"Prepare splash screen","duration":0},{"description":"Build scripts DLLs","duration":47},{"description":"Building scenes","duration":349},{"description":"Build GlobalGameManagers file","duration":486},{"description":"Writing asset files","duration":333},{"description":"Building Resources/unity_builtin_extra","duration":230},{"description":"Creating compressed player package","duration":1593},{"description":"Write data build dirty tracking information","duration":30},{"description":"Postprocess built player","duration":281005}],"duration":295558}
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            28.529 ms
+	Integration:            43.720 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   72.282 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3392.
+Memory consumption went from 212.7 MB to 212.7 MB.
+Total: 12.100600 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.097000 ms MarkObjects: 11.727400 ms  DeleteObjects: 0.030000 ms)
+
+Opening scene 'Assets/Scenes/Bhop_Classic.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
+	Deserialize:            56.621 ms
+	Integration:            15.509 ms
+	Integration of assets:  0.032 ms
+	Thread Wait Time:       0.129 ms
+	Total Operation Time:   72.291 ms
+Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 3392.
+Memory consumption went from 212.2 MB to 212.2 MB.
+Total: 12.387400 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.153500 ms MarkObjects: 11.822000 ms  DeleteObjects: 0.110500 ms)
+
+BHOP_WEBGL_BUILD_OK bytes=13364524
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidationBuild:BuildWebGLSmoke () (at Assets/Editor/BhopValidation.cs:179)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 179)
+
+Batchmode quit successfully invoked - shutting down!
+[websockify wrapper] Kill
+[websockify wrapper] Process killed
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: 'a97e974ea05ba68c8789898495a003d3') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=01be40f397b1113818f43edf8a1bd6fe StaticDependenciesID=26c389c5590eab131eb1e29ef372bcf8 
+Asset Pipeline Refresh (id=9b2d3e29c4936084cb907c1119cb2e48): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-User-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+[websockify wrapper] Kill
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
