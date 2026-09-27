@@ -1,0 +1,550 @@
+﻿BHOP AUTO DEPLOY FAILURE
+Time: 2026-09-27 11:14:37
+Source: 2036b18
+Error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+
+===== AUTO_DEPLOY.log =====
+[2026-09-27 01:47:42] Building source commit a790df2...
+[2026-09-27 01:47:42] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:48:24] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 01:48:24] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 01:48:24] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 01:48:24] Git command smoke test passed.
+[2026-09-27 01:48:31] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:48:33] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:48:33] Building source commit a790df2...
+[2026-09-27 01:48:33] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:48:36] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:49:00] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:49:05] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:49:23] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 01:49:56] Build/publish error: BhopViewPolish.Apply retry failed for a non-licensing reason with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 01:50:11] Will retry this commit in 120 seconds.
+[2026-09-27 01:50:13] Waiting 38s for Unity licensing refresh, attempt 3/3...
+[2026-09-27 01:51:10] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 01:51:19] Will retry this commit in 120 seconds.
+[2026-09-27 01:52:21] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:52:21] Building source commit a790df2...
+[2026-09-27 01:52:22] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:53:22] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:53:22] Building source commit a790df2...
+[2026-09-27 01:53:23] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:53:25] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:53:28] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:53:36] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:53:40] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:54:03] Build/publish error: BhopViewPolish.Apply retry failed for a non-licensing reason with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 01:54:12] Will retry this commit in 120 seconds.
+[2026-09-27 01:54:19] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 01:55:09] Waiting 38s for Unity licensing refresh, attempt 3/3...
+[2026-09-27 01:56:02] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 01:56:11] Will retry this commit in 120 seconds.
+[2026-09-27 01:56:17] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:56:17] Building source commit a790df2...
+[2026-09-27 01:56:18] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:58:15] Commit a790df2 is not published yet. Building...
+[2026-09-27 01:58:15] Building source commit a790df2...
+[2026-09-27 01:58:15] Applying scene/viewmodel changes and running validation...
+[2026-09-27 01:58:16] Build/publish error: BhopViewPolish.Apply failed with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 01:58:25] Will retry this commit in 120 seconds.
+[2026-09-27 01:58:26] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 01:58:30] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 01:59:11] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 02:00:00] Waiting 38s for Unity licensing refresh, attempt 3/3...
+[2026-09-27 02:00:29] Commit a790df2 is not published yet. Building...
+[2026-09-27 02:00:29] Building source commit a790df2...
+[2026-09-27 02:00:30] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:00:39] Build/publish error: BhopViewPolish.Apply failed with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:00:49] Will retry this commit in 120 seconds.
+[2026-09-27 02:00:50] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:00:59] Will retry this commit in 120 seconds.
+[2026-09-27 02:02:51] Commit a790df2 is not published yet. Building...
+[2026-09-27 02:02:52] Building source commit a790df2...
+[2026-09-27 02:02:52] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:03:02] Commit a790df2 is not published yet. Building...
+[2026-09-27 02:03:02] Building source commit a790df2...
+[2026-09-27 02:03:03] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:03:05] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 02:03:08] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 02:03:16] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 02:03:21] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 02:03:50] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 02:04:03] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 02:04:35] Build/publish error: BhopViewPolish.Apply retry failed for a non-licensing reason with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:04:46] Will retry this commit in 120 seconds.
+[2026-09-27 02:04:49] Waiting 38s for Unity licensing refresh, attempt 3/3...
+[2026-09-27 02:05:42] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:05:51] Will retry this commit in 120 seconds.
+[2026-09-27 02:06:49] Commit a790df2 is not published yet. Building...
+[2026-09-27 02:06:49] Building source commit a790df2...
+[2026-09-27 02:06:49] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:07:54] Commit a790df2 is not published yet. Building...
+[2026-09-27 02:07:54] Building source commit a790df2...
+[2026-09-27 02:07:54] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:07:55] Build/publish error: BhopViewPolish.Apply failed with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:08:05] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 02:08:06] Will retry this commit in 120 seconds.
+[2026-09-27 02:08:09] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 02:08:47] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 02:09:37] Waiting 38s for Unity licensing refresh, attempt 3/3...
+[2026-09-27 02:10:10] Commit a790df2 is not published yet. Building...
+[2026-09-27 02:10:10] Building source commit a790df2...
+[2026-09-27 02:10:10] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:10:17] Build/publish error: BhopViewPolish.Apply failed with exit code -1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:10:27] Will retry this commit in 120 seconds.
+[2026-09-27 02:10:30] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:10:39] Will retry this commit in 120 seconds.
+[2026-09-27 02:12:20] New source commit found: 890f3d8
+[2026-09-27 02:12:21] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260927-021221
+[2026-09-27 02:12:22] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-27 02:12:24] Persistent auto-deploy bootstrap refreshed.
+[2026-09-27 02:12:31] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 02:12:31] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 02:12:31] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 02:12:31] Git command smoke test passed.
+[2026-09-27 02:12:36] Commit 890f3d8 is not published yet. Building...
+[2026-09-27 02:12:36] Building source commit 890f3d8...
+[2026-09-27 02:12:36] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:13:05] Building WebGL...
+[2026-09-27 02:14:56] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 02:14:56] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 02:14:56] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 02:14:56] Git command smoke test passed.
+[2026-09-27 02:16:52] New source commit found: 6119d67
+[2026-09-27 02:16:55] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260927-021654
+[2026-09-27 02:16:56] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-27 02:17:01] Persistent auto-deploy bootstrap refreshed.
+[2026-09-27 02:17:12] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 02:17:12] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 02:17:12] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 02:17:12] Git command smoke test passed.
+[2026-09-27 02:17:39] Commit 6119d67 is not published yet. Building...
+[2026-09-27 02:17:39] Building source commit 6119d67...
+[2026-09-27 02:17:40] Applying scene/viewmodel changes and running validation...
+[2026-09-27 02:17:44] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-27 02:18:19] Will retry this commit in 120 seconds.
+[2026-09-27 02:18:52] WebGL build ready. bytes=12042667
+[2026-09-27 02:18:52] Publishing to GitHub Pages...
+[2026-09-27 02:19:07] GitHub Pages push complete.
+[2026-09-27 02:19:08] READY: https://drywon.github.io/bhop-webgl/  commit=890f3d8
+[2026-09-27 03:05:34] New source commit found: 6119d67
+[2026-09-27 03:05:35] Preserved 1 local commit(s) on auto-backup/20260927-030534.
+[2026-09-27 03:05:36] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260927-030534
+[2026-09-27 03:05:36] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-27 03:05:36] Watcher error: Поток был недоступен для чтения.
+[2026-09-27 03:05:38] Persistent auto-deploy bootstrap refreshed.
+[2026-09-27 03:05:47] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 03:05:47] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 03:05:47] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 03:05:47] Git command smoke test passed.
+[2026-09-27 03:06:17] New source commit found: f4ae42e
+[2026-09-27 03:06:19] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-27 03:06:21] Persistent auto-deploy bootstrap refreshed.
+[2026-09-27 03:06:28] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 03:06:28] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 03:06:28] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 03:06:28] Git command smoke test passed.
+[2026-09-27 03:06:33] Commit f4ae42e is not published yet. Building...
+[2026-09-27 03:06:33] Building source commit f4ae42e...
+[2026-09-27 03:06:34] Applying scene/viewmodel changes and running validation...
+[2026-09-27 03:07:27] Building WebGL...
+[2026-09-27 03:17:30] WebGL build ready. bytes=14916387
+[2026-09-27 03:17:30] Publishing to GitHub Pages...
+[2026-09-27 03:17:47] GitHub Pages push complete.
+[2026-09-27 03:17:48] READY: https://drywon.github.io/bhop-webgl/  commit=f4ae42e
+[2026-09-27 03:39:49] New source commit found: 93ff1e6
+[2026-09-27 03:39:51] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260927-033950
+[2026-09-27 03:39:51] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-27 03:39:53] Persistent auto-deploy bootstrap refreshed.
+[2026-09-27 03:40:00] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 03:40:01] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 03:40:01] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 03:40:01] Git command smoke test passed.
+[2026-09-27 03:40:06] Commit 93ff1e6 is not published yet. Building...
+[2026-09-27 03:40:06] Building source commit 93ff1e6...
+[2026-09-27 03:40:06] Applying scene/viewmodel changes and running validation...
+[2026-09-27 03:41:09] Building WebGL...
+[2026-09-27 03:51:07] WebGL build ready. bytes=13815090
+[2026-09-27 03:51:07] Publishing to GitHub Pages...
+[2026-09-27 03:51:24] GitHub Pages push complete.
+[2026-09-27 03:51:25] READY: https://drywon.github.io/bhop-webgl/  commit=93ff1e6
+[2026-09-27 11:09:19] New source commit found: 2036b18
+[2026-09-27 11:09:21] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260927-110920
+[2026-09-27 11:09:21] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-27 11:09:24] Persistent auto-deploy bootstrap refreshed.
+[2026-09-27 11:09:30] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-27 11:09:30] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-27 11:09:30] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-27 11:09:30] Git command smoke test passed.
+[2026-09-27 11:09:35] Commit 2036b18 is not published yet. Building...
+[2026-09-27 11:09:35] Building source commit 2036b18...
+[2026-09-27 11:09:36] Applying scene/viewmodel changes and running validation...
+[2026-09-27 11:11:26] Unity licensing problem while running BhopViewPolish.Apply. Restarting Hub/licensing and retrying...
+[2026-09-27 11:11:31] Waiting 22s for Unity licensing refresh, attempt 1/3...
+[2026-09-27 11:12:29] Waiting 30s for Unity licensing refresh, attempt 2/3...
+[2026-09-27 11:13:29] Waiting 38s for Unity licensing refresh, attempt 3/3...
+[2026-09-27 11:14:37] Build/publish error: BhopViewPolish.Apply failed after 3 automatic Hub/licensing refresh attempts. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+
+===== UNITY_APPLY.log =====
+UnityEngine.Debug:Log (object)
+BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:496)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:412)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 496)
+
+KARAMBIT_DIAMONDDOG_READY verts=4315 tris=4992 ring=(0.000, -0.897, -0.064) tip=(0.000, 2.337, 0.763)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KarambitDiamonddogModel:BuildWithSkin (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:144)
+KarambitDiamonddogModel:SetSkinForPreview (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:39)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:411)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
+
+Importing 'GUID: 521e1956eace1fa48a5d4dd176ae26e2 - Path: Assets/Resources/BhopUI/karambit_crimson_preview.png' with importer (TextureImporter)
+Imported 'GUID: 521e1956eace1fa48a5d4dd176ae26e2' -> (Import Result ID: '4444ea194084a869fe491d07c4680c8b') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c97dc95eb2295772dc9e2a99438a63b DependenciesID=35ce334b4d758fc3633f99488aa18c5b StaticDependenciesID=f25069ec6d5edd64991e9b7edbdbc8d8 
+Asset Pipeline Refresh (id=d6f13a86a027cdf4bab09c5645322f23): Total: 0.071 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 521e1956eace1fa48a5d4dd176ae26e2 - Path: Assets/Resources/BhopUI/karambit_crimson_preview.png' with importer (TextureImporter)
+Imported 'GUID: 521e1956eace1fa48a5d4dd176ae26e2' -> (Import Result ID: '4444ea194084a869fe491d07c4680c8b') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c97dc95eb2295772dc9e2a99438a63b DependenciesID=35ce334b4d758fc3633f99488aa18c5b StaticDependenciesID=f25069ec6d5edd64991e9b7edbdbc8d8 
+Asset Pipeline Refresh (id=6403c8a3bf12f7744b3a2f251246b0d9): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+KARAMBIT_CRIMSON_PREVIEW_REFRESHED
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:496)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:412)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 496)
+
+KARAMBIT_DIAMONDDOG_READY verts=4315 tris=4992 ring=(0.000, -0.897, -0.064) tip=(0.000, 2.337, 0.763)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KarambitDiamonddogModel:BuildWithSkin (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:144)
+KarambitDiamonddogModel:SetSkinForPreview (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:39)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:411)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
+
+Importing 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd - Path: Assets/Resources/BhopUI/karambit_aurora_preview.png' with importer (TextureImporter)
+Imported 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd' -> (Import Result ID: '42fe7258349bf89dfa71ed71671efb67') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3886a38beaad623eda0d8bc91b224bdf DependenciesID=a144400c0f64c245d3b903996ad51ac5 StaticDependenciesID=19c6c7a843ce2cccd2dfdaa661589a0b 
+Asset Pipeline Refresh (id=5da5c6b015877ef49ada1fbeba54c6d6): Total: 0.073 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd - Path: Assets/Resources/BhopUI/karambit_aurora_preview.png' with importer (TextureImporter)
+Imported 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd' -> (Import Result ID: '42fe7258349bf89dfa71ed71671efb67') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3886a38beaad623eda0d8bc91b224bdf DependenciesID=a144400c0f64c245d3b903996ad51ac5 StaticDependenciesID=19c6c7a843ce2cccd2dfdaa661589a0b 
+Asset Pipeline Refresh (id=ed4d46835b3cba54fa54055511c2faf5): Total: 0.056 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+KARAMBIT_AURORA_PREVIEW_REFRESHED
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:496)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:412)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 496)
+
+KARAMBIT_DIAMONDDOG_READY verts=4315 tris=4992 ring=(0.000, -0.897, -0.064) tip=(0.000, 2.337, 0.763)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KarambitDiamonddogModel:BuildWithSkin (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:144)
+KarambitDiamonddogModel:SetSkinForPreview (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:39)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:414)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
+
+Importing 'GUID: f4d50a3c1b2082248be0119bfd51493a - Path: Assets/Resources/BhopUI/karambit_preview.png' with importer (TextureImporter)
+Imported 'GUID: f4d50a3c1b2082248be0119bfd51493a' -> (Import Result ID: 'edda449486d1aa569695f3303ad66f24') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=519d7c8bd95e0a3ccce12cd091c2aed3 DependenciesID=abe2f8bb55ee8caaa8610ac3571b7cd1 StaticDependenciesID=66d3239d1d02543869137345d1966dfc 
+Asset Pipeline Refresh (id=5c63ee57be4a96b4c892a15803858d14): Total: 0.076 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f4d50a3c1b2082248be0119bfd51493a - Path: Assets/Resources/BhopUI/karambit_preview.png' with importer (TextureImporter)
+Imported 'GUID: f4d50a3c1b2082248be0119bfd51493a' -> (Import Result ID: 'edda449486d1aa569695f3303ad66f24') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=519d7c8bd95e0a3ccce12cd091c2aed3 DependenciesID=abe2f8bb55ee8caaa8610ac3571b7cd1 StaticDependenciesID=66d3239d1d02543869137345d1966dfc 
+Asset Pipeline Refresh (id=f41630d76aedc624caf0bcc2d8d7d224): Total: 0.066 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+KARAMBIT_SHOP_PREVIEW_REFRESHED
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopViewPolish:CaptureKnifeShopPreview (string,string,string) (at Assets/Editor/BhopViewPolish.cs:496)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:415)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 496)
+
+KARAMBIT_DIAMONDDOG_READY verts=4315 tris=4992 ring=(0.000, -0.897, -0.064) tip=(0.000, 2.337, 0.763)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KarambitDiamonddogModel:BuildWithSkin (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:144)
+KarambitDiamonddogModel:SetSkinForPreview (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:39)
+BhopViewPolish:CaptureKarambitSkinPreviews () (at Assets/Editor/BhopViewPolish.cs:417)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:43)
+
+(Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
+
+Importing 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608 - Path: Assets/Resources/BhopUI/qa_m9_inspect.png' with importer (TextureImporter)
+Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'ebaeee2ef242853c3085100ac45df1a8') in 0.062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edf717dcde9f5926447ee223b97fa5a9 DependenciesID=398246827d640c0a90f33b837c2cece4 StaticDependenciesID=a2b0388c98f59189d266adee25835ada 
+Asset Pipeline Refresh (id=5bea16598bf77e94bbb938839528f685): Total: 0.100 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608 - Path: Assets/Resources/BhopUI/qa_m9_inspect.png' with importer (TextureImporter)
+Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'ebaeee2ef242853c3085100ac45df1a8') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edf717dcde9f5926447ee223b97fa5a9 DependenciesID=398246827d640c0a90f33b837c2cece4 StaticDependenciesID=a2b0388c98f59189d266adee25835ada 
+Asset Pipeline Refresh (id=aec4b2df281c9fa4f8984cc4212a8346): Total: 0.087 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+M9_INSPECT_QA_READY verticalError=7,64deg
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopViewPolish:CaptureM9InspectQA (string) (at Assets/Editor/BhopViewPolish.cs:151)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:44)
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 151)
+
+Importing 'GUID: cb5a16884a56eb6478a63946cbc7b72d - Path: Assets/Resources/BhopUI/qa_karambit_inspect.png' with importer (TextureImporter)
+Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: '73826ba086a86c75206c36bd6f400b2d') in 0.069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c512a928f5bd5b8d6a5af3a12cdb918f DependenciesID=0747adb719a58a78c796fd545ed9a3f3 StaticDependenciesID=a984a777860417587fd46c25d2c8d6d9 
+Asset Pipeline Refresh (id=30f79a09026ec6d42955e52d9ef2a6bb): Total: 0.110 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: cb5a16884a56eb6478a63946cbc7b72d - Path: Assets/Resources/BhopUI/qa_karambit_inspect.png' with importer (TextureImporter)
+Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: '73826ba086a86c75206c36bd6f400b2d') in 0.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c512a928f5bd5b8d6a5af3a12cdb918f DependenciesID=0747adb719a58a78c796fd545ed9a3f3 StaticDependenciesID=a984a777860417587fd46c25d2c8d6d9 
+Asset Pipeline Refresh (id=aca818955610a3945a7528d3285ee44f): Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+KARAMBIT_INSPECT_QA_READY
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopViewPolish:CaptureKarambitInspectQA (string) (at Assets/Editor/BhopViewPolish.cs:250)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:45)
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 250)
+
+Importing 'GUID: a2de4fb016636614f87f1a9e2d19a8d9 - Path: Assets/Scenes/Bhop_Classic.unity' with importer (DefaultImporter)
+Imported 'GUID: a2de4fb016636614f87f1a9e2d19a8d9' -> (Import Result ID: '2954316a1aa6784f3bc27f27bff12328') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=e52c2caea7cd9be20faf6719caa020a0 DependenciesID=e0859b7fa93b87920911e9917ae9208b StaticDependenciesID=86ec3d91425688a4367da780ef5d92f1 
+Asset Pipeline Refresh (id=e1cbea0f4dee5b24fa49f80659a7d661): Total: 0.215 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Bhop_Classic.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
+	Deserialize:            54.364 ms
+	Integration:            30.963 ms
+	Integration of assets:  0.022 ms
+	Thread Wait Time:       307.191 ms
+	Total Operation Time:   392.541 ms
+Unloading 248 unused Assets / (79.9 KB). Loaded Objects now: 3826.
+Memory consumption went from 218.4 MB to 218.4 MB.
+Total: 30.161000 ms (FindLiveObjects: 0.628200 ms CreateObjectMapping: 0.322200 ms MarkObjects: 28.560000 ms  DeleteObjects: 0.648400 ms)
+
+Exception: MAP_Vertical route is too forgiving: average edge gap 2,75m, expected at least 3,00m
+  at BhopValidation.ValidateGeneratedRoute (UnityEngine.GameObject root) [0x002fa] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopValidation.cs:117 
+  at BhopValidation.ValidateScene () [0x002b1] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopValidation.cs:64 
+  at BhopViewPolish.Apply () [0x001b7] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:63 
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 64)
+
+executeMethod method BhopViewPolish.Apply threw exception.
+Exiting without the bug reporter. Application will terminate with return code 1
+
+===== UNITY_WEBGL.log =====
+ExitCode: 0 Duration: 1s948ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Playere3d3984e.dag" --dagfilejson="Library\Bee\Playere3d3984e.dag.json" --profile="Library/Bee/backend6.traceevents" Player
+WorkingDir: C:/Users/User/Documents/BHOP_Yandex
+ExitCode: 0 Duration: 1s906ms
+[websockify wrapper] Start node and websockify.js
+[websockify wrapper] Proxying from :35020 to localhost:34999
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 4.32 ms, found 0 plugins.
+
+-------------------------------------------------------------------------------
+Build Report
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               8.6 mb	 82.1% 
+Meshes                 1.2 mb	 11.9% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                341.9 kb	 3.2% 
+Other Assets           292.1 kb	 2.7% 
+Levels                 0.0 kb	 0.0% 
+File headers           3.7 kb	 0.0% 
+Total User Assets      10.5 mb	 100.0% 
+Complete build size    11.3 mb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 2.7 mb	 23.6% Assets/Art/FacepunchViewmodel/M9_Normal.png
+ 1.3 mb	 11.8% Assets/Art/FacepunchViewmodel/M9_Albedo.png
+ 1.3 mb	 11.8% Assets/Art/FacepunchViewmodel/M9_ORM.png
+ 1.1 mb	 9.9% Assets/Art/FacepunchViewmodel/Facepunch_M9_Arms_Combined.fbx
+ 854.7 kb	 7.4% Resources/unity_builtin_extra
+ 341.5 kb	 2.9% Assets/Resources/BhopUI/classic_preview.png
+ 260.8 kb	 2.3% Assets/Resources/KarambitDiamonddog/scene.bytes
+ 256.1 kb	 2.2% Assets/Resources/BhopUI/qa_karambit_inspect.png
+ 256.1 kb	 2.2% Assets/Resources/BhopUI/qa_m9_inspect.png
+ 170.8 kb	 1.5% Assets/Art/PSXArms/arms_gloves_01.png
+ 85.5 kb	 0.7% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlueSteel_Albedo.png
+ 85.5 kb	 0.7% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlackSteel_Albedo.png
+ 85.5 kb	 0.7% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Spectrum_Albedo.png
+ 85.5 kb	 0.7% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Crimson_Albedo.png
+ 85.5 kb	 0.7% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Heat_Albedo.png
+ 67.3 kb	 0.6% Assets/Art/PSXArms/PSX_RightArm_Clean.asset
+ 67.3 kb	 0.6% Assets/Art/PSXArms/PSX_LeftArm_Clean.asset
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/karambit_crimson_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/karambit_carbon_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/karambit_aurora_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/underground_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_standard_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_spectrum_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_crimson_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/construction_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/vertical_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/skyline_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_heat_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_blue_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_black_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/karambit_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/facility_preview.png
+ 64.1 kb	 0.6% Assets/Resources/BhopUI/m9_preview.png
+ 42.8 kb	 0.4% Assets/Art/Textures/concrete_wall.png
+ 42.8 kb	 0.4% Assets/Art/Textures/concrete_light.png
+ 42.8 kb	 0.4% Assets/Art/Textures/concrete_dark.png
+ 42.8 kb	 0.4% Assets/Art/Textures/water_tile.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlueSteel_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlackSteel_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Spectrum_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Crimson_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Heat_MetallicSmooth.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlueSteel_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlackSteel_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Spectrum_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Crimson_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Heat_Detail.png
+ 1.4 kb	 0.0% Assets/Materials/Classic_ConcreteDark.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Water.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Concrete.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Trim.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Spectrum.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_BlueSteel.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_BlackSteel.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Heat.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Crimson.mat
+ 0.9 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Default.mat
+ 0.9 kb	 0.0% Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_TowerLight.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SubwayMint.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SiteSafety.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_LabViolet.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_CityAmber.mat
+ 0.9 kb	 0.0% Assets/Materials/View_PSXGloves.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_TowerStone.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_TowerSteel.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SubwayTile.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SubwayIron.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SiteSteel.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SiteConcrete.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_RoofIvory.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_LabGraphite.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_LabCeramic.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_CityBrick.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Panel.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Accent.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Wall.mat
+ 0.1 kb	 0.0% Assets/Scripts/KarambitDiamonddogModel.cs
+ 0.1 kb	 0.0% Assets/Scripts/MobilePlatformBridge.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopRuntimeSelfTest.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopRenderBenchmark.cs
+ 0.1 kb	 0.0% Assets/Scripts/WebPerformance.cs
+ 0.1 kb	 0.0% Assets/Scripts/MobileControls.cs
+ 0.1 kb	 0.0% Assets/Scripts/FinishTrigger.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopMapDirector.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopKnifeLoadout.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopController.cs
+ 0.1 kb	 0.0% Assets/Scripts/FPSArmPose.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopMenuUI.cs
+ 0.1 kb	 0.0% Assets/TutorialInfo/Scripts/Readme.cs
+ 0.1 kb	 0.0% Assets/Scripts/RunTimer.cs
+ 0.1 kb	 0.0% Assets/Scripts/FPSArms.cs
+-------------------------------------------------------------------------------
+Unloading 79 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (64.4 KB). Loaded Objects now: 939.
+Memory consumption went from 222.1 MB to 222.0 MB.
+Total: 66.332600 ms (FindLiveObjects: 4.572300 ms CreateObjectMapping: 0.326700 ms MarkObjects: 58.732600 ms  DeleteObjects: 2.691100 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+##utp:{"success":true,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1790470261249,"processId":14536,"steps":[{"description":"Preprocess Player","duration":36},{"description":"Prepare For Build","duration":1519},{"description":"ProducePlayerScriptAssemblies","duration":17322},{"description":"Verify Build setup","duration":24},{"description":"Prepare assets for target platform","duration":3},{"description":"Prepare splash screen","duration":0},{"description":"Build scripts DLLs","duration":129},{"description":"Building scenes","duration":260},{"description":"Build GlobalGameManagers file","duration":666},{"description":"Writing asset files","duration":8873},{"description":"Building Resources/unity_builtin_extra","duration":341},{"description":"Creating compressed player package","duration":1101},{"description":"Write data build dirty tracking information","duration":41},{"description":"Postprocess built player","duration":543680}],"duration":573995}
+Total cache size 268243722
+Total cache size after purge 268243722, took 00:00:01.2587030
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            85.220 ms
+	Integration:            117.787 ms
+	Integration of assets:  0.746 ms
+	Thread Wait Time:       -0.621 ms
+	Total Operation Time:   203.133 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 3702.
+Memory consumption went from 219.6 MB to 219.6 MB.
+Total: 13.087800 ms (FindLiveObjects: 0.920400 ms CreateObjectMapping: 0.259100 ms MarkObjects: 11.888100 ms  DeleteObjects: 0.016700 ms)
+
+Opening scene 'Assets/Scenes/Bhop_Classic.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
+	Deserialize:            94.354 ms
+	Integration:            19.731 ms
+	Integration of assets:  0.060 ms
+	Thread Wait Time:       -0.007 ms
+	Total Operation Time:   114.138 ms
+Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 3702.
+Memory consumption went from 219.0 MB to 219.0 MB.
+Total: 14.182200 ms (FindLiveObjects: 0.734100 ms CreateObjectMapping: 0.185200 ms MarkObjects: 13.188100 ms  DeleteObjects: 0.070900 ms)
+
+BHOP_WEBGL_BUILD_OK bytes=11863107
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidationBuild:BuildWebGLSmoke () (at Assets/Editor/BhopValidation.cs:193)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 193)
+
+Batchmode quit successfully invoked - shutting down!
+[websockify wrapper] Kill
+[websockify wrapper] Process killed
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: 'a97e974ea05ba68c8789898495a003d3') in 0.017 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=01be40f397b1113818f43edf8a1bd6fe StaticDependenciesID=26c389c5590eab131eb1e29ef372bcf8 
+Asset Pipeline Refresh (id=0abfae36a170d3847831178ab013836f): Total: 0.184 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-User-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+[websockify wrapper] Kill
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
