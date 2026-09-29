@@ -50,128 +50,16 @@ try{
 }
 finally{ Pop-Location }
 
-$root=Join-Path $env:LOCALAPPDATA 'BHOPAutoDeploy'
-New-Item -ItemType Directory -Path $root -Force | Out-Null
-$bootstrapSource=Join-Path $Project 'Tools\AutoDeployBootstrap.ps1'
-$bootstrapTarget=Join-Path $root 'AutoDeployBootstrap.ps1'
-$supervisorTarget=Join-Path $root 'AutoDeploySupervisor.ps1'
-$projectConfig=Join-Path $root 'ProjectPath.txt'
+$installer=Join-Path $Project 'Tools\InstallAutoDeploy.ps1'
+if(-not (Test-Path -LiteralPath $installer)){ throw 'Quiet installer missing after sync.' }
 
-if(-not (Test-Path -LiteralPath $bootstrapSource)){ throw 'AutoDeployBootstrap.ps1 missing after sync.' }
-Copy-Item -LiteralPath $bootstrapSource -Destination $bootstrapTarget -Force
-Set-Content -LiteralPath $projectConfig -Value $Project -Encoding UTF8
-
-$supervisor=@'
-$ErrorActionPreference='SilentlyContinue'
-$root=Split-Path -Parent $MyInvocation.MyCommand.Path
-$bootstrap=Join-Path $root 'AutoDeployBootstrap.ps1'
-$log=Join-Path $root 'SUPERVISOR.log'
-
-$created=$false
-$mutex=New-Object System.Threading.Mutex($true,'Local\BHOPAutoDeploySupervisor',[ref]$created)
-if(-not $created){ exit 0 }
-
-function Log([string]$m){
-    Add-Content -LiteralPath $log -Value ('['+(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')+'] '+$m) -Encoding UTF8
-}
-
-try{
-    Log 'Supervisor started.'
-    & powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File $bootstrap -HealthCheck
-    while($true){
-        Start-Sleep -Seconds 60
-        if(Test-Path -LiteralPath $bootstrap){
-            & powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File $bootstrap -HealthCheck
-        }
-    }
-}
-catch{
-    Log ('Supervisor loop error: '+$_.Exception.Message)
-}
-finally{
-    try{$mutex.ReleaseMutex()}catch{}
-    $mutex.Dispose()
-}
-'@
-Set-Content -LiteralPath $supervisorTarget -Value $supervisor -Encoding UTF8
-
-$psExe="$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
-$runCommand='"'+$psExe+'" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+$supervisorTarget+'"'
-
-# No-admin persistence: current-user Run key.
-$runKey='HKCU:\Software\Microsoft\Windows\CurrentVersion\Run'
-New-Item -Path $runKey -Force | Out-Null
-Set-ItemProperty -Path $runKey -Name 'BHOPAutoDeploy' -Value $runCommand -Force
-
-# Second no-admin fallback: Startup folder.
-$startup=Join-Path $env:APPDATA 'Microsoft\Windows\Start Menu\Programs\Startup\BHOP Auto Deploy.cmd'
-$startupText='@echo off'+[Environment]::NewLine+
-    'start "" /min "'+$psExe+'" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+$supervisorTarget+'"'
-Set-Content -LiteralPath $startup -Value $startupText -Encoding ASCII
-
-# Task Scheduler is optional now. Failure is ignored.
-try{
-    $taskRun='"'+$psExe+'" -NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+$supervisorTarget+'"'
-    & schtasks.exe /Delete /TN "BHOP Auto Deploy" /F *> $null
-    & schtasks.exe /Create /TN "BHOP Auto Deploy" /SC ONLOGON /TR $taskRun /F *> $null
-}catch{}
-
-# Stop old supervisors so the new version becomes authoritative.
-Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction SilentlyContinue |
-    Where-Object {
-        $_.CommandLine -and
-        $_.CommandLine.IndexOf('AutoDeploySupervisor.ps1',[System.StringComparison]::OrdinalIgnoreCase) -ge 0 -and
-        $_.ProcessId -ne $PID
-    } |
-    ForEach-Object { try{ Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }catch{} }
-
-Start-Sleep -Seconds 1
-
-# Start the fixed bootstrap once in the foreground so installation cannot claim
-# success unless the watcher actually starts.
-& $psExe -NoLogo -NoProfile -ExecutionPolicy Bypass -File $bootstrapTarget
-if($LASTEXITCODE -ne 0){
-    $bootLog=Join-Path $Project 'AutoDeployLogs\AUTO_DEPLOY_BOOTSTRAP.log'
-    if(Test-Path -LiteralPath $bootLog){
-        Write-Host ''
-        Write-Host '--- bootstrap log tail ---'
-        Get-Content -LiteralPath $bootLog -Tail 25
-    }
-    throw ('Bootstrap failed with exit code '+$LASTEXITCODE)
-}
-
-Start-Sleep -Seconds 3
-$watcher=Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction SilentlyContinue |
-    Where-Object {
-        $_.CommandLine -and
-        $_.CommandLine.IndexOf('AUTO_DEPLOY.ps1',[System.StringComparison]::OrdinalIgnoreCase) -ge 0 -and
-        $_.CommandLine.IndexOf($Project,[System.StringComparison]::OrdinalIgnoreCase) -ge 0
-    } |
-    Select-Object -First 1
-
-if(-not $watcher){
-    $bootLog=Join-Path $Project 'AutoDeployLogs\AUTO_DEPLOY_BOOTSTRAP.log'
-    if(Test-Path -LiteralPath $bootLog){
-        Write-Host ''
-        Write-Host '--- bootstrap log tail ---'
-        Get-Content -LiteralPath $bootLog -Tail 25
-    }
-    throw 'AUTO_DEPLOY watcher did not start.'
-}
-
-Start-Process -FilePath $psExe -ArgumentList ('-NoLogo -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "'+$supervisorTarget+'"') -WindowStyle Hidden
-Start-Sleep -Seconds 2
+& powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File $installer
+if($LASTEXITCODE -ne 0){ throw ('Quiet installer failed with exit code '+$LASTEXITCODE) }
 
 $head=(& $git -C $Project rev-parse --short HEAD).Trim()
-
 Write-Host ''
-Write-Host '[OK] BHOP FULL AUTO DEPLOY V3 INSTALLED'
+Write-Host '[OK] BHOP QUIET AUTO DEPLOY INSTALLED'
 Write-Host ('Project: '+$Project)
 Write-Host ('Source HEAD: '+$head)
-Write-Host ('Watcher PID: '+$watcher.ProcessId+' RUNNING')
-Write-Host 'Supervisor: RUNNING'
-Write-Host 'GitHub watcher: self-healing every 60 sec'
-Write-Host 'Auto-start: HKCU Run + Startup fallback'
-Write-Host 'Admin rights: NOT REQUIRED'
-Write-Host 'Future commits: no manual fetch/reset/start required.'
-Write-Host ('Log: '+(Join-Path $root 'SUPERVISOR.log'))
+Write-Host 'No supervisor. No periodic health-check PowerShell windows.'
+Write-Host 'Future commits are handled by one hidden watcher.'
