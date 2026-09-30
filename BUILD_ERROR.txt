@@ -1,0 +1,550 @@
+﻿BHOP AUTO DEPLOY FAILURE
+Time: 2026-09-30 10:27:54
+Source: 0586b87
+Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+
+===== AUTO_DEPLOY.log =====
+[2026-09-30 01:01:28] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:01:29] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:01:34] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:01:34] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:01:34] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:01:34] Git command smoke test passed.
+[2026-09-30 01:01:38] Commit 3731313 is not published yet. Building...
+[2026-09-30 01:01:38] Building source commit 3731313...
+[2026-09-30 01:01:39] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:02:20] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:02:29] Will retry this commit in 120 seconds.
+[2026-09-30 01:04:30] Commit 3731313 is not published yet. Building...
+[2026-09-30 01:04:30] Building source commit 3731313...
+[2026-09-30 01:04:30] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:04:55] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:05:04] Will retry this commit in 120 seconds.
+[2026-09-30 01:05:29] New source commit found: b9af6d7
+[2026-09-30 01:05:31] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-010530
+[2026-09-30 01:05:31] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:05:32] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:05:37] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:05:37] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:05:37] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:05:37] Git command smoke test passed.
+[2026-09-30 01:05:42] Commit b9af6d7 is not published yet. Building...
+[2026-09-30 01:05:42] Building source commit b9af6d7...
+[2026-09-30 01:05:42] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:06:07] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:06:16] Will retry this commit in 120 seconds.
+[2026-09-30 01:07:05] New source commit found: a513c9a
+[2026-09-30 01:07:07] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-010706
+[2026-09-30 01:07:07] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:07:08] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:07:13] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:07:13] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:07:13] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:07:13] Git command smoke test passed.
+[2026-09-30 01:07:17] Commit a513c9a is not published yet. Building...
+[2026-09-30 01:07:17] Building source commit a513c9a...
+[2026-09-30 01:07:17] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:07:42] Building WebGL...
+[2026-09-30 01:11:15] WebGL build ready. bytes=13874066
+[2026-09-30 01:11:15] Publishing to GitHub Pages...
+[2026-09-30 01:11:30] GitHub Pages push complete.
+[2026-09-30 01:11:30] READY: https://drywon.github.io/bhop-webgl/  commit=a513c9a
+[2026-09-30 01:29:39] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:29:39] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:29:39] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:29:39] Git command smoke test passed.
+[2026-09-30 01:31:38] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:31:38] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:31:38] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:31:38] Git command smoke test passed.
+[2026-09-30 01:33:21] New source commit found: 4c4fff5
+[2026-09-30 01:33:22] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-013321
+[2026-09-30 01:33:22] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:33:24] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:33:29] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:33:29] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:33:29] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:33:29] Git command smoke test passed.
+[2026-09-30 01:33:33] Commit 4c4fff5 is not published yet. Building...
+[2026-09-30 01:33:33] Building source commit 4c4fff5...
+[2026-09-30 01:33:33] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:34:05] Building WebGL...
+[2026-09-30 01:37:40] WebGL build ready. bytes=13874164
+[2026-09-30 01:37:40] Publishing to GitHub Pages...
+[2026-09-30 01:38:11] GitHub Pages push complete.
+[2026-09-30 01:38:12] READY: https://drywon.github.io/bhop-webgl/  commit=4c4fff5
+[2026-09-30 01:38:36] New source commit found: 87dff2d
+[2026-09-30 01:38:37] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-013837
+[2026-09-30 01:38:37] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:38:39] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:38:39] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:38:39] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:38:39] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:38:39] Git command smoke test passed.
+[2026-09-30 01:38:43] Commit 87dff2d is not published yet. Building...
+[2026-09-30 01:38:43] Building source commit 87dff2d...
+[2026-09-30 01:38:44] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:39:09] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:39:17] Will retry this commit in 120 seconds.
+[2026-09-30 01:40:29] New source commit found: c0b18f0
+[2026-09-30 01:40:31] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-014030
+[2026-09-30 01:40:31] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:40:33] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:40:33] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:40:33] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:40:33] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:40:33] Git command smoke test passed.
+[2026-09-30 01:40:37] Commit c0b18f0 is not published yet. Building...
+[2026-09-30 01:40:37] Building source commit c0b18f0...
+[2026-09-30 01:40:37] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:40:59] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:41:07] Will retry this commit in 120 seconds.
+[2026-09-30 01:43:08] New source commit found: 859cdda
+[2026-09-30 01:43:09] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-014309
+[2026-09-30 01:43:10] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:43:11] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:43:11] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:43:11] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:43:11] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:43:11] Git command smoke test passed.
+[2026-09-30 01:43:16] Commit 859cdda is not published yet. Building...
+[2026-09-30 01:43:16] Building source commit 859cdda...
+[2026-09-30 01:43:16] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:43:38] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:43:47] Will retry this commit in 120 seconds.
+[2026-09-30 01:45:23] New source commit found: 7eb45e6
+[2026-09-30 01:45:24] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-014524
+[2026-09-30 01:45:25] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:45:26] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:45:26] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:45:26] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:45:26] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:45:26] Git command smoke test passed.
+[2026-09-30 01:45:30] Commit 7eb45e6 is not published yet. Building...
+[2026-09-30 01:45:30] Building source commit 7eb45e6...
+[2026-09-30 01:45:31] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:45:59] Building WebGL...
+[2026-09-30 01:49:11] WebGL build ready. bytes=13704377
+[2026-09-30 01:49:11] Publishing to GitHub Pages...
+[2026-09-30 01:49:27] GitHub Pages push complete.
+[2026-09-30 01:49:27] READY: https://drywon.github.io/bhop-webgl/  commit=7eb45e6
+[2026-09-30 01:55:05] New source commit found: 50a244d
+[2026-09-30 01:55:06] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-015505
+[2026-09-30 01:55:06] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:55:07] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:55:08] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:55:08] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:55:08] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:55:08] Git command smoke test passed.
+[2026-09-30 01:55:12] Commit 50a244d is not published yet. Building...
+[2026-09-30 01:55:12] Building source commit 50a244d...
+[2026-09-30 01:55:12] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:55:48] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 01:55:56] Will retry this commit in 120 seconds.
+[2026-09-30 01:57:32] New source commit found: 1a85032
+[2026-09-30 01:57:34] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-015733
+[2026-09-30 01:57:34] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 01:57:35] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 01:57:36] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 01:57:36] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 01:57:36] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 01:57:36] Git command smoke test passed.
+[2026-09-30 01:57:40] Commit 1a85032 is not published yet. Building...
+[2026-09-30 01:57:40] Building source commit 1a85032...
+[2026-09-30 01:57:40] Applying scene/viewmodel changes and running validation...
+[2026-09-30 01:57:59] Building WebGL...
+[2026-09-30 02:01:11] WebGL build ready. bytes=14201461
+[2026-09-30 02:01:11] Publishing to GitHub Pages...
+[2026-09-30 02:01:25] GitHub Pages push complete.
+[2026-09-30 02:01:26] READY: https://drywon.github.io/bhop-webgl/  commit=1a85032
+[2026-09-30 02:31:49] Watcher error: git fetch origin main --quiet failed: error: RPC failed; curl 52 Empty reply from server fatal: expected flush after ref listing
+[2026-09-30 10:11:21] New source commit found: f3de893
+[2026-09-30 10:11:22] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-101122
+[2026-09-30 10:11:22] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 10:11:37] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 10:11:37] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 10:11:37] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 10:11:37] Git command smoke test passed.
+[2026-09-30 10:11:41] Commit f3de893 is not published yet. Building...
+[2026-09-30 10:11:41] Building source commit f3de893...
+[2026-09-30 10:11:41] Applying scene/viewmodel changes and running validation...
+[2026-09-30 10:12:13] Building WebGL...
+[2026-09-30 10:15:23] WebGL build ready. bytes=14201297
+[2026-09-30 10:15:23] Publishing to GitHub Pages...
+[2026-09-30 10:15:36] GitHub Pages push complete.
+[2026-09-30 10:15:36] READY: https://drywon.github.io/bhop-webgl/  commit=f3de893
+[2026-09-30 10:16:26] New source commit found: 0586b87
+[2026-09-30 10:16:27] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-101627
+[2026-09-30 10:16:27] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 10:17:36] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 10:17:36] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 10:17:36] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 10:17:36] Git command smoke test passed.
+[2026-09-30 10:17:40] Commit 0586b87 is not published yet. Building...
+[2026-09-30 10:17:40] Building source commit 0586b87...
+[2026-09-30 10:17:40] Applying scene/viewmodel changes and running validation...
+[2026-09-30 10:27:54] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+
+===== UNITY_APPLY.log =====
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+
+(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 369)
+
+KARAMBIT_DIAMONDDOG_READY verts=4315 tris=4992 ring=(0.000, -0.897, -0.064) tip=(0.000, 2.337, 0.763)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KarambitDiamonddogModel:BuildWithSkin (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:144)
+KarambitDiamonddogModel:BuildNow () (at Assets/Scripts/KarambitDiamonddogModel.cs:34)
+BhopHybridViewmodel:BuildKarambit (UnityEngine.Transform,UnityEngine.Camera,UnityEngine.SkinnedMeshRenderer,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:146)
+BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:95)
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+
+(Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
+
+KARAMBIT_CS_IDLE_OK center=(0.780, 0.269, 0.481) ring=(0.701, 0.273, 0.436) tip=(0.856, 0.279, 0.540) ringError=0,0000 screenSpan=0,156
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopHybridViewmodel:BuildKarambit (UnityEngine.Transform,UnityEngine.Camera,UnityEngine.SkinnedMeshRenderer,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:223)
+BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:95)
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+
+(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 223)
+
+PSX_OLD_ARM L tris=500
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopHybridViewmodel:EnsureSideMesh (UnityEngine.SkinnedMeshRenderer,bool) (at Assets/Editor/BhopHybridViewmodel.cs:346)
+BhopHybridViewmodel:BuildCleanSide (UnityEngine.GameObject,UnityEngine.Material,bool,UnityEngine.Transform,string) (at Assets/Editor/BhopHybridViewmodel.cs:277)
+BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:98)
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+
+(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 346)
+
+PSX_ROLLBACK_OK R=(0.828, 0.068, 0.355) L=(0.170, 0.120, 0.279) knife=(0.650, 0.250, 0.395) palmR=0,080 palmL=0,080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:121)
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+
+(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 121)
+
+Importing 'GUID: 376fae2f8fe0cb343a68d4b76903413d - Path: Assets/Art/FPSArmsHQ/TacticalGlove_Albedo_Bright.png' with importer (TextureImporter)
+Imported 'GUID: 376fae2f8fe0cb343a68d4b76903413d' -> (Import Result ID: '28136d9c763670f750150f43bbb2d375') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e76a871be30c41f3be3b9896b5d637d DependenciesID=d2b079f5a3b14466f3d04934d921b00d StaticDependenciesID=9e09103962b374ac2b730a726ee12c09 
+Asset Pipeline Refresh (id=02cf6d5d496545c4db1fb0f04e65a06d): Total: 0.161 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9 - Path: Assets/Resources/GloveSkins' with importer (DefaultImporter)
+Imported 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9' -> (Import Result ID: '5683b3df91e5416385e0a6de36ab4c16') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=be4ad68dae608027a910aa2c7988abed DependenciesID=711718f3d22291ce4fb5f3fe72fe8a3b StaticDependenciesID=92271e4923a21cfccfa25b1b03de111d 
+Importing 'GUID: ae6fc715ff3f19549b755d9d2db0bb89 - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
+Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: '1b57b89f9f06bca37eb4e71b1114babd') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3683d3d4c2ac6a272f0cd32e2bf5a58a DependenciesID=55c5ce1d4acac48281b3b3b3787c0143 StaticDependenciesID=3c53d5aa54b18050566a67fc5ff38ad8 
+Asset Pipeline Refresh (id=cc253441522e643469d7ee97d7be9055): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ae6fc715ff3f19549b755d9d2db0bb89 - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
+Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: '30984c1d9ff2d72e84167bba43ca995f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42bbe5ccb33f25902442a09d4af9bdfa DependenciesID=e7538ac6c95dbe05a59e3cafff1603e3 StaticDependenciesID=51c64865be2257c41bbb195f2a8df233 
+Asset Pipeline Refresh (id=2798a39b6223cfe48a3e6cde545413b3): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: efc319ed5c4fbf74fa7438e79e71a994 - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: '0c3b704a072e13ee166a2580d6e174ea') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=c8a380aaa64e53e6c021f88e9adcfb2b DependenciesID=812ce7cf43dcf10693445a3dca160210 StaticDependenciesID=dd73121b2f1a59ccdd3d021b06ff3cfe 
+Asset Pipeline Refresh (id=f9ced3ad6723a124e8775b651721cfd9): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b' -> (Import Result ID: '38049341516e2bdab50a9ccc4b38902b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c293b14a2d40762580b6e9bfbf9c309f DependenciesID=fe40105982316a450d87c8387d383c76 StaticDependenciesID=cec2efaf642b24d7b28ad4900a56c691 
+Asset Pipeline Refresh (id=f63f9eba5c10d704281d0c4065289b3c): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0974e7bb31a5c054ea22a76386356f62 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
+Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: 'd3ddcf325487d6f89f6110c98b73fe37') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02e6ff368e4a941f384f3e9cab80aad6 DependenciesID=4a4c61a7ac5c41d134d41d853069f085 StaticDependenciesID=6843411be42b09ceb408d9ddfb5b618e 
+Asset Pipeline Refresh (id=e318b13700803a54eb105035e4b974ee): Total: 0.057 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0974e7bb31a5c054ea22a76386356f62 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
+Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: 'd94101a9cd85bae96ff37a8deb138db4') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85a61ec8d1c773170c65bc5602dfd28a DependenciesID=2ec6f34c7d6a27f74358648592648739 StaticDependenciesID=7293b1835d2e3615801d8bf508ce95c8 
+Asset Pipeline Refresh (id=d5bdc7c0f86e0ff4a94064f7a800770d): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d49d3920ac597334799593c76763f0a0 - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '004d580b237652c6f607d81af203ca24') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9fdf28ae0b2cb6d407fe3a3da63892cc DependenciesID=81537f36531962ddc1d8b37d7ae9a688 StaticDependenciesID=cd74565a4f6afb6b20df58bfe72b74ad 
+Asset Pipeline Refresh (id=68f842ac75d8b9349af7153c79e2ad8a): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: df394cf5f60d73a4383adbee974b7c1b - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: df394cf5f60d73a4383adbee974b7c1b' -> (Import Result ID: '7fd8cf1ddff88d1b2359086522b65153') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=28f0355fb82cc565c8eb271a0afb9814 DependenciesID=2dc5752602011b4d28dd66a4c1fef962 StaticDependenciesID=ef1643aeed8ac01d71f8440db3c6b202 
+Asset Pipeline Refresh (id=1fa21ca90e6a02141b8e6f9aac0a1e7d): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4 - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
+Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '3d7ba3faf3c0522ce247b45f7bbadbde') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab8ff3f226c6a0cd1affa2997452378a DependenciesID=5873d5568a7871394ea3ef620d34e103 StaticDependenciesID=ba141d3fda93088c36abee015a753e25 
+Asset Pipeline Refresh (id=04be652f420aed3409753f998ba342ff): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4 - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
+Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '114783dd856d08e3e18cf0663f199ff4') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95a32c248662a5e2dcc12e1379774b69 DependenciesID=3704bc8864eff3e70f82a40e1cd320aa StaticDependenciesID=9c28a121cc438be2b5d61d0d1efc3c1b 
+Asset Pipeline Refresh (id=56d6238b038fac041a175b6dbee5d892): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 37668c504a18e7c4f9e1828e4bfed257 - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '6b7fd6ac9a4d4d949b66aafb36cdd4cd') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3b9c967ae236e20adb1bf1466da3a21b DependenciesID=eb50fd1e1d5fccc7e67ac3d46b4219bb StaticDependenciesID=f34947aa248e9c9dd44448ca010acc56 
+Asset Pipeline Refresh (id=667a1439371da79409439168cda79f97): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f04abd7f32172654088f811222670d19 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f04abd7f32172654088f811222670d19' -> (Import Result ID: '9dadd507b774592ed4aea2a7e0777016') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c1bed22ff0e12cdbc9eed1e6ec0d9745 DependenciesID=5a14794d9250e765467392961d9c10d6 StaticDependenciesID=e0598e2ab87c3e2768a8af02dd0ac29c 
+Asset Pipeline Refresh (id=dca195b3023b0dd44888bbd67c761345): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 75e74ddf833efc0488524683932b8cf7 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
+Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: '2dbfa42c4753eb7318ca9b1f8f74ef76') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ebff95cfa9eed3d9d9b19aeca9efecf9 DependenciesID=66e21ae71919d07bb70a2b0c4e3ab41d StaticDependenciesID=d80040e6d3da0b8361bde7ee06a1bd43 
+Asset Pipeline Refresh (id=b8845aa463f1d914d9d5dc3e249985c5): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 75e74ddf833efc0488524683932b8cf7 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
+Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: '76295d66836169533c3479734bb237f7') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=823b00cae533c299c8c95c76d611c8ef DependenciesID=2470a2d08564751a55d45a4ea5d2c19a StaticDependenciesID=f9570789e4d4b29f97fd30ee2654628c 
+Asset Pipeline Refresh (id=0450f2b1a7c17044fa3f6ef5eaf681b9): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b0addaf4a8c54e54fa8f9c086b740c56 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b0addaf4a8c54e54fa8f9c086b740c56' -> (Import Result ID: '966c0e993df098fb1782f110555e522c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=159c65472bf45f84377c336f5e65a737 DependenciesID=bee89b154a79b566c0bba567c63e2156 StaticDependenciesID=af415618a366148dff2be9466658563a 
+Asset Pipeline Refresh (id=34794e1d3833bc041bf7455b6f9452a5): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2489dda43e36fb5498eb97c4a46dcd45 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2489dda43e36fb5498eb97c4a46dcd45' -> (Import Result ID: '56cce81b8067c68dcd190a2bd5c1824d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=759e781b2ff76f7fbf0228bef07402d5 DependenciesID=a5f80b9274e7b0b54f996c93f9a1f661 StaticDependenciesID=0d77d785db9342fe282ef0f8b96759d3 
+Asset Pipeline Refresh (id=32821f5672bed924b8d68f8393d5e029): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 161d74dffea33144b8874613f99f5968 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
+Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: 'a29167af1a1f3acb8f8c3ada91722180') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2d4d450c0afad136971449e043c7c4d DependenciesID=8d8d674e407ae1690ccf172ff8ac201e StaticDependenciesID=fa230005ff59bf871ee719f70d846343 
+Asset Pipeline Refresh (id=a993aa867ba0a0442b2c4d5eaf7ba4ee): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 161d74dffea33144b8874613f99f5968 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
+Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: '0d521682179aa5c96b33bd5aca2c045c') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f3ae0ab2d551563844a88742931db45 DependenciesID=7c0f974550434da225054b14414346a6 StaticDependenciesID=727ea4ed22d1efbc68b41c0a30b2f143 
+Asset Pipeline Refresh (id=4228b69bcf05e06469a420929bf1d684): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 67c0ecff23966c24bac01e744e0d4f9f - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: 'e708947bb47f1e5697cb8c52f7ddcf1e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=a4b317141c1a8040644f1d1cf1374e15 DependenciesID=17a073dc5b526ceef22eb7f3d9fccee8 StaticDependenciesID=ba4e3ba0dfaa0100ab716243c2538b54 
+Asset Pipeline Refresh (id=eee19d59275204f4488d441db0d676c7): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0f748f889c8f5d74bacb18587c429db7 - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 0f748f889c8f5d74bacb18587c429db7' -> (Import Result ID: '3a0cbca6a73e3efbc0e1da6b3870b818') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=38459ac20ad01f09e04f72e913d3ece7 DependenciesID=9064e7a3eb542b348a208a89d6d8e883 StaticDependenciesID=9d3aef19d3c35a4898295501686b0c0c 
+Asset Pipeline Refresh (id=e5ad0485b6e1ca749996cf57cf0ecb1b): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 376fae2f8fe0cb343a68d4b76903413d - Path: Assets/Art/FPSArmsHQ/TacticalGlove_Albedo_Bright.png' with importer (TextureImporter)
+Imported 'GUID: 376fae2f8fe0cb343a68d4b76903413d' -> (Import Result ID: '534bd21cb0956285c755244b43ec440b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a421e2a2a41f0e4ab7888939790071b5 DependenciesID=c24f7951ce76961fe4f27a6ebd40c731 StaticDependenciesID=890b248067edde7bfc36bb6bb23ab4e7 
+Asset Pipeline Refresh (id=69a8c2fd8ad55354dbb78215e6611768): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b0addaf4a8c54e54fa8f9c086b740c56 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b0addaf4a8c54e54fa8f9c086b740c56' -> (Import Result ID: '2d92efa360e6f97cf2937098e9f4efe8') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=159c65472bf45f84377c336f5e65a737 DependenciesID=5e32e0f5cd9e4984761527cbe92d452b StaticDependenciesID=b243a1fb5726ef6c9ec0fa9571353027 
+Importing 'GUID: f04abd7f32172654088f811222670d19 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f04abd7f32172654088f811222670d19' -> (Import Result ID: 'c31b4c12a709aee5b37821da7ec09070') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c1bed22ff0e12cdbc9eed1e6ec0d9745 DependenciesID=e9a15c76c3ec31b4664a23b46e94c2aa StaticDependenciesID=3f6feb7c01393a8b98c46129f09246b6 
+Importing 'GUID: 2374eb2822357e442bc89f0087bafebb - Path: Assets/Resources/M9Finishes/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2374eb2822357e442bc89f0087bafebb' -> (Import Result ID: '7209c74613a517c8c0ebd606935f986f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2e98ec9382063d218c8fe0ad8cf88120 DependenciesID=ae24388341f6b728ebe4963442ce23ad StaticDependenciesID=6762333ec0def9522e5ef1e0442e0747 
+Importing 'GUID: 2489dda43e36fb5498eb97c4a46dcd45 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2489dda43e36fb5498eb97c4a46dcd45' -> (Import Result ID: '4d0c1cbffedc12ba61b57579bbd30231') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=759e781b2ff76f7fbf0228bef07402d5 DependenciesID=5c3352f659183d76f27438e131b8e541 StaticDependenciesID=13b1947f1364dcb8f1bd1a3ba464f8c0 
+Importing 'GUID: d49d3920ac597334799593c76763f0a0 - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '3bababe1a92de2ff11f621951c8ba952') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9fdf28ae0b2cb6d407fe3a3da63892cc DependenciesID=1fc323469677761b1929bb2225f61b8d StaticDependenciesID=534b7d65c33b887bcd6e4dc5e5a8fc46 
+Importing 'GUID: 37668c504a18e7c4f9e1828e4bfed257 - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '7055e48edd44208d02551a763f04a2bf') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3b9c967ae236e20adb1bf1466da3a21b DependenciesID=6381255ac5f200854f339bb706980003 StaticDependenciesID=0691c0a7d1f100046a3091830266b8d3 
+Importing 'GUID: 67c0ecff23966c24bac01e744e0d4f9f - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: '1dae4e662a6be199a215278abe7f199c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a4b317141c1a8040644f1d1cf1374e15 DependenciesID=30a185555a0c688a9ac3d374ae950538 StaticDependenciesID=420318ddf6166084461df7bfcd4cb048 
+Importing 'GUID: 1bcab16c1bef93641852d7805ac4a9cd - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 1bcab16c1bef93641852d7805ac4a9cd' -> (Import Result ID: '79cdcd2a016aa1f73b1c439edf7ead2f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9bcd2026e97b6b768341725bd6269793 DependenciesID=56949296fd845a46282ae48642b38d21 StaticDependenciesID=5d09b00b61e6d1c78d49bbc23b9d4fbf 
+Importing 'GUID: 0f748f889c8f5d74bacb18587c429db7 - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 0f748f889c8f5d74bacb18587c429db7' -> (Import Result ID: 'da190271cc18d271f359444a1c8ef793') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=38459ac20ad01f09e04f72e913d3ece7 DependenciesID=90332c16f8fba41e63c06324c17c05b0 StaticDependenciesID=a4bc8aa1d30f9279512af7f4a137332c 
+Importing 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b' -> (Import Result ID: '2882f70239f44534111ccc4134dbf1c0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c293b14a2d40762580b6e9bfbf9c309f DependenciesID=acf357a7c8265aebd3a3ac49250b98e1 StaticDependenciesID=ba388c9221fe8a04a8e94f78171fad8f 
+Importing 'GUID: df394cf5f60d73a4383adbee974b7c1b - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: df394cf5f60d73a4383adbee974b7c1b' -> (Import Result ID: '06594859a21c8d1630d2cc85ee16f77f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=28f0355fb82cc565c8eb271a0afb9814 DependenciesID=dca821d3690becee05cf5e9e9f214b78 StaticDependenciesID=25bb922b41bdeba8c17bd7cc9da4ab62 
+Importing 'GUID: efc319ed5c4fbf74fa7438e79e71a994 - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: '17d86eb5d4bb0ac2999ecdc711f45f0b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c8a380aaa64e53e6c021f88e9adcfb2b DependenciesID=35bdb283f299ced541746688e3ab3333 StaticDependenciesID=3050837dba93ea565db84012ff007cc1 
+Importing 'GUID: 834e2fdd2382cb544a740409c72e8ce2 - Path: Assets/Art/PSXArms/PSX_LeftArm_Clean.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 834e2fdd2382cb544a740409c72e8ce2' -> (Import Result ID: '15d6e8442d1522bb3ef836e4ee11e775') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6176294777d09513f9bf559d362fc5fd DependenciesID=c3eee1d01d0d206268921759ee10119c StaticDependenciesID=b2b3d225410b525ff3d08045d1bf0d5e 
+Importing 'GUID: bd657c5de98c9ef458ecbb99f154459b - Path: Assets/Art/PSXArms/PSX_RightArm_Clean.asset' with importer (NativeFormatImporter)
+Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
+Asset Pipeline Refresh (id=9a6639baf89602a4e97519f9468c814b): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+BHOP_GLOVE_SKINS_PREMIUM_READY count=5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:103)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
+
+(Filename: Assets/Editor/BhopGloveSkinAuthoring.cs Line: 103)
+
+Exception: Right hand preview mesh missing
+  at BhopViewPolish.CaptureGloveSkinPreviews () [0x00629] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:527 
+  at BhopViewPolish.Apply () [0x00024] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:41 
+
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 527)
+
+executeMethod method BhopViewPolish.Apply threw exception.
+Exiting without the bug reporter. Application will terminate with return code 1
+
+===== UNITY_WEBGL.log =====
+ 42.8 kb	 0.4% Assets/Art/Textures/concrete_light.png
+ 42.8 kb	 0.4% Assets/Art/Textures/concrete_dark.png
+ 42.8 kb	 0.4% Assets/Resources/GloveSkins/GloveTex_4.png
+ 42.8 kb	 0.4% Assets/Resources/GloveSkins/GloveTex_3.png
+ 42.8 kb	 0.4% Assets/Resources/GloveSkins/GloveTex_2.png
+ 42.8 kb	 0.4% Assets/Resources/GloveSkins/GloveTex_1.png
+ 42.8 kb	 0.4% Assets/Resources/GloveSkins/GloveTex_0.png
+ 42.8 kb	 0.4% Assets/Art/Textures/water_tile.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlueSteel_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlackSteel_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Spectrum_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Crimson_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Heat_MetallicSmooth.png
+ 21.5 kb	 0.2% Assets/Art/FPSArmsHQ/Glove_Fabric_Normal.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlueSteel_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_BlackSteel_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Spectrum_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Crimson_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FacepunchViewmodel/GeneratedSkins/Facepunch_M9_Heat_Detail.png
+ 10.8 kb	 0.1% Assets/Art/FPSArmsHQ/Glove_Fabric_Albedo.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_TowerStone.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_TowerSteel.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_SubwayTile.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_SubwayIron.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_SiteConcrete.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_LabGraphite.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_LabCeramic.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_SiteSteel.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_RoofIvory.png
+ 2.8 kb	 0.0% Assets/Materials/GeneratedMapThemes/MapTex_CityBrick.png
+ 1.4 kb	 0.0% Assets/Materials/Classic_ConcreteDark.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Water.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Concrete.mat
+ 1.4 kb	 0.0% Assets/Materials/Classic_Trim.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Spectrum.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_BlueSteel.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_BlackSteel.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Heat.mat
+ 1.0 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Crimson.mat
+ 0.9 kb	 0.0% Assets/Resources/M9Finishes/Facepunch_M9_Default.mat
+ 0.9 kb	 0.0% Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Sleeve_4.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Sleeve_3.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Sleeve_2.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Sleeve_1.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Sleeve_0.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Glove_4.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Glove_3.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Glove_2.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Glove_1.mat
+ 0.9 kb	 0.0% Assets/Resources/GloveSkins/Glove_0.mat
+ 0.9 kb	 0.0% Assets/Materials/View_PSXGloves.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_TowerStone.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_TowerSteel.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_TowerLight.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SubwayTile.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SubwayMint.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SubwayIron.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SiteSteel.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SiteSafety.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_SiteConcrete.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_RoofIvory.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_LabViolet.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_LabGraphite.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_LabCeramic.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_CityBrick.mat
+ 0.9 kb	 0.0% Assets/Materials/Map_CityAmber.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Panel.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Accent.mat
+ 0.9 kb	 0.0% Assets/Materials/Classic_Wall.mat
+ 0.1 kb	 0.0% Assets/Scripts/KarambitDiamonddogModel.cs
+ 0.1 kb	 0.0% Assets/Scripts/MobilePlatformBridge.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopRuntimeSelfTest.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopRenderBenchmark.cs
+ 0.1 kb	 0.0% Assets/Scripts/WebPerformance.cs
+ 0.1 kb	 0.0% Assets/Scripts/MobileControls.cs
+ 0.1 kb	 0.0% Assets/Scripts/FinishTrigger.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopSurfSurface.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopStageTrigger.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopMapDirector.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopKnifeLoadout.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopGloveLoadout.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopController.cs
+ 0.1 kb	 0.0% Assets/Scripts/FPSArmPose.cs
+ 0.1 kb	 0.0% Assets/Scripts/BhopMenuUI.cs
+ 0.1 kb	 0.0% Assets/TutorialInfo/Scripts/Readme.cs
+ 0.1 kb	 0.0% Assets/Scripts/RunTimer.cs
+ 0.1 kb	 0.0% Assets/Scripts/FPSArms.cs
+-------------------------------------------------------------------------------
+Total cache size 268243722
+Total cache size after purge 268243722, took 00:00:02.0776782
+Unloading 113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (80.4 KB). Loaded Objects now: 943.
+Memory consumption went from 225.8 MB to 225.7 MB.
+Total: 42.027800 ms (FindLiveObjects: 0.978500 ms CreateObjectMapping: 0.144600 ms MarkObjects: 39.456600 ms  DeleteObjects: 1.444100 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+##utp:{"success":true,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1790752516035,"processId":16316,"steps":[{"description":"Preprocess Player","duration":43},{"description":"Prepare For Build","duration":546},{"description":"ProducePlayerScriptAssemblies","duration":7798},{"description":"Verify Build setup","duration":16},{"description":"Prepare assets for target platform","duration":31},{"description":"Prepare splash screen","duration":0},{"description":"Build scripts DLLs","duration":27},{"description":"Building scenes","duration":247},{"description":"Build GlobalGameManagers file","duration":339},{"description":"Writing asset files","duration":988},{"description":"Building Resources/unity_builtin_extra","duration":370},{"description":"Creating compressed player package","duration":941},{"description":"Write data build dirty tracking information","duration":29},{"description":"Postprocess built player","duration":161862}],"duration":173237}
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            147.605 ms
+	Integration:            248.046 ms
+	Integration of assets:  0.245 ms
+	Thread Wait Time:       -0.213 ms
+	Total Operation Time:   395.684 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 6207.
+Memory consumption went from 223.1 MB to 223.1 MB.
+Total: 8.148200 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.252500 ms MarkObjects: 7.312500 ms  DeleteObjects: 0.082900 ms)
+
+Opening scene 'Assets/Scenes/Bhop_Classic.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
+	Deserialize:            69.227 ms
+	Integration:            9.307 ms
+	Integration of assets:  0.016 ms
+	Thread Wait Time:       0.079 ms
+	Total Operation Time:   78.630 ms
+Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 6207.
+Memory consumption went from 222.6 MB to 222.6 MB.
+Total: 6.424300 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.139400 ms MarkObjects: 5.870400 ms  DeleteObjects: 0.022900 ms)
+
+BHOP_WEBGL_BUILD_OK bytes=12116404
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidationBuild:BuildWebGLSmoke () (at Assets/Editor/BhopValidation.cs:254)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 254)
+
+Batchmode quit successfully invoked - shutting down!
+[websockify wrapper] Kill
+[websockify wrapper] Process killed
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: 'a97e974ea05ba68c8789898495a003d3') in 0.030 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=01be40f397b1113818f43edf8a1bd6fe StaticDependenciesID=26c389c5590eab131eb1e29ef372bcf8 
+
+Asset Pipeline Refresh (id=dbdff336f46821441893fdeeb6ade951): Total: 0.726 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=650 ms
+		Asset DB Callback time: managed=35 ms, native=39 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=58, non-scripts=233
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	Scan: 242.427ms
+	Collect global state as custom dependencies: 51.885ms
+	CategorizeAssets: 0.169ms
+	ImportOutOfDateAssets: 258.428ms (24.851ms without children)
+		ImportManagerImport: 66.088ms (0.462ms without children)
+		UnloadImportedAssets: 0.211ms
+		ImportSchedulerStart: 167.238ms
+	PostProcessAllAssets: 61.158ms
+		XRBuildSystem.XRAssetImported 0.560ms
+		MonoPostProcessAllAssets: 35.157ms
+			AssetPostprocessor.OnPostprocessAllAssets 21.871ms
+			AssetChangedListener.OnPostprocessAllAssets 12.730ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.074ms
+	PostAssetChangesProfiler: 13.491ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.681ms
+	Untracked: 97.136ms
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-User-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+[websockify wrapper] Kill
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
