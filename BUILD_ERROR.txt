@@ -1,22 +1,9 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-10-01 01:12:48
-Source: fe93700
-Error: BhopViewPolish.Apply failed because Unity scripts do not compile. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+Time: 2026-10-01 01:14:24
+Source: dfdaa07
+Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== AUTO_DEPLOY.log =====
-[2026-09-30 22:30:55] Commit 2a9d41a is not published yet. Building...
-[2026-09-30 22:30:55] Building source commit 2a9d41a...
-[2026-09-30 22:30:55] Applying scene/viewmodel changes and running validation...
-[2026-09-30 22:31:08] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 22:31:16] Will retry this commit in 120 seconds.
-[2026-09-30 22:33:27] Commit 2a9d41a is not published yet. Building...
-[2026-09-30 22:33:27] Building source commit 2a9d41a...
-[2026-09-30 22:33:27] Applying scene/viewmodel changes and running validation...
-[2026-09-30 22:34:02] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 22:34:11] Will retry this commit in 120 seconds.
-[2026-09-30 22:36:20] Commit 2a9d41a is not published yet. Building...
-[2026-09-30 22:36:20] Building source commit 2a9d41a...
-[2026-09-30 22:36:21] Applying scene/viewmodel changes and running validation...
 [2026-09-30 22:36:48] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 [2026-09-30 22:36:59] Will retry this commit in 120 seconds.
 [2026-09-30 22:39:08] Commit 2a9d41a is not published yet. Building...
@@ -184,187 +171,200 @@ Error: BhopViewPolish.Apply failed because Unity scripts do not compile. See C:\
 [2026-10-01 01:12:11] Building source commit fe93700...
 [2026-10-01 01:12:11] Applying scene/viewmodel changes and running validation...
 [2026-10-01 01:12:48] Build/publish error: BhopViewPolish.Apply failed because Unity scripts do not compile. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-10-01 01:12:56] Build failed once; automatic retries are paused for this commit to prevent console/Unity spam. A new source commit will retry.
+[2026-10-01 01:14:01] New source commit found: dfdaa07
+[2026-10-01 01:14:02] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20261001-011401
+[2026-10-01 01:14:02] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-10-01 01:14:02] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-10-01 01:14:02] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-10-01 01:14:02] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-10-01 01:14:02] Git command smoke test passed.
+[2026-10-01 01:14:04] Legacy BHOP console launchers removed; current watcher is the only deploy process.
+[2026-10-01 01:14:08] Commit dfdaa07 is not published yet. Building...
+[2026-10-01 01:14:08] Building source commit dfdaa07...
+[2026-10-01 01:14:08] Applying scene/viewmodel changes and running validation...
+[2026-10-01 01:14:23] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_APPLY.log =====
-"Assets/Editor/BhopCompositionAudit.cs"
-"Assets/Editor/BhopExtraMaps.cs"
-"Assets/Editor/BhopFacepunchPositionProbe.cs"
-"Assets/Editor/BhopFacepunchProbe.cs"
-"Assets/Editor/BhopFacepunchViewmodel.cs"
-"Assets/Editor/BhopFinalAudit.cs"
-"Assets/Editor/BhopGlovePolish.cs"
-"Assets/Editor/BhopGloveSkinAuthoring.cs"
-"Assets/Editor/BhopGripAudit.cs"
-"Assets/Editor/BhopGripAxisAudit.cs"
-"Assets/Editor/BhopGripVariants2.cs"
-"Assets/Editor/BhopHandPoseAudit.cs"
-"Assets/Editor/BhopHybridViewmodel.cs"
-"Assets/Editor/BhopLevelPolish.cs"
-"Assets/Editor/BhopM9Geometry.cs"
-"Assets/Editor/BhopMaterialAudit.cs"
-"Assets/Editor/BhopMaterialPolish.cs"
-"Assets/Editor/BhopMaterialReadabilityAudit.cs"
-"Assets/Editor/BhopMechanicsSelfTest.cs"
-"Assets/Editor/BhopMeshDump.cs"
-"Assets/Editor/BhopMobileGripAudit.cs"
-"Assets/Editor/BhopMobileLandscapeAudit.cs"
-"Assets/Editor/BhopMobilePoseAudit.cs"
-"Assets/Editor/BhopMobileViewAudit.cs"
-"Assets/Editor/BhopOptimization.cs"
-"Assets/Editor/BhopPoseAscii.cs"
-"Assets/Editor/BhopPoseCapture.cs"
-"Assets/Editor/BhopPreviewCapture.cs"
-"Assets/Editor/BhopProjectSetup.cs"
-"Assets/Editor/BhopProjectSetupV2.cs"
-"Assets/Editor/BhopReleaseAudit.cs"
-"Assets/Editor/BhopRigAudit.cs"
-"Assets/Editor/BhopSceneStateAudit.cs"
-"Assets/Editor/BhopSophixDump.cs"
-"Assets/Editor/BhopSophixPrefabDump.cs"
-"Assets/Editor/BhopSophixPrefabGeom.cs"
-"Assets/Editor/BhopSophixSubmeshDump.cs"
-"Assets/Editor/BhopSpawnAudit.cs"
-"Assets/Editor/BhopStaticAudit.cs"
-"Assets/Editor/BhopSubmeshAscii.cs"
-"Assets/Editor/BhopTexturePolish.cs"
-"Assets/Editor/BhopValidation.cs"
-"Assets/Editor/BhopViewMaskAudit.cs"
-"Assets/Editor/BhopViewPolish.cs"
-"Assets/Editor/BhopViewScreenAudit.cs"
-"Assets/Editor/BhopViewVariantCapture.cs"
-"Assets/Editor/BuildStripAudit.cs"
-"Assets/Editor/CaptureHQPoses.cs"
-"Assets/Editor/FingerDeltaAudit.cs"
-"Assets/Editor/GripContactAudit.cs"
-"Assets/Editor/GripMetricAudit.cs"
-"Assets/Editor/HQGloveMaskAudit.cs"
-"Assets/Editor/HQGripSearch.cs"
-"Assets/Editor/HQMeshAudit.cs"
-"Assets/Editor/InspectFPArms.cs"
-"Assets/Editor/InspectFPSHandsRifle.cs"
-"Assets/Editor/InspectHQAnim.cs"
-"Assets/Editor/InspectHQArms.cs"
-"Assets/Editor/InspectPoseHand.cs"
-"Assets/Editor/PSXArmsInspect.cs"
-"Assets/Editor/SceneRenderAudit.cs"
-"Assets/Editor/SophixGripInspect.cs"
-"Assets/Editor/SophixSceneAudit.cs"
-"Assets/Editor/SophixSubmeshAudit.cs"
-"Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
--langversion:9.0
-/deterministic
-/optimize+
-/debug:portable
-/nologo
-/RuntimeMetadataVersion:v4.0.30319
-/nowarn:0169
-/nowarn:0649
-/nowarn:0282
-/nowarn:1701
-/nowarn:1702
-/utf8output
-/preferreduilang:en-US
-/additionalfile:"Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
-##### Custom Environment Variables
-DOTNET_HOST_PATH=C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\DotNetSdk\dotnet.exe
-DOTNET_MULTILEVEL_LOOKUP=0
-##### ExitCode
-1
-##### Output
-Assets\Editor\BhopMaterialAudit.cs(16,52): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Asset Pipeline Refresh (id=b690bac22363b3641af8793e7cef0a40): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 439ad3949d87cf44cafe01bd12ed6d7e - Path: Assets/Resources/GloveSkins' with importer (DefaultImporter)
+Imported 'GUID: 439ad3949d87cf44cafe01bd12ed6d7e' -> (Import Result ID: '694c695153a8866d985b06ce75630628') in 0.013 seconds [static dependencies only]. Details - ImportResultOutputID=695c3f824fb5faa245eb22fb88994cf7 DependenciesID=6f8121bf54b25834087786f54748aee1 StaticDependenciesID=cf8ee31e2127c0bcad963300e509e91e 
+Importing 'GUID: 279a6ef01df356a468f65687fb5f1deb - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
+Imported 'GUID: 279a6ef01df356a468f65687fb5f1deb' -> (Import Result ID: '376a72a405f8ff6132bcf8e6cea19db9') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69981f29a57eb3be76d6a7a6dc6d4f1a DependenciesID=a5ade7fc340c4d2ab44efa1bcc1568c9 StaticDependenciesID=ae8bb2e6db25ba4c7b5b04176b8ae57e 
+Asset Pipeline Refresh (id=24e84dfd079c65d468f2d6726b9caf12): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 279a6ef01df356a468f65687fb5f1deb - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
+Imported 'GUID: 279a6ef01df356a468f65687fb5f1deb' -> (Import Result ID: '511b2d08b6b0457f7279b480c75b072b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce54ccb614e8708c2e439dd1604e3ffb DependenciesID=9f12bc85986440458e36cf0aa49c858b StaticDependenciesID=3f678a8e37393a0cf350afd729af9e9a 
+Asset Pipeline Refresh (id=efce56eb7af36c84584c52283830d5d0): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ef5fe498948fb05428f1a64dae11ea6e - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: ef5fe498948fb05428f1a64dae11ea6e' -> (Import Result ID: '69a4b5d7d2aab7f39e5a8a50daf7d242') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=4eea326ab46f78f02807863ad9db82b9 DependenciesID=bb9705e02d7e7d7d106e08b47f56afac StaticDependenciesID=9c0d238553f73c9cb929632ef54ef807 
+Asset Pipeline Refresh (id=db9027029e2abbe42935c195574a4504): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d5fb2e9f3fff8e14cbcc4bf1419975c5 - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d5fb2e9f3fff8e14cbcc4bf1419975c5' -> (Import Result ID: '1eff01bbae55951ded0d014a94ede953') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=bede97a623fc10c99ec793c054d7bc6a DependenciesID=1c3d64c435c643b5152917abd90a429b StaticDependenciesID=9d10f395ded404efbcdf8d9d0652ada4 
+Asset Pipeline Refresh (id=7a10a4d1a50c2a14e80ba1f89ead85cc): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f912e2b7e2bd4f644992c8d81e448b76 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
+Imported 'GUID: f912e2b7e2bd4f644992c8d81e448b76' -> (Import Result ID: 'c6b2df8a0d2e1283c5d44b6dab016fe3') in 0.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b21a8b084f6e018fe00bf24dbe11579 DependenciesID=c3a1ade000b616ac38b2c3c24d526d63 StaticDependenciesID=7067845805ff44929032ff7b6224a576 
 
-Assets\Editor\BhopMaterialAudit.cs(16,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Asset Pipeline Refresh (id=bd30c2d4b014ed84b8668b3287130b07): Total: 0.811 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=808 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=57, non-scripts=208
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	Scan: 26.963ms
+	Collect global state as custom dependencies: 0.549ms
+	OnSourceAssetsModified: 0.073ms
+	CategorizeAssets: 0.261ms
+	ImportOutOfDateAssets: 779.273ms (0.704ms without children)
+		ImportManagerImport: 776.865ms (0.115ms without children)
+		UnloadImportedAssets: 0.311ms
+		ImportSchedulerStart: 1.317ms
+	PostProcessAllAssets: 0.573ms
+		XRBuildSystem.XRAssetImported 0.110ms
+		MonoPostProcessAllAssets: 0.324ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.066ms
+	PostAssetChangesProfiler: 0.965ms
+	PersistCurrentRevisions: 0.057ms
+	Untracked: 1.779ms
 
-Assets\Editor\BhopMeshDump.cs(8,15): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Importing 'GUID: f912e2b7e2bd4f644992c8d81e448b76 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
+Imported 'GUID: f912e2b7e2bd4f644992c8d81e448b76' -> (Import Result ID: 'a2a24dc2fcb33364b8908e4bc560c6d0') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a663a8548ca7eaedc3bcf4589e8e5c2 DependenciesID=bcfd2d73621356e4901c53f59eb1545b StaticDependenciesID=bc94ce769a74acfc5955989e37400816 
+Asset Pipeline Refresh (id=11cfb7c10df2411439385a49b0db8f5b): Total: 0.094 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 06a180bade82bcc488dc63c0fbccc47e - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 06a180bade82bcc488dc63c0fbccc47e' -> (Import Result ID: 'b43849e4ec14f3b29dc1f98b7940b0c0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=13c680a05ae5b95d869e134ad80d4870 DependenciesID=148e4c657574586ab3c72e3140710601 StaticDependenciesID=1c558a91136373bb95a566377710456f 
+Asset Pipeline Refresh (id=7d69db0e1835223449817b8644c70b58): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 393c1e9a67090634aacf712703d4e1f4 - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 393c1e9a67090634aacf712703d4e1f4' -> (Import Result ID: 'e0bfe778f1973d6446b48d0eef383131') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3aa1bf7a5cbd889cd2ac4c4c42e00f9e DependenciesID=1e0c109094caa2955a7cc895ad7b71bb StaticDependenciesID=5b5abd8f359b13a2f13bab7120642548 
+Asset Pipeline Refresh (id=7743d5696aac2dc469dcc4e9ade5773a): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6ad46166501bc404694f966a4b572bcb - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
+Imported 'GUID: 6ad46166501bc404694f966a4b572bcb' -> (Import Result ID: 'e658740e94e7c7fdba14ebb5c0f823f2') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ec04bc29cea180e182c7b348d725073 DependenciesID=c208f410dc8ff406abc558fdcd4a9a91 StaticDependenciesID=3d80d43c18126bd480fa096834be48fe 
+Asset Pipeline Refresh (id=5dac22efb167fc94980c90db91e320ca): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 6ad46166501bc404694f966a4b572bcb - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
+Imported 'GUID: 6ad46166501bc404694f966a4b572bcb' -> (Import Result ID: 'ebb93ffe6edeb4781ca09e73cb6ca9d7') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db1977d20a72e81ccccd41c2e34aea09 DependenciesID=7e49eedc775722454b501fdb07aff0c4 StaticDependenciesID=a42e0725e377bb57989c3a4132077eb7 
+Asset Pipeline Refresh (id=6f3bee90ae4d73544a14093c1d3e03bd): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 80b38806ff3c9ec409c4b33da48883ba - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 80b38806ff3c9ec409c4b33da48883ba' -> (Import Result ID: '458e310fc5487c565986a940ec0975c6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=cdecb757b7f6cdbeb9c5cbf68783d510 DependenciesID=95713ad23a85f8baebc739843e887455 StaticDependenciesID=115075511bd00af334357f94bf24ec7b 
+Asset Pipeline Refresh (id=269c10b8361d11047b614c50e33be725): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b39599e337a1e774b9632847ad332c54 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b39599e337a1e774b9632847ad332c54' -> (Import Result ID: '7db9f0c910200302089acba1fd27c9dc') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f37278c764713f714f304ef37225a6d1 DependenciesID=e49c1c72f6a74c7f3a93ee295a49b2f8 StaticDependenciesID=d9e2a532a2216949d969d865fa80ef32 
+Asset Pipeline Refresh (id=e54b28609cf3dff428af34e2787ef772): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Worker ready: AssetImportWorkerHW0 0
+Importing 'GUID: 8a6ae393c286415428d5846b32b75c68 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
+Imported 'GUID: 8a6ae393c286415428d5846b32b75c68' -> (Import Result ID: '3db84f2d972f42a9a7923d4b5d00a46c') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=482a8b05f0268607e981332af60d3bf7 DependenciesID=c0987bbda281c134c5852a2a9b45b554 StaticDependenciesID=b8d6744bbddc6b1b1e0d7b078208bfc3 
+Asset Pipeline Refresh (id=3cc56516614800f4fb04d3f98644e556): Total: 0.042 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 8a6ae393c286415428d5846b32b75c68 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
+Imported 'GUID: 8a6ae393c286415428d5846b32b75c68' -> (Import Result ID: '8e43f16b88c966263b8214b5ccc554b8') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b58a31e2a06d5dffc944e04c0b1a451f DependenciesID=86e62ce0e03d5fa16e247b2e1ac922ef StaticDependenciesID=6367680e28033f15b98062dddd0be7ed 
+Asset Pipeline Refresh (id=9fa1114a565200646b816ca5f25f9dec): Total: 0.038 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a1246636968cae4469a60ce618fd4187 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a1246636968cae4469a60ce618fd4187' -> (Import Result ID: 'ba953753c6c9965dc143adbcc8c3ac20') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c0e8b0346ce78eb3cd7b7a7bdbbe87ed DependenciesID=b972d36c65798a0a45408ecf6906ac8b StaticDependenciesID=239189b1c7a5d4f10781cb730463176e 
+Asset Pipeline Refresh (id=159131ff21423ef48b4f51f61c3873e1): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c8402e99449ba6f41b9d775f202032a4 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: c8402e99449ba6f41b9d775f202032a4' -> (Import Result ID: 'c3190e8df83dc5dbad801cfa26a71851') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=56511f207477475f09693b9420f3c7ab DependenciesID=20dc184fb257c4c2fbbd74b769887da6 StaticDependenciesID=5cf7453b24a6f63d80cfbf21dd5d06fa 
+Asset Pipeline Refresh (id=ffcf9259dc6d2044c85a4ce510a28911): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 979d2c5f09af007418d4e691f8b053d2 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
+Imported 'GUID: 979d2c5f09af007418d4e691f8b053d2' -> (Import Result ID: 'b9d23e708d0c8bf71b5fc9ce7a7ad4d7') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0972b8899354209b09ee79cbc4c21f1a DependenciesID=a4a0c99b07ced170732fe251c022e739 StaticDependenciesID=ed17eea366e370e0b1e2cb920d60562a 
+Asset Pipeline Refresh (id=89638228dc49efe48a08f38ec2502258): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 979d2c5f09af007418d4e691f8b053d2 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
+Imported 'GUID: 979d2c5f09af007418d4e691f8b053d2' -> (Import Result ID: '742b17e5052cb70eda9eed5fb9f74979') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d0bac4253cef6aebb80adfa5c7e3494 DependenciesID=c212a9913ede30ba0ffb82db8e86b5e5 StaticDependenciesID=8c800aabe13b1dc180a35eb7c3050108 
+Asset Pipeline Refresh (id=fb44a23fefa60a84f9a497ca4306ac70): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 87141b25912b85846a0d4b444a0d48f7 - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 87141b25912b85846a0d4b444a0d48f7' -> (Import Result ID: '287456c41296ee5ff59ebc5256459c61') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3c2e523496c8173b89bc5df607b78dfd DependenciesID=72a349de412ba198e1ef3c6320418106 StaticDependenciesID=169b84666e8288085e0caca54bd4ab97 
+Asset Pipeline Refresh (id=a5affabfeed14584db8b49d636a12ff8): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5f5171fac7f69504e955e32671ae66bc - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 5f5171fac7f69504e955e32671ae66bc' -> (Import Result ID: 'caeae7cbfa49a05488b49e1c5ff063cb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d6b3ac37881c6c2d4191c92e00bbf80f DependenciesID=0099e91527ed9f4c56e3640422350f91 StaticDependenciesID=42ba7943bab7a2f8e5139d3c2bbcab30 
+Asset Pipeline Refresh (id=945f98691e7a747488d0d511d1b77a0e): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 80b38806ff3c9ec409c4b33da48883ba - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
+Main Object Name 'Glove_Oxblood' does not match filename 'Glove_2'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:87)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
-Assets\Editor\BhopReleaseAudit.cs(12,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+[Assets/Editor/BhopGloveSkinAuthoring.cs line 87]
 
-Assets\Editor\BhopReleaseAudit.cs(12,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Imported 'GUID: 80b38806ff3c9ec409c4b33da48883ba' -> (Import Result ID: 'e6b7da44a4b0abf5c09265be84f63c88') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=942444b8b8d1a274b04df2d974bbc4f2 DependenciesID=f83b0714e01faf77770dd4a80184efff StaticDependenciesID=6fd1072dab414dfc6c208c1a66dc519d 
+Importing 'GUID: a1246636968cae4469a60ce618fd4187 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
+Main Object Name 'Glove_MidnightCobalt' does not match filename 'Glove_3'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:87)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
-Assets\Editor\BhopReleaseAudit.cs(13,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+[Assets/Editor/BhopGloveSkinAuthoring.cs line 87]
 
-Assets\Editor\BhopReleaseAudit.cs(13,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Imported 'GUID: a1246636968cae4469a60ce618fd4187' -> (Import Result ID: '844e6cf0447c0ee2449ac07365bd5b79') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=902d1daa25cc29cc76811f8e1b7b9b28 DependenciesID=d65b21594f3038480ebff922ebad63a2 StaticDependenciesID=6d2ffabee6098a30296899ba89922df1 
+Importing 'GUID: 2374eb2822357e442bc89f0087bafebb - Path: Assets/Resources/M9Finishes/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2374eb2822357e442bc89f0087bafebb' -> (Import Result ID: '7209c74613a517c8c0ebd606935f986f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2e98ec9382063d218c8fe0ad8cf88120 DependenciesID=ae24388341f6b728ebe4963442ce23ad StaticDependenciesID=6762333ec0def9522e5ef1e0442e0747 
+Importing 'GUID: b39599e337a1e774b9632847ad332c54 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b39599e337a1e774b9632847ad332c54' -> (Import Result ID: '103711d74cc11cbbddf07614fb2608d0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=f37278c764713f714f304ef37225a6d1 DependenciesID=f79ac2c0f9937e78b21cfb5e1675d7df StaticDependenciesID=b34a048971f794e12cac3cc7be37e139 
+Importing 'GUID: d5fb2e9f3fff8e14cbcc4bf1419975c5 - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d5fb2e9f3fff8e14cbcc4bf1419975c5' -> (Import Result ID: '8172f1d5e0b8bc9145bffc892e10c017') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=bede97a623fc10c99ec793c054d7bc6a DependenciesID=df95662b70ab49717d02d99c9c9e7087 StaticDependenciesID=1d93d1e1cd46ccebd97bc43d5ee3e9a6 
+Importing 'GUID: 06a180bade82bcc488dc63c0fbccc47e - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
+Main Object Name 'Glove_ArcticLeather' does not match filename 'Glove_1'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:87)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
-Assets\Editor\BhopReleaseAudit.cs(14,67): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+[Assets/Editor/BhopGloveSkinAuthoring.cs line 87]
 
-Assets\Editor\BhopReleaseAudit.cs(14,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Imported 'GUID: 06a180bade82bcc488dc63c0fbccc47e' -> (Import Result ID: '5f1910e0cdd8a66451fd6504e8cd3112') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3d39d209d54ed192bbdfa7eaba6b7e4b DependenciesID=e6f7dc16d0dfc2f53682a7b7fcba8ef1 StaticDependenciesID=0cbdf9bd6b0abdb3bc982f43391ba942 
+Importing 'GUID: 87141b25912b85846a0d4b444a0d48f7 - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
+Main Object Name 'Glove_RoyalSuede' does not match filename 'Glove_4'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:87)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
-Assets\Editor\BhopStaticAudit.cs(42,92): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+[Assets/Editor/BhopGloveSkinAuthoring.cs line 87]
 
-Assets\Editor\BhopStaticAudit.cs(42,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Imported 'GUID: 87141b25912b85846a0d4b444a0d48f7' -> (Import Result ID: '8d94f88ff11b8127e5b68efa037dc856') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=609fa5cc5f443b2e4fd26f56773cecb0 DependenciesID=2684c3940a2aea45fd0ebedc9a84cfa6 StaticDependenciesID=f0830c9fe708557ddc548057d4a5aeaf 
+Importing 'GUID: c8402e99449ba6f41b9d775f202032a4 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
+Imported 'GUID: c8402e99449ba6f41b9d775f202032a4' -> (Import Result ID: '7589e0fc2a4993eeece0b6cfa1451321') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=56511f207477475f09693b9420f3c7ab DependenciesID=9e5d70af377c84c46c29f0074f45dc15 StaticDependenciesID=320f469d7447fbb9b487e6cfd95682ac 
+Importing 'GUID: 393c1e9a67090634aacf712703d4e1f4 - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 393c1e9a67090634aacf712703d4e1f4' -> (Import Result ID: '1bc1925fd3842f0a72e3d37d3db4413e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3aa1bf7a5cbd889cd2ac4c4c42e00f9e DependenciesID=ab34278da4f3c3001510bfa84bac4271 StaticDependenciesID=045b48fbd5b92f83ba5cdf6ae4adc0ca 
+Importing 'GUID: 1bcab16c1bef93641852d7805ac4a9cd - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 1bcab16c1bef93641852d7805ac4a9cd' -> (Import Result ID: '79cdcd2a016aa1f73b1c439edf7ead2f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9bcd2026e97b6b768341725bd6269793 DependenciesID=56949296fd845a46282ae48642b38d21 StaticDependenciesID=5d09b00b61e6d1c78d49bbc23b9d4fbf 
+Importing 'GUID: 5f5171fac7f69504e955e32671ae66bc - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 5f5171fac7f69504e955e32671ae66bc' -> (Import Result ID: '68acbac79cbd9a3059d9533dec9062a2') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d6b3ac37881c6c2d4191c92e00bbf80f DependenciesID=575ff33b7efe6ba2d3cd827ba16b72dc StaticDependenciesID=1acca25959f2753bc9797d89fe14b905 
+Importing 'GUID: ef5fe498948fb05428f1a64dae11ea6e - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
+Main Object Name 'Glove_BlackLeather' does not match filename 'Glove_0'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:87)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
-Assets\Editor\BhopStaticAudit.cs(44,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+[Assets/Editor/BhopGloveSkinAuthoring.cs line 87]
 
-Assets\Editor\BhopStaticAudit.cs(44,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Imported 'GUID: ef5fe498948fb05428f1a64dae11ea6e' -> (Import Result ID: 'd62655e61f753b22fd5658f7954bf814') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0cbf243624e9543431f5ebe11c693cc3 DependenciesID=d27618aab14a0e65c15a920a2c49105c StaticDependenciesID=5353b572607efb54ff5de06e6a32411e 
+Importing 'GUID: 834e2fdd2382cb544a740409c72e8ce2 - Path: Assets/Art/PSXArms/PSX_LeftArm_Clean.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 834e2fdd2382cb544a740409c72e8ce2' -> (Import Result ID: '15d6e8442d1522bb3ef836e4ee11e775') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6176294777d09513f9bf559d362fc5fd DependenciesID=c3eee1d01d0d206268921759ee10119c StaticDependenciesID=b2b3d225410b525ff3d08045d1bf0d5e 
+Importing 'GUID: bd657c5de98c9ef458ecbb99f154459b - Path: Assets/Art/PSXArms/PSX_RightArm_Clean.asset' with importer (NativeFormatImporter)
+Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
+Asset Pipeline Refresh (id=ff2e7b6300786364c9c51fdac52b33e4): Total: 0.067 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=75ac5cfcbb56d924f80b19623f2c89b5): Total: 0.007 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+BHOP_GLOVE_SKINS_AUTHORED count=5 source=PSX detailPreserved=true
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:89)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
-Assets\Editor\BhopValidation.cs(22,33): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+(Filename: Assets/Editor/BhopGloveSkinAuthoring.cs Line: 89)
 
-Assets\Editor\BhopValidation.cs(26,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Exception: Glove preview coverage too low id=0 samples=174
+  at BhopViewPolish.CaptureGloveSkinPreviews () [0x00615] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:518 
+  at BhopViewPolish.Apply () [0x00024] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:41 
 
-Assets\Editor\BhopValidation.cs(59,101): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 518)
 
-Assets\Editor\BhopValidation.cs(59,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-
-Assets\Editor\BhopViewPolish.cs(454,9): error CS0103: The name 'SetupRenderer' does not exist in the current context
-
-Assets\Editor\BhopViewPolish.cs(457,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-
-Assets\Editor\BhopViewPolish.cs(457,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-*** Tundra build failed (1.61 seconds), 10 items updated, 169 evaluated
-## Script Compilation Error for: Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
-## CmdLine: "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp" "@Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp2"
-## Output:
-Assets\Editor\BhopMaterialAudit.cs(16,52): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopMaterialAudit.cs(16,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopMeshDump.cs(8,15): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
-Assets\Editor\BhopReleaseAudit.cs(12,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopReleaseAudit.cs(12,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopReleaseAudit.cs(13,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopReleaseAudit.cs(13,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopReleaseAudit.cs(14,67): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopReleaseAudit.cs(14,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopStaticAudit.cs(42,92): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopStaticAudit.cs(42,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopStaticAudit.cs(44,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopStaticAudit.cs(44,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopValidation.cs(22,33): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
-Assets\Editor\BhopValidation.cs(26,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
-Assets\Editor\BhopValidation.cs(59,101): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopValidation.cs(59,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopViewPolish.cs(454,9): error CS0103: The name 'SetupRenderer' does not exist in the current context
-Assets\Editor\BhopViewPolish.cs(457,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopViewPolish.cs(457,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-
-Assets\Scripts\WebPerformance.cs(27,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Scripts\WebPerformance.cs(27,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Scripts\BhopGloveLoadout.cs(79,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Scripts\BhopGloveLoadout.cs(79,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Scripts\BhopGloveLoadout.cs(79,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Scripts\BhopGloveLoadout.cs(79,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Scripts\WebPerformance.cs(27,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Scripts\WebPerformance.cs(27,30): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopMaterialAudit.cs(16,52): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopMaterialAudit.cs(16,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopMeshDump.cs(8,15): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
-Assets\Editor\BhopReleaseAudit.cs(12,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopReleaseAudit.cs(12,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopReleaseAudit.cs(13,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopReleaseAudit.cs(13,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopReleaseAudit.cs(14,67): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopReleaseAudit.cs(14,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopStaticAudit.cs(42,92): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopStaticAudit.cs(42,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopStaticAudit.cs(44,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopStaticAudit.cs(44,21): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopValidation.cs(22,33): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
-Assets\Editor\BhopValidation.cs(26,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
-Assets\Editor\BhopValidation.cs(59,101): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopValidation.cs(59,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-Assets\Editor\BhopViewPolish.cs(454,9): error CS0103: The name 'SetupRenderer' does not exist in the current context
-Assets\Editor\BhopViewPolish.cs(457,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
-Assets\Editor\BhopViewPolish.cs(457,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
-AssetDatabase: script compilation time: 28.151413s
-Scripts have compiler errors.
+executeMethod method BhopViewPolish.Apply threw exception.
 Exiting without the bug reporter. Application will terminate with return code 1
 
 ===== UNITY_WEBGL.log =====
