@@ -1,164 +1,9 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-30 10:29:13
-Source: eff7c24
+Time: 2026-09-30 18:51:07
+Source: 6c524f9
 Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== AUTO_DEPLOY.log =====
-[2026-09-30 01:04:30] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:04:55] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 01:05:04] Will retry this commit in 120 seconds.
-[2026-09-30 01:05:29] New source commit found: b9af6d7
-[2026-09-30 01:05:31] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-010530
-[2026-09-30 01:05:31] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:05:32] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:05:37] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:05:37] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:05:37] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:05:37] Git command smoke test passed.
-[2026-09-30 01:05:42] Commit b9af6d7 is not published yet. Building...
-[2026-09-30 01:05:42] Building source commit b9af6d7...
-[2026-09-30 01:05:42] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:06:07] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 01:06:16] Will retry this commit in 120 seconds.
-[2026-09-30 01:07:05] New source commit found: a513c9a
-[2026-09-30 01:07:07] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-010706
-[2026-09-30 01:07:07] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:07:08] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:07:13] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:07:13] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:07:13] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:07:13] Git command smoke test passed.
-[2026-09-30 01:07:17] Commit a513c9a is not published yet. Building...
-[2026-09-30 01:07:17] Building source commit a513c9a...
-[2026-09-30 01:07:17] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:07:42] Building WebGL...
-[2026-09-30 01:11:15] WebGL build ready. bytes=13874066
-[2026-09-30 01:11:15] Publishing to GitHub Pages...
-[2026-09-30 01:11:30] GitHub Pages push complete.
-[2026-09-30 01:11:30] READY: https://drywon.github.io/bhop-webgl/  commit=a513c9a
-[2026-09-30 01:29:39] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:29:39] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:29:39] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:29:39] Git command smoke test passed.
-[2026-09-30 01:31:38] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:31:38] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:31:38] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:31:38] Git command smoke test passed.
-[2026-09-30 01:33:21] New source commit found: 4c4fff5
-[2026-09-30 01:33:22] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-013321
-[2026-09-30 01:33:22] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:33:24] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:33:29] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:33:29] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:33:29] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:33:29] Git command smoke test passed.
-[2026-09-30 01:33:33] Commit 4c4fff5 is not published yet. Building...
-[2026-09-30 01:33:33] Building source commit 4c4fff5...
-[2026-09-30 01:33:33] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:34:05] Building WebGL...
-[2026-09-30 01:37:40] WebGL build ready. bytes=13874164
-[2026-09-30 01:37:40] Publishing to GitHub Pages...
-[2026-09-30 01:38:11] GitHub Pages push complete.
-[2026-09-30 01:38:12] READY: https://drywon.github.io/bhop-webgl/  commit=4c4fff5
-[2026-09-30 01:38:36] New source commit found: 87dff2d
-[2026-09-30 01:38:37] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-013837
-[2026-09-30 01:38:37] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:38:39] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:38:39] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:38:39] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:38:39] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:38:39] Git command smoke test passed.
-[2026-09-30 01:38:43] Commit 87dff2d is not published yet. Building...
-[2026-09-30 01:38:43] Building source commit 87dff2d...
-[2026-09-30 01:38:44] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:39:09] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 01:39:17] Will retry this commit in 120 seconds.
-[2026-09-30 01:40:29] New source commit found: c0b18f0
-[2026-09-30 01:40:31] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-014030
-[2026-09-30 01:40:31] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:40:33] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:40:33] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:40:33] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:40:33] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:40:33] Git command smoke test passed.
-[2026-09-30 01:40:37] Commit c0b18f0 is not published yet. Building...
-[2026-09-30 01:40:37] Building source commit c0b18f0...
-[2026-09-30 01:40:37] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:40:59] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 01:41:07] Will retry this commit in 120 seconds.
-[2026-09-30 01:43:08] New source commit found: 859cdda
-[2026-09-30 01:43:09] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-014309
-[2026-09-30 01:43:10] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:43:11] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:43:11] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:43:11] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:43:11] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:43:11] Git command smoke test passed.
-[2026-09-30 01:43:16] Commit 859cdda is not published yet. Building...
-[2026-09-30 01:43:16] Building source commit 859cdda...
-[2026-09-30 01:43:16] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:43:38] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 01:43:47] Will retry this commit in 120 seconds.
-[2026-09-30 01:45:23] New source commit found: 7eb45e6
-[2026-09-30 01:45:24] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-014524
-[2026-09-30 01:45:25] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:45:26] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:45:26] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:45:26] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:45:26] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:45:26] Git command smoke test passed.
-[2026-09-30 01:45:30] Commit 7eb45e6 is not published yet. Building...
-[2026-09-30 01:45:30] Building source commit 7eb45e6...
-[2026-09-30 01:45:31] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:45:59] Building WebGL...
-[2026-09-30 01:49:11] WebGL build ready. bytes=13704377
-[2026-09-30 01:49:11] Publishing to GitHub Pages...
-[2026-09-30 01:49:27] GitHub Pages push complete.
-[2026-09-30 01:49:27] READY: https://drywon.github.io/bhop-webgl/  commit=7eb45e6
-[2026-09-30 01:55:05] New source commit found: 50a244d
-[2026-09-30 01:55:06] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-015505
-[2026-09-30 01:55:06] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:55:07] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:55:08] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:55:08] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:55:08] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:55:08] Git command smoke test passed.
-[2026-09-30 01:55:12] Commit 50a244d is not published yet. Building...
-[2026-09-30 01:55:12] Building source commit 50a244d...
-[2026-09-30 01:55:12] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:55:48] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 01:55:56] Will retry this commit in 120 seconds.
-[2026-09-30 01:57:32] New source commit found: 1a85032
-[2026-09-30 01:57:34] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-015733
-[2026-09-30 01:57:34] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 01:57:35] Persistent auto-deploy bootstrap refreshed.
-[2026-09-30 01:57:36] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 01:57:36] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 01:57:36] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 01:57:36] Git command smoke test passed.
-[2026-09-30 01:57:40] Commit 1a85032 is not published yet. Building...
-[2026-09-30 01:57:40] Building source commit 1a85032...
-[2026-09-30 01:57:40] Applying scene/viewmodel changes and running validation...
-[2026-09-30 01:57:59] Building WebGL...
-[2026-09-30 02:01:11] WebGL build ready. bytes=14201461
-[2026-09-30 02:01:11] Publishing to GitHub Pages...
-[2026-09-30 02:01:25] GitHub Pages push complete.
-[2026-09-30 02:01:26] READY: https://drywon.github.io/bhop-webgl/  commit=1a85032
-[2026-09-30 02:31:49] Watcher error: git fetch origin main --quiet failed: error: RPC failed; curl 52 Empty reply from server fatal: expected flush after ref listing
-[2026-09-30 10:11:21] New source commit found: f3de893
-[2026-09-30 10:11:22] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-101122
-[2026-09-30 10:11:22] Source project updated automatically from GitHub. Restarting watcher with new scripts...
-[2026-09-30 10:11:37] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 10:11:37] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 10:11:37] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 10:11:37] Git command smoke test passed.
-[2026-09-30 10:11:41] Commit f3de893 is not published yet. Building...
-[2026-09-30 10:11:41] Building source commit f3de893...
-[2026-09-30 10:11:41] Applying scene/viewmodel changes and running validation...
-[2026-09-30 10:12:13] Building WebGL...
-[2026-09-30 10:15:23] WebGL build ready. bytes=14201297
-[2026-09-30 10:15:23] Publishing to GitHub Pages...
-[2026-09-30 10:15:36] GitHub Pages push complete.
 [2026-09-30 10:15:36] READY: https://drywon.github.io/bhop-webgl/  commit=f3de893
 [2026-09-30 10:16:26] New source commit found: 0586b87
 [2026-09-30 10:16:27] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-101627
@@ -184,12 +29,275 @@ Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents
 [2026-09-30 10:29:00] Building source commit eff7c24...
 [2026-09-30 10:29:00] Applying scene/viewmodel changes and running validation...
 [2026-09-30 10:29:13] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 10:29:21] Will retry this commit in 120 seconds.
+[2026-09-30 10:31:00] New source commit found: 6c524f9
+[2026-09-30 10:31:01] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-103101
+[2026-09-30 10:31:01] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 10:31:03] Persistent auto-deploy bootstrap refreshed.
+[2026-09-30 10:31:03] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 10:31:03] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 10:31:03] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 10:31:03] Git command smoke test passed.
+[2026-09-30 10:31:08] Commit 6c524f9 is not published yet. Building...
+[2026-09-30 10:31:08] Building source commit 6c524f9...
+[2026-09-30 10:31:08] Applying scene/viewmodel changes and running validation...
+[2026-09-30 12:11:31] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 12:11:31] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 12:11:31] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 12:11:32] Git command smoke test passed.
+[2026-09-30 12:11:32] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:12:17] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:13:03] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:13:48] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:14:33] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:15:18] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:16:03] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:16:49] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:17:34] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:18:19] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:19:04] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:19:49] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:20:34] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:21:19] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:22:04] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:22:50] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:23:35] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:24:20] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:25:05] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:25:50] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:26:35] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:27:20] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:28:05] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:28:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:29:36] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:30:21] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:31:06] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:31:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:32:36] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:33:21] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:34:06] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:34:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:35:37] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:36:22] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:37:07] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 12:37:52] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:32:56] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 13:32:56] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 13:32:56] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 13:32:56] Git command smoke test passed.
+[2026-09-30 13:32:57] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:33:42] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:34:28] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:35:13] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:35:58] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:36:43] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:37:28] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:38:13] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:38:58] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:39:43] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:40:29] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:41:14] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:41:59] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:42:44] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:43:29] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:44:14] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:44:59] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:45:44] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:46:30] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:47:15] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:48:00] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:48:45] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:49:30] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:50:15] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:51:00] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:51:45] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:52:30] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:53:15] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:54:01] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:54:46] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:55:31] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:56:16] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:57:01] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:57:46] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:58:31] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 13:59:16] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:00:01] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:00:47] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:01:32] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:02:17] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:03:02] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:03:47] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:04:32] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:05:17] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:06:02] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:06:47] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:07:33] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:08:18] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:09:03] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:09:48] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:10:33] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:11:18] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:12:03] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:12:48] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:13:34] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:14:19] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:15:04] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:15:49] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:16:34] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:17:19] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:18:04] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:18:49] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:19:35] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:20:20] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:21:05] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:21:50] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:22:35] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:23:20] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:24:05] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:24:50] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:25:36] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:26:21] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:27:06] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:27:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:28:36] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:29:21] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:30:06] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:30:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:31:36] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:32:22] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:33:07] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:46:03] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 14:46:03] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 14:46:03] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 14:46:04] Git command smoke test passed.
+[2026-09-30 14:46:05] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:46:50] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:47:36] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:48:21] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:49:06] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 14:49:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
+[2026-09-30 18:50:32] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 18:50:32] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 18:50:32] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 18:50:32] Git command smoke test passed.
+[2026-09-30 18:50:34] Commit 6c524f9 is not published yet. Building...
+[2026-09-30 18:50:34] Building source commit 6c524f9...
+[2026-09-30 18:50:35] Applying scene/viewmodel changes and running validation...
+[2026-09-30 18:51:07] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_APPLY.log =====
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+Opening scene 'Assets/Scenes/Bhop_Classic.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
+	Deserialize:            59.599 ms
+	Integration:            10.334 ms
+	Integration of assets:  0.037 ms
+	Thread Wait Time:       0.051 ms
+	Total Operation Time:   70.021 ms
+Unloading 291 unused Assets / (117.9 KB). Loaded Objects now: 6367.
+Memory consumption went from 222.7 MB to 222.6 MB.
+Total: 5.867600 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.082200 ms MarkObjects: 5.033100 ms  DeleteObjects: 0.357900 ms)
 
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 369)
+MAP_Vertical ROUTE_QA_OK pieces=48 worstGap=4,24m avgGap=2,81m worstRise=0,58m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidation:ValidateGeneratedRoute (UnityEngine.GameObject) (at Assets/Editor/BhopValidation.cs:128)
+BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:64)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:65)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 128)
+
+MAP_Skyline ROUTE_QA_OK pieces=48 worstGap=3,71m avgGap=2,30m worstRise=0,92m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidation:ValidateGeneratedRoute (UnityEngine.GameObject) (at Assets/Editor/BhopValidation.cs:128)
+BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:64)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:65)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 128)
+
+MAP_Underground ROUTE_QA_OK pieces=46 worstGap=3,69m avgGap=3,21m worstRise=1,20m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidation:ValidateGeneratedRoute (UnityEngine.GameObject) (at Assets/Editor/BhopValidation.cs:128)
+BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:64)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:65)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 128)
+
+MAP_Construction ROUTE_QA_OK pieces=48 worstGap=3,26m avgGap=2,78m worstRise=1,41m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidation:ValidateGeneratedRoute (UnityEngine.GameObject) (at Assets/Editor/BhopValidation.cs:128)
+BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:64)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:65)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 128)
+
+MAP_Facility ROUTE_QA_OK pieces=50 worstGap=3,79m avgGap=3,13m worstRise=0,71m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidation:ValidateGeneratedRoute (UnityEngine.GameObject) (at Assets/Editor/BhopValidation.cs:128)
+BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:64)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:65)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 128)
+
+BHOP_SCENE_VALIDATION_OK
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopValidation:ValidateScene () (at Assets/Editor/BhopValidation.cs:68)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:65)
+
+(Filename: Assets/Editor/BhopValidation.cs Line: 68)
+
+Opening scene 'Assets/Scenes/Bhop_Classic.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
+	Deserialize:            55.237 ms
+	Integration:            8.299 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.046 ms
+	Total Operation Time:   63.590 ms
+Unloading 1 unused Assets / (1.0 KB). Loaded Objects now: 6367.
+Memory consumption went from 217.7 MB to 217.7 MB.
+Total: 4.368800 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.050800 ms MarkObjects: 4.028600 ms  DeleteObjects: 0.020400 ms)
+
+BHOP_MECHANICS_TEST_OK ground=260u apex=1,45m flight=0,75s airGain=1,7u
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BhopMechanicsSelfTest:Run () (at Assets/Editor/BhopMechanicsSelfTest.cs:46)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:66)
+
+(Filename: Assets/Editor/BhopMechanicsSelfTest.cs Line: 46)
 
 KARAMBIT_DIAMONDDOG_READY verts=4315 tris=4992 ring=(0.000, -0.897, -0.064) tip=(0.000, 2.337, 0.763)
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -200,169 +308,61 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
 KarambitDiamonddogModel:BuildWithSkin (int) (at Assets/Scripts/KarambitDiamonddogModel.cs:144)
 KarambitDiamonddogModel:BuildNow () (at Assets/Scripts/KarambitDiamonddogModel.cs:34)
-BhopHybridViewmodel:BuildKarambit (UnityEngine.Transform,UnityEngine.Camera,UnityEngine.SkinnedMeshRenderer,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:146)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:95)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+BhopPresentationAudit:Run () (at Assets/Editor/BhopViewPolish.cs:1643)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:67)
 
 (Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
 
-KARAMBIT_CS_IDLE_OK center=(0.780, 0.269, 0.481) ring=(0.701, 0.273, 0.436) tip=(0.856, 0.279, 0.540) ringError=0,0000 screenSpan=0,156
+Importing 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608 - Path: Assets/Resources/BhopUI/qa_m9_inspect.png' with importer (TextureImporter)
+Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'a4feaed627512b2a41f751c9a6dc1f84') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3424015d36da474f887501d8560f35bd DependenciesID=75c05aab259eb8e77bffef9393734def StaticDependenciesID=8847cdfde227d9ce7f484fa402777f97 
+Asset Pipeline Refresh (id=e06dd9242689961409a386833ab276cb): Total: 0.193 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+BHOP_INSPECT_CURVE_PASS knife=0 portrait=False samples=241
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:BuildKarambit (UnityEngine.Transform,UnityEngine.Camera,UnityEngine.SkinnedMeshRenderer,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:223)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:95)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+BhopPresentationAudit:Run () (at Assets/Editor/BhopViewPolish.cs:1725)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:67)
 
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 223)
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 1725)
 
-PSX_OLD_ARM L tris=500
+Importing 'GUID: cb5a16884a56eb6478a63946cbc7b72d - Path: Assets/Resources/BhopUI/qa_karambit_inspect.png' with importer (TextureImporter)
+Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: 'ce03e71e9d9529e3bcc67cad22ce9c26') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=295e489dba0b4b39df5f7af568e8f9c9 DependenciesID=d81765bbb6b69eb788af0a9b892a0f7e StaticDependenciesID=12dfece1bab4c5d7765983bfea49a196 
+Asset Pipeline Refresh (id=5a843bc0220f38e49834c84fa4cfa6f6): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fd956467b9a972b40a654e5d4d38a217 - Path: Assets/Resources/BhopUI/qa_karambit_inner.png' with importer (TextureImporter)
+Imported 'GUID: fd956467b9a972b40a654e5d4d38a217' -> (Import Result ID: '38dbb04d89b4882acf82dedcb8c483c6') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1225e54ece952e6309f0826644596508 DependenciesID=36d3aff24afaeb24afff49b9ff9a10af StaticDependenciesID=0586d8269f57e3d828efb80ed5d62525 
+Asset Pipeline Refresh (id=c77c8035491af694e9bfc5f28d1a72e7): Total: 0.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+BHOP_INSPECT_CURVE_PASS knife=1 portrait=False samples=241
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:EnsureSideMesh (UnityEngine.SkinnedMeshRenderer,bool) (at Assets/Editor/BhopHybridViewmodel.cs:346)
-BhopHybridViewmodel:BuildCleanSide (UnityEngine.GameObject,UnityEngine.Material,bool,UnityEngine.Transform,string) (at Assets/Editor/BhopHybridViewmodel.cs:277)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:98)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+BhopPresentationAudit:Run () (at Assets/Editor/BhopViewPolish.cs:1725)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:67)
 
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 346)
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 1725)
 
-PSX_ROLLBACK_OK R=(0.828, 0.068, 0.355) L=(0.170, 0.120, 0.279) knife=(0.650, 0.250, 0.395) palmR=0,080 palmL=0,080
+BHOP_INSPECT_CURVE_PASS knife=0 portrait=True samples=241
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:121)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:626)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
+BhopPresentationAudit:Run () (at Assets/Editor/BhopViewPolish.cs:1725)
+BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:67)
 
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 121)
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 1725)
 
-Importing 'GUID: 376fae2f8fe0cb343a68d4b76903413d - Path: Assets/Art/FPSArmsHQ/TacticalGlove_Albedo_Bright.png' with importer (TextureImporter)
-Imported 'GUID: 376fae2f8fe0cb343a68d4b76903413d' -> (Import Result ID: '28136d9c763670f750150f43bbb2d375') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e76a871be30c41f3be3b9896b5d637d DependenciesID=d2b079f5a3b14466f3d04934d921b00d StaticDependenciesID=9e09103962b374ac2b730a726ee12c09 
-Asset Pipeline Refresh (id=88f77323ff7fb2046afa3ee3bcbcbac8): Total: 0.112 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9 - Path: Assets/Resources/GloveSkins' with importer (DefaultImporter)
-Imported 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9' -> (Import Result ID: '5683b3df91e5416385e0a6de36ab4c16') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=be4ad68dae608027a910aa2c7988abed DependenciesID=711718f3d22291ce4fb5f3fe72fe8a3b StaticDependenciesID=92271e4923a21cfccfa25b1b03de111d 
-Importing 'GUID: ae6fc715ff3f19549b755d9d2db0bb89 - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
-Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: '1b57b89f9f06bca37eb4e71b1114babd') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3683d3d4c2ac6a272f0cd32e2bf5a58a DependenciesID=55c5ce1d4acac48281b3b3b3787c0143 StaticDependenciesID=3c53d5aa54b18050566a67fc5ff38ad8 
-Asset Pipeline Refresh (id=6f227ba8a5bf7c34ea24bda32943cab1): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: ae6fc715ff3f19549b755d9d2db0bb89 - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
-Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: '30984c1d9ff2d72e84167bba43ca995f') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42bbe5ccb33f25902442a09d4af9bdfa DependenciesID=e7538ac6c95dbe05a59e3cafff1603e3 StaticDependenciesID=51c64865be2257c41bbb195f2a8df233 
-Asset Pipeline Refresh (id=a0f562a0a35c35b458e4bdc0a9f0116e): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: efc319ed5c4fbf74fa7438e79e71a994 - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
-Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: '0c3b704a072e13ee166a2580d6e174ea') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c8a380aaa64e53e6c021f88e9adcfb2b DependenciesID=812ce7cf43dcf10693445a3dca160210 StaticDependenciesID=dd73121b2f1a59ccdd3d021b06ff3cfe 
-Asset Pipeline Refresh (id=44dd485edb09da14f99545d623486a44): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
-Imported 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b' -> (Import Result ID: '38049341516e2bdab50a9ccc4b38902b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c293b14a2d40762580b6e9bfbf9c309f DependenciesID=fe40105982316a450d87c8387d383c76 StaticDependenciesID=cec2efaf642b24d7b28ad4900a56c691 
-Asset Pipeline Refresh (id=bbfb0d4eab2a34e449b828fb8ae5f401): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 0974e7bb31a5c054ea22a76386356f62 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
-Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: 'd3ddcf325487d6f89f6110c98b73fe37') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02e6ff368e4a941f384f3e9cab80aad6 DependenciesID=4a4c61a7ac5c41d134d41d853069f085 StaticDependenciesID=6843411be42b09ceb408d9ddfb5b618e 
-Asset Pipeline Refresh (id=491cf54b941be4043a782379936fdfc4): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 0974e7bb31a5c054ea22a76386356f62 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
-Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: 'd94101a9cd85bae96ff37a8deb138db4') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85a61ec8d1c773170c65bc5602dfd28a DependenciesID=2ec6f34c7d6a27f74358648592648739 StaticDependenciesID=7293b1835d2e3615801d8bf508ce95c8 
-Asset Pipeline Refresh (id=9261ad0d534942146a288fb7f6e57d42): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: d49d3920ac597334799593c76763f0a0 - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '004d580b237652c6f607d81af203ca24') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9fdf28ae0b2cb6d407fe3a3da63892cc DependenciesID=81537f36531962ddc1d8b37d7ae9a688 StaticDependenciesID=cd74565a4f6afb6b20df58bfe72b74ad 
-Asset Pipeline Refresh (id=ac494647337a437499708be32cff656c): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: df394cf5f60d73a4383adbee974b7c1b - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: df394cf5f60d73a4383adbee974b7c1b' -> (Import Result ID: '7fd8cf1ddff88d1b2359086522b65153') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=28f0355fb82cc565c8eb271a0afb9814 DependenciesID=2dc5752602011b4d28dd66a4c1fef962 StaticDependenciesID=ef1643aeed8ac01d71f8440db3c6b202 
-Asset Pipeline Refresh (id=ed07572d211d20441bcca2b090ef94c6): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4 - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
-Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '3d7ba3faf3c0522ce247b45f7bbadbde') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab8ff3f226c6a0cd1affa2997452378a DependenciesID=5873d5568a7871394ea3ef620d34e103 StaticDependenciesID=ba141d3fda93088c36abee015a753e25 
-Asset Pipeline Refresh (id=878bad0712680e745aa6dac10a3d6940): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4 - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
-Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '114783dd856d08e3e18cf0663f199ff4') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95a32c248662a5e2dcc12e1379774b69 DependenciesID=3704bc8864eff3e70f82a40e1cd320aa StaticDependenciesID=9c28a121cc438be2b5d61d0d1efc3c1b 
-Asset Pipeline Refresh (id=7db757c2739381049a4b9a1fcd0664a5): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 37668c504a18e7c4f9e1828e4bfed257 - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '6b7fd6ac9a4d4d949b66aafb36cdd4cd') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3b9c967ae236e20adb1bf1466da3a21b DependenciesID=eb50fd1e1d5fccc7e67ac3d46b4219bb StaticDependenciesID=f34947aa248e9c9dd44448ca010acc56 
-Asset Pipeline Refresh (id=cd6d7bce487034246bb1eb71d1298bef): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: f04abd7f32172654088f811222670d19 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
-Imported 'GUID: f04abd7f32172654088f811222670d19' -> (Import Result ID: '9dadd507b774592ed4aea2a7e0777016') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c1bed22ff0e12cdbc9eed1e6ec0d9745 DependenciesID=5a14794d9250e765467392961d9c10d6 StaticDependenciesID=e0598e2ab87c3e2768a8af02dd0ac29c 
-Asset Pipeline Refresh (id=66cfca764d965164592a6ff000f42cfe): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 75e74ddf833efc0488524683932b8cf7 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
-Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: '2dbfa42c4753eb7318ca9b1f8f74ef76') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ebff95cfa9eed3d9d9b19aeca9efecf9 DependenciesID=66e21ae71919d07bb70a2b0c4e3ab41d StaticDependenciesID=d80040e6d3da0b8361bde7ee06a1bd43 
-Asset Pipeline Refresh (id=3aee98c5ab4cbd04f9b31a1b36bc4023): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 75e74ddf833efc0488524683932b8cf7 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
-Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: '76295d66836169533c3479734bb237f7') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=823b00cae533c299c8c95c76d611c8ef DependenciesID=2470a2d08564751a55d45a4ea5d2c19a StaticDependenciesID=f9570789e4d4b29f97fd30ee2654628c 
-Asset Pipeline Refresh (id=7f62b2f161ce7344b9d537e46a7eb734): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: b0addaf4a8c54e54fa8f9c086b740c56 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
-Imported 'GUID: b0addaf4a8c54e54fa8f9c086b740c56' -> (Import Result ID: '966c0e993df098fb1782f110555e522c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=159c65472bf45f84377c336f5e65a737 DependenciesID=bee89b154a79b566c0bba567c63e2156 StaticDependenciesID=af415618a366148dff2be9466658563a 
-Asset Pipeline Refresh (id=91d8c43d0567b4649ae3dd26d7f42c08): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 2489dda43e36fb5498eb97c4a46dcd45 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 2489dda43e36fb5498eb97c4a46dcd45' -> (Import Result ID: '56cce81b8067c68dcd190a2bd5c1824d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=759e781b2ff76f7fbf0228bef07402d5 DependenciesID=a5f80b9274e7b0b54f996c93f9a1f661 StaticDependenciesID=0d77d785db9342fe282ef0f8b96759d3 
-Asset Pipeline Refresh (id=909227ddb509cf84d9ebb5b68640d779): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 161d74dffea33144b8874613f99f5968 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
-Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: 'a29167af1a1f3acb8f8c3ada91722180') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2d4d450c0afad136971449e043c7c4d DependenciesID=8d8d674e407ae1690ccf172ff8ac201e StaticDependenciesID=fa230005ff59bf871ee719f70d846343 
-Asset Pipeline Refresh (id=a6a12c02df015524f8bb6a3575734281): Total: 0.023 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 161d74dffea33144b8874613f99f5968 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
-Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: '0d521682179aa5c96b33bd5aca2c045c') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f3ae0ab2d551563844a88742931db45 DependenciesID=7c0f974550434da225054b14414346a6 StaticDependenciesID=727ea4ed22d1efbc68b41c0a30b2f143 
-Asset Pipeline Refresh (id=779e48a2d027a294990a9e631acad9b8): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 67c0ecff23966c24bac01e744e0d4f9f - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: 'e708947bb47f1e5697cb8c52f7ddcf1e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a4b317141c1a8040644f1d1cf1374e15 DependenciesID=17a073dc5b526ceef22eb7f3d9fccee8 StaticDependenciesID=ba4e3ba0dfaa0100ab716243c2538b54 
-Asset Pipeline Refresh (id=259acb6efd38c914f9b93c8acf1edfae): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 0f748f889c8f5d74bacb18587c429db7 - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 0f748f889c8f5d74bacb18587c429db7' -> (Import Result ID: '3a0cbca6a73e3efbc0e1da6b3870b818') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=38459ac20ad01f09e04f72e913d3ece7 DependenciesID=9064e7a3eb542b348a208a89d6d8e883 StaticDependenciesID=9d3aef19d3c35a4898295501686b0c0c 
-Asset Pipeline Refresh (id=47b6d2ff2336ede4ca19793dd0d6224d): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 376fae2f8fe0cb343a68d4b76903413d - Path: Assets/Art/FPSArmsHQ/TacticalGlove_Albedo_Bright.png' with importer (TextureImporter)
-Imported 'GUID: 376fae2f8fe0cb343a68d4b76903413d' -> (Import Result ID: '534bd21cb0956285c755244b43ec440b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a421e2a2a41f0e4ab7888939790071b5 DependenciesID=c24f7951ce76961fe4f27a6ebd40c731 StaticDependenciesID=890b248067edde7bfc36bb6bb23ab4e7 
-Asset Pipeline Refresh (id=4052a3d9530455d40a8293059638065f): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: b0addaf4a8c54e54fa8f9c086b740c56 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
-Imported 'GUID: b0addaf4a8c54e54fa8f9c086b740c56' -> (Import Result ID: '2d92efa360e6f97cf2937098e9f4efe8') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=159c65472bf45f84377c336f5e65a737 DependenciesID=5e32e0f5cd9e4984761527cbe92d452b StaticDependenciesID=b243a1fb5726ef6c9ec0fa9571353027 
-Importing 'GUID: f04abd7f32172654088f811222670d19 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
-Imported 'GUID: f04abd7f32172654088f811222670d19' -> (Import Result ID: 'c31b4c12a709aee5b37821da7ec09070') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c1bed22ff0e12cdbc9eed1e6ec0d9745 DependenciesID=e9a15c76c3ec31b4664a23b46e94c2aa StaticDependenciesID=3f6feb7c01393a8b98c46129f09246b6 
-Importing 'GUID: 2374eb2822357e442bc89f0087bafebb - Path: Assets/Resources/M9Finishes/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 2374eb2822357e442bc89f0087bafebb' -> (Import Result ID: '7209c74613a517c8c0ebd606935f986f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2e98ec9382063d218c8fe0ad8cf88120 DependenciesID=ae24388341f6b728ebe4963442ce23ad StaticDependenciesID=6762333ec0def9522e5ef1e0442e0747 
-Importing 'GUID: 2489dda43e36fb5498eb97c4a46dcd45 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 2489dda43e36fb5498eb97c4a46dcd45' -> (Import Result ID: '4d0c1cbffedc12ba61b57579bbd30231') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=759e781b2ff76f7fbf0228bef07402d5 DependenciesID=5c3352f659183d76f27438e131b8e541 StaticDependenciesID=13b1947f1364dcb8f1bd1a3ba464f8c0 
-Importing 'GUID: d49d3920ac597334799593c76763f0a0 - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '3bababe1a92de2ff11f621951c8ba952') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9fdf28ae0b2cb6d407fe3a3da63892cc DependenciesID=1fc323469677761b1929bb2225f61b8d StaticDependenciesID=534b7d65c33b887bcd6e4dc5e5a8fc46 
-Importing 'GUID: 37668c504a18e7c4f9e1828e4bfed257 - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '7055e48edd44208d02551a763f04a2bf') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3b9c967ae236e20adb1bf1466da3a21b DependenciesID=6381255ac5f200854f339bb706980003 StaticDependenciesID=0691c0a7d1f100046a3091830266b8d3 
-Importing 'GUID: 67c0ecff23966c24bac01e744e0d4f9f - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: '1dae4e662a6be199a215278abe7f199c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a4b317141c1a8040644f1d1cf1374e15 DependenciesID=30a185555a0c688a9ac3d374ae950538 StaticDependenciesID=420318ddf6166084461df7bfcd4cb048 
-Importing 'GUID: 1bcab16c1bef93641852d7805ac4a9cd - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 1bcab16c1bef93641852d7805ac4a9cd' -> (Import Result ID: '79cdcd2a016aa1f73b1c439edf7ead2f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9bcd2026e97b6b768341725bd6269793 DependenciesID=56949296fd845a46282ae48642b38d21 StaticDependenciesID=5d09b00b61e6d1c78d49bbc23b9d4fbf 
-Importing 'GUID: 0f748f889c8f5d74bacb18587c429db7 - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 0f748f889c8f5d74bacb18587c429db7' -> (Import Result ID: 'da190271cc18d271f359444a1c8ef793') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=38459ac20ad01f09e04f72e913d3ece7 DependenciesID=90332c16f8fba41e63c06324c17c05b0 StaticDependenciesID=a4bc8aa1d30f9279512af7f4a137332c 
-Importing 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
-Imported 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b' -> (Import Result ID: '2882f70239f44534111ccc4134dbf1c0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c293b14a2d40762580b6e9bfbf9c309f DependenciesID=acf357a7c8265aebd3a3ac49250b98e1 StaticDependenciesID=ba388c9221fe8a04a8e94f78171fad8f 
-Importing 'GUID: df394cf5f60d73a4383adbee974b7c1b - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: df394cf5f60d73a4383adbee974b7c1b' -> (Import Result ID: '06594859a21c8d1630d2cc85ee16f77f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=28f0355fb82cc565c8eb271a0afb9814 DependenciesID=dca821d3690becee05cf5e9e9f214b78 StaticDependenciesID=25bb922b41bdeba8c17bd7cc9da4ab62 
-Importing 'GUID: efc319ed5c4fbf74fa7438e79e71a994 - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
-Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: '17d86eb5d4bb0ac2999ecdc711f45f0b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c8a380aaa64e53e6c021f88e9adcfb2b DependenciesID=35bdb283f299ced541746688e3ab3333 StaticDependenciesID=3050837dba93ea565db84012ff007cc1 
-Importing 'GUID: 834e2fdd2382cb544a740409c72e8ce2 - Path: Assets/Art/PSXArms/PSX_LeftArm_Clean.asset' with importer (NativeFormatImporter)
-Imported 'GUID: 834e2fdd2382cb544a740409c72e8ce2' -> (Import Result ID: '15d6e8442d1522bb3ef836e4ee11e775') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6176294777d09513f9bf559d362fc5fd DependenciesID=c3eee1d01d0d206268921759ee10119c StaticDependenciesID=b2b3d225410b525ff3d08045d1bf0d5e 
-Importing 'GUID: bd657c5de98c9ef458ecbb99f154459b - Path: Assets/Art/PSXArms/PSX_RightArm_Clean.asset' with importer (NativeFormatImporter)
-Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
-Asset Pipeline Refresh (id=5e08344c5ad5fd241b58cdbeac40579f): Total: 0.071 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-BHOP_GLOVE_SKINS_PREMIUM_READY count=5
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-BhopGloveSkinAuthoring:Build () (at Assets/Editor/BhopGloveSkinAuthoring.cs:103)
-BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
+Exception: Karambit inner inspect leaves right-side safe zone: (0.213, 0.498, 0.447)
+  at BhopPresentationAudit.Run () [0x0057a] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:1709 
+  at BhopViewPolish.Apply () [0x001cb] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:67 
 
-(Filename: Assets/Editor/BhopGloveSkinAuthoring.cs Line: 103)
-
-Exception: Right hand preview mesh missing
-  at BhopViewPolish.CaptureGloveSkinPreviews () [0x00629] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:527 
-  at BhopViewPolish.Apply () [0x00024] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:41 
-
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 527)
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 1709)
 
 executeMethod method BhopViewPolish.Apply threw exception.
 Exiting without the bug reporter. Application will terminate with return code 1
