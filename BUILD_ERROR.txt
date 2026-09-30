@@ -1,14 +1,9 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-30 22:34:02
+Time: 2026-09-30 22:36:48
 Source: 2a9d41a
 Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== AUTO_DEPLOY.log =====
-[2026-09-30 14:49:51] Watcher error: git fetch origin main --quiet failed: fatal: unable to access 'https://github.com/drywon/BHOP_Yandex.git/': Could not resolve host: github.com
-[2026-09-30 18:50:32] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
-[2026-09-30 18:50:32] Using git: C:\Program Files\Git\cmd\git.exe
-[2026-09-30 18:50:32] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
-[2026-09-30 18:50:32] Git command smoke test passed.
 [2026-09-30 18:50:34] Commit 6c524f9 is not published yet. Building...
 [2026-09-30 18:50:34] Building source commit 6c524f9...
 [2026-09-30 18:50:35] Applying scene/viewmodel changes and running validation...
@@ -184,14 +179,19 @@ Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents
 [2026-09-30 22:33:27] Building source commit 2a9d41a...
 [2026-09-30 22:33:27] Applying scene/viewmodel changes and running validation...
 [2026-09-30 22:34:02] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 22:34:11] Will retry this commit in 120 seconds.
+[2026-09-30 22:36:20] Commit 2a9d41a is not published yet. Building...
+[2026-09-30 22:36:20] Building source commit 2a9d41a...
+[2026-09-30 22:36:21] Applying scene/viewmodel changes and running validation...
+[2026-09-30 22:36:48] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_APPLY.log =====
 Importing 'GUID: 521e1956eace1fa48a5d4dd176ae26e2 - Path: Assets/Resources/BhopUI/karambit_crimson_preview.png' with importer (TextureImporter)
-Imported 'GUID: 521e1956eace1fa48a5d4dd176ae26e2' -> (Import Result ID: '4444ea194084a869fe491d07c4680c8b') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c97dc95eb2295772dc9e2a99438a63b DependenciesID=35ce334b4d758fc3633f99488aa18c5b StaticDependenciesID=f25069ec6d5edd64991e9b7edbdbc8d8 
-Asset Pipeline Refresh (id=24157d5e1cbac8647967a3430460079d): Total: 0.070 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 521e1956eace1fa48a5d4dd176ae26e2' -> (Import Result ID: '4444ea194084a869fe491d07c4680c8b') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c97dc95eb2295772dc9e2a99438a63b DependenciesID=35ce334b4d758fc3633f99488aa18c5b StaticDependenciesID=f25069ec6d5edd64991e9b7edbdbc8d8 
+Asset Pipeline Refresh (id=cc25f5ecf94c0ae4c9092b8e80c834a9): Total: 0.045 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 521e1956eace1fa48a5d4dd176ae26e2 - Path: Assets/Resources/BhopUI/karambit_crimson_preview.png' with importer (TextureImporter)
-Imported 'GUID: 521e1956eace1fa48a5d4dd176ae26e2' -> (Import Result ID: '4444ea194084a869fe491d07c4680c8b') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c97dc95eb2295772dc9e2a99438a63b DependenciesID=35ce334b4d758fc3633f99488aa18c5b StaticDependenciesID=f25069ec6d5edd64991e9b7edbdbc8d8 
-Asset Pipeline Refresh (id=d7c5d2b9dca0e694d8c0e0e362a3b2da): Total: 0.043 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 521e1956eace1fa48a5d4dd176ae26e2' -> (Import Result ID: '4444ea194084a869fe491d07c4680c8b') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c97dc95eb2295772dc9e2a99438a63b DependenciesID=35ce334b4d758fc3633f99488aa18c5b StaticDependenciesID=f25069ec6d5edd64991e9b7edbdbc8d8 
+Asset Pipeline Refresh (id=6832338823daca648b19d220d0f650d1): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 KARAMBIT_CRIMSON_PREVIEW_REFRESHED
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -220,11 +220,11 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:45)
 (Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
 
 Importing 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd - Path: Assets/Resources/BhopUI/karambit_aurora_preview.png' with importer (TextureImporter)
-Imported 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd' -> (Import Result ID: '42fe7258349bf89dfa71ed71671efb67') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3886a38beaad623eda0d8bc91b224bdf DependenciesID=a144400c0f64c245d3b903996ad51ac5 StaticDependenciesID=19c6c7a843ce2cccd2dfdaa661589a0b 
-Asset Pipeline Refresh (id=33c11534a07a8fb468dd4a83ef111bfe): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd' -> (Import Result ID: '42fe7258349bf89dfa71ed71671efb67') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3886a38beaad623eda0d8bc91b224bdf DependenciesID=a144400c0f64c245d3b903996ad51ac5 StaticDependenciesID=19c6c7a843ce2cccd2dfdaa661589a0b 
+Asset Pipeline Refresh (id=26b03c9fffed2044c83812351b31b4f9): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd - Path: Assets/Resources/BhopUI/karambit_aurora_preview.png' with importer (TextureImporter)
-Imported 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd' -> (Import Result ID: '42fe7258349bf89dfa71ed71671efb67') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3886a38beaad623eda0d8bc91b224bdf DependenciesID=a144400c0f64c245d3b903996ad51ac5 StaticDependenciesID=19c6c7a843ce2cccd2dfdaa661589a0b 
-Asset Pipeline Refresh (id=d3fdfb72b0d777e42a0d53eba93e4710): Total: 0.042 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 9a606bc4dc8e54943b6a7ec8f53dc2cd' -> (Import Result ID: '42fe7258349bf89dfa71ed71671efb67') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3886a38beaad623eda0d8bc91b224bdf DependenciesID=a144400c0f64c245d3b903996ad51ac5 StaticDependenciesID=19c6c7a843ce2cccd2dfdaa661589a0b 
+Asset Pipeline Refresh (id=bdec54d8ebb905d4b9d1e93ae65aa96c): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 KARAMBIT_AURORA_PREVIEW_REFRESHED
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -253,11 +253,11 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:45)
 (Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
 
 Importing 'GUID: f4d50a3c1b2082248be0119bfd51493a - Path: Assets/Resources/BhopUI/karambit_preview.png' with importer (TextureImporter)
-Imported 'GUID: f4d50a3c1b2082248be0119bfd51493a' -> (Import Result ID: 'edda449486d1aa569695f3303ad66f24') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=519d7c8bd95e0a3ccce12cd091c2aed3 DependenciesID=abe2f8bb55ee8caaa8610ac3571b7cd1 StaticDependenciesID=66d3239d1d02543869137345d1966dfc 
-Asset Pipeline Refresh (id=41ed751f63eeb654dab82b80fa4f5c57): Total: 0.054 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: f4d50a3c1b2082248be0119bfd51493a' -> (Import Result ID: 'edda449486d1aa569695f3303ad66f24') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=519d7c8bd95e0a3ccce12cd091c2aed3 DependenciesID=abe2f8bb55ee8caaa8610ac3571b7cd1 StaticDependenciesID=66d3239d1d02543869137345d1966dfc 
+Asset Pipeline Refresh (id=7dee5e6fc22a2f64c8be605945cbd3dd): Total: 0.054 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: f4d50a3c1b2082248be0119bfd51493a - Path: Assets/Resources/BhopUI/karambit_preview.png' with importer (TextureImporter)
-Imported 'GUID: f4d50a3c1b2082248be0119bfd51493a' -> (Import Result ID: 'edda449486d1aa569695f3303ad66f24') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=519d7c8bd95e0a3ccce12cd091c2aed3 DependenciesID=abe2f8bb55ee8caaa8610ac3571b7cd1 StaticDependenciesID=66d3239d1d02543869137345d1966dfc 
-Asset Pipeline Refresh (id=8fff54f84d237264c8a071916c0f6712): Total: 0.045 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: f4d50a3c1b2082248be0119bfd51493a' -> (Import Result ID: 'edda449486d1aa569695f3303ad66f24') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=519d7c8bd95e0a3ccce12cd091c2aed3 DependenciesID=abe2f8bb55ee8caaa8610ac3571b7cd1 StaticDependenciesID=66d3239d1d02543869137345d1966dfc 
+Asset Pipeline Refresh (id=6a5e819384245e549b248caa5d96fe8a): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 KARAMBIT_SHOP_PREVIEW_REFRESHED
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -286,11 +286,11 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:45)
 (Filename: Assets/Scripts/KarambitDiamonddogModel.cs Line: 144)
 
 Importing 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608 - Path: Assets/Resources/BhopUI/qa_m9_inspect.png' with importer (TextureImporter)
-Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'ebaeee2ef242853c3085100ac45df1a8') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edf717dcde9f5926447ee223b97fa5a9 DependenciesID=398246827d640c0a90f33b837c2cece4 StaticDependenciesID=a2b0388c98f59189d266adee25835ada 
-Asset Pipeline Refresh (id=4a46dbeb20d41584cb064e5e7a4a169e): Total: 0.075 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'ebaeee2ef242853c3085100ac45df1a8') in 0.049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edf717dcde9f5926447ee223b97fa5a9 DependenciesID=398246827d640c0a90f33b837c2cece4 StaticDependenciesID=a2b0388c98f59189d266adee25835ada 
+Asset Pipeline Refresh (id=a87287546fbae394a90899d85e00de07): Total: 0.076 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608 - Path: Assets/Resources/BhopUI/qa_m9_inspect.png' with importer (TextureImporter)
-Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'ebaeee2ef242853c3085100ac45df1a8') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edf717dcde9f5926447ee223b97fa5a9 DependenciesID=398246827d640c0a90f33b837c2cece4 StaticDependenciesID=a2b0388c98f59189d266adee25835ada 
-Asset Pipeline Refresh (id=08c3fdeb82289304dae627552dd48b51): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 0b6a097d8b9714d41bd0960fcf1b0608' -> (Import Result ID: 'ebaeee2ef242853c3085100ac45df1a8') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edf717dcde9f5926447ee223b97fa5a9 DependenciesID=398246827d640c0a90f33b837c2cece4 StaticDependenciesID=a2b0388c98f59189d266adee25835ada 
+Asset Pipeline Refresh (id=fddfd2e56a38e99409235750eb68c2d5): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 M9_INSPECT_QA_READY verticalError=7,64deg
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -304,11 +304,11 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:46)
 (Filename: Assets/Editor/BhopViewPolish.cs Line: 153)
 
 Importing 'GUID: cb5a16884a56eb6478a63946cbc7b72d - Path: Assets/Resources/BhopUI/qa_karambit_inspect.png' with importer (TextureImporter)
-Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: '73826ba086a86c75206c36bd6f400b2d') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c512a928f5bd5b8d6a5af3a12cdb918f DependenciesID=0747adb719a58a78c796fd545ed9a3f3 StaticDependenciesID=a984a777860417587fd46c25d2c8d6d9 
-Asset Pipeline Refresh (id=d735fcaea8c042d4cbef2b3a9e3f0212): Total: 0.067 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: '73826ba086a86c75206c36bd6f400b2d') in 0.050 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c512a928f5bd5b8d6a5af3a12cdb918f DependenciesID=0747adb719a58a78c796fd545ed9a3f3 StaticDependenciesID=a984a777860417587fd46c25d2c8d6d9 
+Asset Pipeline Refresh (id=90fda8c28015ab445a398a3330c411aa): Total: 0.079 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: cb5a16884a56eb6478a63946cbc7b72d - Path: Assets/Resources/BhopUI/qa_karambit_inspect.png' with importer (TextureImporter)
-Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: '73826ba086a86c75206c36bd6f400b2d') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c512a928f5bd5b8d6a5af3a12cdb918f DependenciesID=0747adb719a58a78c796fd545ed9a3f3 StaticDependenciesID=a984a777860417587fd46c25d2c8d6d9 
-Asset Pipeline Refresh (id=bc7bed1bd6e81e04699be87122a55130): Total: 0.064 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: cb5a16884a56eb6478a63946cbc7b72d' -> (Import Result ID: '73826ba086a86c75206c36bd6f400b2d') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c512a928f5bd5b8d6a5af3a12cdb918f DependenciesID=0747adb719a58a78c796fd545ed9a3f3 StaticDependenciesID=a984a777860417587fd46c25d2c8d6d9 
+Asset Pipeline Refresh (id=8624d6463f95cc34996a6518d5681b2a): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 KARAMBIT_INSPECT_QA_READY
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -326,22 +326,22 @@ Imported 'GUID: 10da08ff64528b14ba8e27661796d451' -> (Import Result ID: '8f36e4f
 Importing 'GUID: 984435084b4307a42b402a8044a2432e - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Crimson.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 984435084b4307a42b402a8044a2432e' -> (Import Result ID: 'ed91d7a79a9bafc9366e007278560748') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=7eabf17ec320c3e78f9768918f145166 DependenciesID=29f6cfeb460753803b4a867ce274d650 StaticDependenciesID=12faa6a094a0a023b99039b76249bc7d 
 Importing 'GUID: f988bd80facd9114a8b324eff8b4ab65 - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Spectrum.mat' with importer (NativeFormatImporter)
-Imported 'GUID: f988bd80facd9114a8b324eff8b4ab65' -> (Import Result ID: '24721bf4586501c09c75397ee0bc061d') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=052a0b775d730297c6ffbb03edd5c796 DependenciesID=d304ca1810e8e316085f264e1ef929d9 StaticDependenciesID=703f80003473283f59ad5e4c00154be4 
-Asset Pipeline Refresh (id=e1ca072a59e53e642b32e2025336e251): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: f988bd80facd9114a8b324eff8b4ab65' -> (Import Result ID: '24721bf4586501c09c75397ee0bc061d') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=052a0b775d730297c6ffbb03edd5c796 DependenciesID=d304ca1810e8e316085f264e1ef929d9 StaticDependenciesID=703f80003473283f59ad5e4c00154be4 
+Asset Pipeline Refresh (id=92ec45a10bca6eb48b424d308993e288): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: a2de4fb016636614f87f1a9e2d19a8d9 - Path: Assets/Scenes/Bhop_Classic.unity' with importer (DefaultImporter)
-Imported 'GUID: a2de4fb016636614f87f1a9e2d19a8d9' -> (Import Result ID: 'd2759f72bdb1f6dde1009f566771b9b4') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=e52c2caea7cd9be20faf6719caa020a0 DependenciesID=6f4a6075e1ef9ce624ffed01db9dbe19 StaticDependenciesID=85a09f00898918dd1419dd53ea59f793 
-Asset Pipeline Refresh (id=7a1dfc7474a4d0e45a30c6f8d9d12512): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: a2de4fb016636614f87f1a9e2d19a8d9' -> (Import Result ID: '11a0338e6434f854caee5ba40dee82f0') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=e52c2caea7cd9be20faf6719caa020a0 DependenciesID=3438da10039147b4e756be1fb3f994fe StaticDependenciesID=84e8e88a4c866e29f2b83a7a0e5bab7d 
+Asset Pipeline Refresh (id=ff703a59284ff2348bf65288a188ff8a): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Opening scene 'Assets/Scenes/Bhop_Classic.unity'
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Bhop_Classic.unity'
-	Deserialize:            132.111 ms
-	Integration:            49.767 ms
-	Integration of assets:  0.272 ms
-	Thread Wait Time:       -0.188 ms
-	Total Operation Time:   181.962 ms
+	Deserialize:            194.894 ms
+	Integration:            44.927 ms
+	Integration of assets:  0.411 ms
+	Thread Wait Time:       -0.345 ms
+	Total Operation Time:   239.887 ms
 Unloading 294 unused Assets / (119.0 KB). Loaded Objects now: 6962.
-Memory consumption went from 223.5 MB to 223.4 MB.
-Total: 49.887300 ms (FindLiveObjects: 1.013400 ms CreateObjectMapping: 0.164100 ms MarkObjects: 45.815500 ms  DeleteObjects: 2.890100 ms)
+Memory consumption went from 223.3 MB to 223.2 MB.
+Total: 87.744800 ms (FindLiveObjects: 0.967600 ms CreateObjectMapping: 0.139800 ms MarkObjects: 81.888300 ms  DeleteObjects: 4.736600 ms)
 
 MAP_Vertical ROUTE_QA_OK pieces=48 worstGap=5,27m avgGap=1,88m worstRise=0,80m
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
