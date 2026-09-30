@@ -1,23 +1,9 @@
 ﻿BHOP AUTO DEPLOY FAILURE
-Time: 2026-09-30 23:21:07
-Source: eefcf0a
+Time: 2026-09-30 23:22:48
+Source: d9f9997
 Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== AUTO_DEPLOY.log =====
-[2026-09-30 21:51:14] Will retry this commit in 120 seconds.
-[2026-09-30 21:53:22] Commit 2a9d41a is not published yet. Building...
-[2026-09-30 21:53:22] Building source commit 2a9d41a...
-[2026-09-30 21:53:22] Applying scene/viewmodel changes and running validation...
-[2026-09-30 21:53:35] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 21:53:44] Will retry this commit in 120 seconds.
-[2026-09-30 21:55:52] Commit 2a9d41a is not published yet. Building...
-[2026-09-30 21:55:52] Building source commit 2a9d41a...
-[2026-09-30 21:55:52] Applying scene/viewmodel changes and running validation...
-[2026-09-30 21:56:05] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
-[2026-09-30 21:56:13] Will retry this commit in 120 seconds.
-[2026-09-30 21:58:21] Commit 2a9d41a is not published yet. Building...
-[2026-09-30 21:58:21] Building source commit 2a9d41a...
-[2026-09-30 21:58:22] Applying scene/viewmodel changes and running validation...
 [2026-09-30 21:58:35] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 [2026-09-30 21:58:43] Will retry this commit in 120 seconds.
 [2026-09-30 22:00:51] Commit 2a9d41a is not published yet. Building...
@@ -184,19 +170,33 @@ Error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents
 [2026-09-30 23:10:55] Building source commit eefcf0a...
 [2026-09-30 23:10:55] Applying scene/viewmodel changes and running validation...
 [2026-09-30 23:21:07] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
+[2026-09-30 23:21:16] Will retry this commit in 120 seconds.
+[2026-09-30 23:22:21] New source commit found: d9f9997
+[2026-09-30 23:22:22] Preserved unexpected local edits in stash: BHOP AUTO BACKUP 20260930-232221
+[2026-09-30 23:22:22] Source project updated automatically from GitHub. Restarting watcher with new scripts...
+[2026-09-30 23:22:23] Bootstrap refresh warning: quiet installer exit 1
+[2026-09-30 23:22:23] BHOP AUTO DEPLOY started. Project=C:\Users\User\Documents\BHOP_Yandex
+[2026-09-30 23:22:23] Using git: C:\Program Files\Git\cmd\git.exe
+[2026-09-30 23:22:23] Using Unity: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+[2026-09-30 23:22:23] Git command smoke test passed.
+[2026-09-30 23:22:25] Legacy BHOP console launchers removed; current watcher is the only deploy process.
+[2026-09-30 23:22:29] Commit d9f9997 is not published yet. Building...
+[2026-09-30 23:22:29] Building source commit d9f9997...
+[2026-09-30 23:22:29] Applying scene/viewmodel changes and running validation...
+[2026-09-30 23:22:48] Build/publish error: BhopViewPolish.Apply failed with exit code 1. See C:\Users\User\Documents\BHOP_Yandex\AutoDeployLogs\UNITY_APPLY.log
 
 ===== UNITY_APPLY.log =====
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-BhopHybridViewmodel:EnsureGloveShellMesh (UnityEngine.Mesh,bool) (at Assets/Editor/BhopHybridViewmodel.cs:433)
+BhopHybridViewmodel:EnsureGloveShellMesh (UnityEngine.Mesh,bool) (at Assets/Editor/BhopHybridViewmodel.cs:441)
 BhopHybridViewmodel:BuildCleanSide (UnityEngine.GameObject,UnityEngine.Material,bool,UnityEngine.Transform,string) (at Assets/Editor/BhopHybridViewmodel.cs:289)
 BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:102)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:614)
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:616)
 BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
 
-(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 433)
+(Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 441)
 
 PSX_ROLLBACK_OK R=(0.828, 0.068, 0.355) L=(0.170, 0.120, 0.279) knife=(0.650, 0.250, 0.395) palmR=0,080 palmL=0,080
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -206,76 +206,76 @@ UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,st
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
 BhopHybridViewmodel:Build (UnityEngine.Transform) (at Assets/Editor/BhopHybridViewmodel.cs:125)
-BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:614)
+BhopViewPolish:BuildView (UnityEngine.Transform) (at Assets/Editor/BhopViewPolish.cs:616)
 BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:39)
 
 (Filename: Assets/Editor/BhopHybridViewmodel.cs Line: 125)
 
 Importing 'GUID: 4b2c370af21ced741974c9790e92497f - Path: Assets/Art/FPSArmsHQ/Glove_Fabric_Normal.png' with importer (TextureImporter)
-Imported 'GUID: 4b2c370af21ced741974c9790e92497f' -> (Import Result ID: '9375ece60be20e5350896d0de31f8e7c') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09814ce071e039c04ed92edc2f54a608 DependenciesID=b6e4d95e62d80d188bfda46308e96247 StaticDependenciesID=5a6151a2b9a04c975793e45b31acc532 
-Asset Pipeline Refresh (id=915aa18f710265646a4d1afbfcbb3650): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 4b2c370af21ced741974c9790e92497f' -> (Import Result ID: '9375ece60be20e5350896d0de31f8e7c') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09814ce071e039c04ed92edc2f54a608 DependenciesID=b6e4d95e62d80d188bfda46308e96247 StaticDependenciesID=5a6151a2b9a04c975793e45b31acc532 
+Asset Pipeline Refresh (id=2cd42b6edcc1f9640b915ea020b45ecc): Total: 0.024 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9 - Path: Assets/Resources/GloveSkins' with importer (DefaultImporter)
-Imported 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9' -> (Import Result ID: '5683b3df91e5416385e0a6de36ab4c16') in 0.031 seconds [static dependencies only]. Details - ImportResultOutputID=be4ad68dae608027a910aa2c7988abed DependenciesID=711718f3d22291ce4fb5f3fe72fe8a3b StaticDependenciesID=92271e4923a21cfccfa25b1b03de111d 
+Imported 'GUID: 5f615d8663eb58d4da4f8fee42fab2a9' -> (Import Result ID: '5683b3df91e5416385e0a6de36ab4c16') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=be4ad68dae608027a910aa2c7988abed DependenciesID=711718f3d22291ce4fb5f3fe72fe8a3b StaticDependenciesID=92271e4923a21cfccfa25b1b03de111d 
 Importing 'GUID: ae6fc715ff3f19549b755d9d2db0bb89 - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
-Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: 'c4e69d8999e72f3852b82f6901ce5a5b') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2d520500087345022aa238916c982cc DependenciesID=793520990e6de2641bd317678345bafa StaticDependenciesID=90aee3589c06e3e29041a8f046406486 
-Asset Pipeline Refresh (id=26d3a81f62c348e4e9f6bab1685e8a62): Total: 0.106 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: 'c4e69d8999e72f3852b82f6901ce5a5b') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2d520500087345022aa238916c982cc DependenciesID=793520990e6de2641bd317678345bafa StaticDependenciesID=90aee3589c06e3e29041a8f046406486 
+Asset Pipeline Refresh (id=7120066b0181fd64db846763d0a49c82): Total: 0.068 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: ae6fc715ff3f19549b755d9d2db0bb89 - Path: Assets/Resources/GloveSkins/GloveTex_0.png' with importer (TextureImporter)
-Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: '039ffe2c7d9fa87aad630d4c4a4f1801') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2cc53ab1595289cfa3b5b8a1fd97138 DependenciesID=9c23a6aff2221e355c48599abcb00757 StaticDependenciesID=a0103da8000b6be2fcd19be51e847030 
-Asset Pipeline Refresh (id=fd048c921c4cdd14996527b22b048ee2): Total: 0.037 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: ae6fc715ff3f19549b755d9d2db0bb89' -> (Import Result ID: '039ffe2c7d9fa87aad630d4c4a4f1801') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2cc53ab1595289cfa3b5b8a1fd97138 DependenciesID=9c23a6aff2221e355c48599abcb00757 StaticDependenciesID=a0103da8000b6be2fcd19be51e847030 
+Asset Pipeline Refresh (id=f94169f970da65b4493103114a9331bd): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: efc319ed5c4fbf74fa7438e79e71a994 - Path: Assets/Resources/GloveSkins/Glove_0.mat' with importer (NativeFormatImporter)
 Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: '0c3b704a072e13ee166a2580d6e174ea') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c8a380aaa64e53e6c021f88e9adcfb2b DependenciesID=812ce7cf43dcf10693445a3dca160210 StaticDependenciesID=dd73121b2f1a59ccdd3d021b06ff3cfe 
-Asset Pipeline Refresh (id=2cdac297b5ebdd64b93d5530c1a5ad19): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=11f572cb0cc4e824a8586c0573fbe0e4): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b - Path: Assets/Resources/GloveSkins/Sleeve_0.mat' with importer (NativeFormatImporter)
 Imported 'GUID: cfbcc7843a1dc984d8cc9ae3e0bc747b' -> (Import Result ID: '38049341516e2bdab50a9ccc4b38902b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c293b14a2d40762580b6e9bfbf9c309f DependenciesID=fe40105982316a450d87c8387d383c76 StaticDependenciesID=cec2efaf642b24d7b28ad4900a56c691 
-Asset Pipeline Refresh (id=34d45f39fdaa07f478b3d7deae13f28e): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=70139043c6146a948ae4c8e1c5f0e3a6): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 0974e7bb31a5c054ea22a76386356f62 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
-Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: '96c24c22ebda361cfa18cd4b33b3929b') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a25903f1e77ba9392ba6459cf2c376c2 DependenciesID=0a79be950c2cf6e9d4a99ccd8a5ed3d8 StaticDependenciesID=2706213fef6d762f99a100c8c49808f2 
-Asset Pipeline Refresh (id=3f790c9c19c1c614ea3017a23819be40): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: '96c24c22ebda361cfa18cd4b33b3929b') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a25903f1e77ba9392ba6459cf2c376c2 DependenciesID=0a79be950c2cf6e9d4a99ccd8a5ed3d8 StaticDependenciesID=2706213fef6d762f99a100c8c49808f2 
+Asset Pipeline Refresh (id=314bab4ba31440d4ebb9856c5e077a3a): Total: 0.089 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 0974e7bb31a5c054ea22a76386356f62 - Path: Assets/Resources/GloveSkins/GloveTex_1.png' with importer (TextureImporter)
 Imported 'GUID: 0974e7bb31a5c054ea22a76386356f62' -> (Import Result ID: '629380f33cec5443acb9505f15b3a855') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba49ecd51c49fd18e8cb6d493cd94d1d DependenciesID=13179bd16bc62dc50583265dfcc29b72 StaticDependenciesID=c3bc69aae2ebec89cdf007f64dab6fe9 
-Asset Pipeline Refresh (id=b6dd3ae15e907f04abf7b5f3271bdcb0): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=39569fd9683f7044a9d4dceccb4ec442): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: d49d3920ac597334799593c76763f0a0 - Path: Assets/Resources/GloveSkins/Glove_1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '004d580b237652c6f607d81af203ca24') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9fdf28ae0b2cb6d407fe3a3da63892cc DependenciesID=81537f36531962ddc1d8b37d7ae9a688 StaticDependenciesID=cd74565a4f6afb6b20df58bfe72b74ad 
-Asset Pipeline Refresh (id=9ff5774ae58b31240a9c0da8cd7d4f6f): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '004d580b237652c6f607d81af203ca24') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9fdf28ae0b2cb6d407fe3a3da63892cc DependenciesID=81537f36531962ddc1d8b37d7ae9a688 StaticDependenciesID=cd74565a4f6afb6b20df58bfe72b74ad 
+Asset Pipeline Refresh (id=640b1ac2341b5e34eae1e9129d1a14ad): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: df394cf5f60d73a4383adbee974b7c1b - Path: Assets/Resources/GloveSkins/Sleeve_1.mat' with importer (NativeFormatImporter)
-Imported 'GUID: df394cf5f60d73a4383adbee974b7c1b' -> (Import Result ID: '7fd8cf1ddff88d1b2359086522b65153') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=28f0355fb82cc565c8eb271a0afb9814 DependenciesID=2dc5752602011b4d28dd66a4c1fef962 StaticDependenciesID=ef1643aeed8ac01d71f8440db3c6b202 
-Asset Pipeline Refresh (id=65f7c629b8705734f81ca3c1f8e0a346): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: df394cf5f60d73a4383adbee974b7c1b' -> (Import Result ID: '7fd8cf1ddff88d1b2359086522b65153') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=28f0355fb82cc565c8eb271a0afb9814 DependenciesID=2dc5752602011b4d28dd66a4c1fef962 StaticDependenciesID=ef1643aeed8ac01d71f8440db3c6b202 
+Asset Pipeline Refresh (id=352a45478f8b9034ebfe347422bd4d8d): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4 - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
-Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '917646c4e6eb6e41d4a1ac8fff07fe8d') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92bc5118d64e199cadc87ea00865dc2e DependenciesID=444c571358e3ddcd17f9736d67d5afca StaticDependenciesID=b8ca7e79b387acd2b7a6b6887153068a 
-Asset Pipeline Refresh (id=1c508b8b50255ad48afed4aba187fe83): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '917646c4e6eb6e41d4a1ac8fff07fe8d') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92bc5118d64e199cadc87ea00865dc2e DependenciesID=444c571358e3ddcd17f9736d67d5afca StaticDependenciesID=b8ca7e79b387acd2b7a6b6887153068a 
+Asset Pipeline Refresh (id=d4b4e7a359a16dc468be44ce5f8ede26): Total: 0.064 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4 - Path: Assets/Resources/GloveSkins/GloveTex_2.png' with importer (TextureImporter)
 Imported 'GUID: 15cc1f3487bd2e149bce9ae89d33d5e4' -> (Import Result ID: '4d172fdbd8d8bd4db2687d6ea753fe20') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ee2064cbbd72b57ac66460f9b2bec99 DependenciesID=a939f933af055b9fac0408d9b9799c67 StaticDependenciesID=f4986a35b05edd872bdc4ccee5fabd67 
-Asset Pipeline Refresh (id=7dc2a30a09b1c554aa21e44b4981df54): Total: 0.034 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=05b5dfa1022d74d4a9778266f44edb49): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 37668c504a18e7c4f9e1828e4bfed257 - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '6b7fd6ac9a4d4d949b66aafb36cdd4cd') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3b9c967ae236e20adb1bf1466da3a21b DependenciesID=eb50fd1e1d5fccc7e67ac3d46b4219bb StaticDependenciesID=f34947aa248e9c9dd44448ca010acc56 
-Asset Pipeline Refresh (id=de3c61b29d6e87d4c8e71b325537f7a8): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9ace7b1090b36864aa1c1d1ddadfa9e5): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: f04abd7f32172654088f811222670d19 - Path: Assets/Resources/GloveSkins/Sleeve_2.mat' with importer (NativeFormatImporter)
 Imported 'GUID: f04abd7f32172654088f811222670d19' -> (Import Result ID: '9dadd507b774592ed4aea2a7e0777016') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=c1bed22ff0e12cdbc9eed1e6ec0d9745 DependenciesID=5a14794d9250e765467392961d9c10d6 StaticDependenciesID=e0598e2ab87c3e2768a8af02dd0ac29c 
-Asset Pipeline Refresh (id=7b5182612ead5144e86afe851501aa98): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1c2ab35a67a10fb408fc29749e22a7e0): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 75e74ddf833efc0488524683932b8cf7 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
 Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: '702ba15a7abc8288f840ed70648a9289') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=488c5839e188c7b0d266efb6934de26e DependenciesID=f4657751cb7b1c983f430f0795f643d7 StaticDependenciesID=33e1fcff3aa125fd1a4c5c3c40835260 
-Asset Pipeline Refresh (id=e171642acfec5944a87ebcc06821b19d): Total: 0.104 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3b450643e555a864fb4d37691b806c7c): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 75e74ddf833efc0488524683932b8cf7 - Path: Assets/Resources/GloveSkins/GloveTex_3.png' with importer (TextureImporter)
-Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: 'b461ef4ef0094f52c614374c686a55dc') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=788478ffbf3b2a5040c5ae3f8335ac31 DependenciesID=85eec99cd6694d25820863b212eeeced StaticDependenciesID=f4656b1e1dd4d5763f237ed522777141 
-Asset Pipeline Refresh (id=cd11a18a66226384abeca7cc958a3a1b): Total: 0.038 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 75e74ddf833efc0488524683932b8cf7' -> (Import Result ID: 'b461ef4ef0094f52c614374c686a55dc') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=788478ffbf3b2a5040c5ae3f8335ac31 DependenciesID=85eec99cd6694d25820863b212eeeced StaticDependenciesID=f4656b1e1dd4d5763f237ed522777141 
+Asset Pipeline Refresh (id=fbffd3f19e9be3242816b1ae162edbbd): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: b0addaf4a8c54e54fa8f9c086b740c56 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
 Imported 'GUID: b0addaf4a8c54e54fa8f9c086b740c56' -> (Import Result ID: '966c0e993df098fb1782f110555e522c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=159c65472bf45f84377c336f5e65a737 DependenciesID=bee89b154a79b566c0bba567c63e2156 StaticDependenciesID=af415618a366148dff2be9466658563a 
-Asset Pipeline Refresh (id=effb0ae12235cc746a131ebad631b540): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=fef207f7a5dcb424b897aa0c92b4641e): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 2489dda43e36fb5498eb97c4a46dcd45 - Path: Assets/Resources/GloveSkins/Sleeve_3.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 2489dda43e36fb5498eb97c4a46dcd45' -> (Import Result ID: '56cce81b8067c68dcd190a2bd5c1824d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=759e781b2ff76f7fbf0228bef07402d5 DependenciesID=a5f80b9274e7b0b54f996c93f9a1f661 StaticDependenciesID=0d77d785db9342fe282ef0f8b96759d3 
-Asset Pipeline Refresh (id=1b77da5a39da7fc48ac96e26ad3180ae): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=0b7c75ebb600fd14b8e7da5067d4d938): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 161d74dffea33144b8874613f99f5968 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
-Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: '86d3e007bf56a52be2b21a00c5a4c065') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9eb7dcdcb8b5ff83cc7939dcf81128cd DependenciesID=4fb2aca57137d9e6c2006c2a19121537 StaticDependenciesID=cc783019c2b23d172ea5813e5b7b2939 
-Asset Pipeline Refresh (id=dbf5296fcf2d9e44db3a1d968a797335): Total: 0.034 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: '86d3e007bf56a52be2b21a00c5a4c065') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9eb7dcdcb8b5ff83cc7939dcf81128cd DependenciesID=4fb2aca57137d9e6c2006c2a19121537 StaticDependenciesID=cc783019c2b23d172ea5813e5b7b2939 
+Asset Pipeline Refresh (id=77fd2387793a71541b881d3621621d48): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 161d74dffea33144b8874613f99f5968 - Path: Assets/Resources/GloveSkins/GloveTex_4.png' with importer (TextureImporter)
-Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: '127ac5034500c380f60af168e690573b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12fb86e43723436a8d40ece5afe0b1d3 DependenciesID=3fea2e69d35fb40e46987691c2728665 StaticDependenciesID=d6da256cc282df7e55a7b3029f1070a8 
-Asset Pipeline Refresh (id=34bee19ca91f8bc4d9d2e1f1a0b6d1f2): Total: 0.036 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: 161d74dffea33144b8874613f99f5968' -> (Import Result ID: '127ac5034500c380f60af168e690573b') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12fb86e43723436a8d40ece5afe0b1d3 DependenciesID=3fea2e69d35fb40e46987691c2728665 StaticDependenciesID=d6da256cc282df7e55a7b3029f1070a8 
+Asset Pipeline Refresh (id=38e9368a2e3cc944da44cf8042afec4d): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 67c0ecff23966c24bac01e744e0d4f9f - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: 'e708947bb47f1e5697cb8c52f7ddcf1e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a4b317141c1a8040644f1d1cf1374e15 DependenciesID=17a073dc5b526ceef22eb7f3d9fccee8 StaticDependenciesID=ba4e3ba0dfaa0100ab716243c2538b54 
-Asset Pipeline Refresh (id=debc15d5f1ea34b4d8642a2cc6f8bde4): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=ce35af2e42899034a9729c57a7ae93f0): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 0f748f889c8f5d74bacb18587c429db7 - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 0f748f889c8f5d74bacb18587c429db7' -> (Import Result ID: '3a0cbca6a73e3efbc0e1da6b3870b818') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=38459ac20ad01f09e04f72e913d3ece7 DependenciesID=9064e7a3eb542b348a208a89d6d8e883 StaticDependenciesID=9d3aef19d3c35a4898295501686b0c0c 
-Asset Pipeline Refresh (id=674f509454befcc469ac1d6259a63d34): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=0ff255d4e87afb44f89cd39b184e6626): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: b0addaf4a8c54e54fa8f9c086b740c56 - Path: Assets/Resources/GloveSkins/Glove_3.mat' with importer (NativeFormatImporter)
 Main Object Name 'Glove_MidnightCobalt' does not match filename 'Glove_3'
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -301,7 +301,7 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
 [Assets/Editor/BhopGloveSkinAuthoring.cs line 83]
 
-Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '7a43a89325d05c49789c47be0e5c11c3') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=b28b69f62a814911e23d3d9f14cda68f DependenciesID=98feb14a9fb6d05bd50c0306752e07f5 StaticDependenciesID=66f47d99881d73652c7d0ae9a3d60d56 
+Imported 'GUID: d49d3920ac597334799593c76763f0a0' -> (Import Result ID: '7a43a89325d05c49789c47be0e5c11c3') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b28b69f62a814911e23d3d9f14cda68f DependenciesID=98feb14a9fb6d05bd50c0306752e07f5 StaticDependenciesID=66f47d99881d73652c7d0ae9a3d60d56 
 Importing 'GUID: 37668c504a18e7c4f9e1828e4bfed257 - Path: Assets/Resources/GloveSkins/Glove_2.mat' with importer (NativeFormatImporter)
 Main Object Name 'Glove_Oxblood' does not match filename 'Glove_2'
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -311,7 +311,7 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
 [Assets/Editor/BhopGloveSkinAuthoring.cs line 83]
 
-Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '73493af7fd9df72ea946c2921e7951c5') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=a154c0d02bbbd50075eb734876e62a8e DependenciesID=e151937123455cd92c0f091f286412c1 StaticDependenciesID=69b1b1c46e9b47dea3a22ad19379594f 
+Imported 'GUID: 37668c504a18e7c4f9e1828e4bfed257' -> (Import Result ID: '73493af7fd9df72ea946c2921e7951c5') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a154c0d02bbbd50075eb734876e62a8e DependenciesID=e151937123455cd92c0f091f286412c1 StaticDependenciesID=69b1b1c46e9b47dea3a22ad19379594f 
 Importing 'GUID: 67c0ecff23966c24bac01e744e0d4f9f - Path: Assets/Resources/GloveSkins/Glove_4.mat' with importer (NativeFormatImporter)
 Main Object Name 'Glove_RoyalSuede' does not match filename 'Glove_4'
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
@@ -321,7 +321,7 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
 [Assets/Editor/BhopGloveSkinAuthoring.cs line 83]
 
-Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: 'f773aebc5ba68623b69483ab8ca1caa1') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=ff644e2e356480a5037f6fb431016c19 DependenciesID=7d514c52dacac77df893951e5238937d StaticDependenciesID=50d39b2477b0893eab7e928dc444adeb 
+Imported 'GUID: 67c0ecff23966c24bac01e744e0d4f9f' -> (Import Result ID: 'f773aebc5ba68623b69483ab8ca1caa1') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ff644e2e356480a5037f6fb431016c19 DependenciesID=7d514c52dacac77df893951e5238937d StaticDependenciesID=50d39b2477b0893eab7e928dc444adeb 
 Importing 'GUID: 1bcab16c1bef93641852d7805ac4a9cd - Path: Assets/Art/FacepunchViewmodel/Facepunch_M9_Default.mat' with importer (NativeFormatImporter)
 Imported 'GUID: 1bcab16c1bef93641852d7805ac4a9cd' -> (Import Result ID: '79cdcd2a016aa1f73b1c439edf7ead2f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9bcd2026e97b6b768341725bd6269793 DependenciesID=56949296fd845a46282ae48642b38d21 StaticDependenciesID=5d09b00b61e6d1c78d49bbc23b9d4fbf 
 Importing 'GUID: 0f748f889c8f5d74bacb18587c429db7 - Path: Assets/Resources/GloveSkins/Sleeve_4.mat' with importer (NativeFormatImporter)
@@ -339,13 +339,13 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
 [Assets/Editor/BhopGloveSkinAuthoring.cs line 83]
 
-Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: 'eeb9e9c3a2306cd0a28f0d4da718f326') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3d7a40d68809d4eef1698948ccad22b1 DependenciesID=22c4c813f7ad7cc38bba0557a9df684a StaticDependenciesID=a98f1f152b487731bae65ab95530e264 
+Imported 'GUID: efc319ed5c4fbf74fa7438e79e71a994' -> (Import Result ID: 'eeb9e9c3a2306cd0a28f0d4da718f326') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3d7a40d68809d4eef1698948ccad22b1 DependenciesID=22c4c813f7ad7cc38bba0557a9df684a StaticDependenciesID=a98f1f152b487731bae65ab95530e264 
 Importing 'GUID: 834e2fdd2382cb544a740409c72e8ce2 - Path: Assets/Art/PSXArms/PSX_LeftArm_Clean.asset' with importer (NativeFormatImporter)
 Imported 'GUID: 834e2fdd2382cb544a740409c72e8ce2' -> (Import Result ID: '15d6e8442d1522bb3ef836e4ee11e775') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6176294777d09513f9bf559d362fc5fd DependenciesID=c3eee1d01d0d206268921759ee10119c StaticDependenciesID=b2b3d225410b525ff3d08045d1bf0d5e 
 Importing 'GUID: bd657c5de98c9ef458ecbb99f154459b - Path: Assets/Art/PSXArms/PSX_RightArm_Clean.asset' with importer (NativeFormatImporter)
-Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
-Asset Pipeline Refresh (id=93feb42c6fdbd4244a38561ea99319a4): Total: 0.069 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=995917d8c5c88bd4e8b8474208a9a687): Total: 0.008 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Imported 'GUID: bd657c5de98c9ef458ecbb99f154459b' -> (Import Result ID: '50806a25a842145d151e0bdb03511130') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=21b99cbd945a08111077051f46d719cb DependenciesID=5bf0a63afd37a122e66e5391ccbec632 StaticDependenciesID=bee7915f9ae6edc6c3269806a4086438 
+Asset Pipeline Refresh (id=96311598b20d54d448eaac681e27b02b): Total: 0.039 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6dae512eb9b144b47aeb44a1edddd2d3): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
 BHOP_GLOVE_SKINS_3D_READY count=5 distinctPatterns=true
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -358,11 +358,11 @@ BhopViewPolish:Apply () (at Assets/Editor/BhopViewPolish.cs:40)
 
 (Filename: Assets/Editor/BhopGloveSkinAuthoring.cs Line: 85)
 
-Exception: Glove shell preview coverage too low id=0 samples=0
-  at BhopViewPolish.CaptureGloveSkinPreviews () [0x00476] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:492 
+Exception: Glove 3D preview coverage too low id=0 samples=735
+  at BhopViewPolish.CaptureGloveSkinPreviews () [0x00552] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:494 
   at BhopViewPolish.Apply () [0x00024] in C:\Users\User\Documents\BHOP_Yandex\Assets\Editor\BhopViewPolish.cs:41 
 
-(Filename: Assets/Editor/BhopViewPolish.cs Line: 492)
+(Filename: Assets/Editor/BhopViewPolish.cs Line: 494)
 
 executeMethod method BhopViewPolish.Apply threw exception.
 Exiting without the bug reporter. Application will terminate with return code 1
