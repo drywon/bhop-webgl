@@ -1,0 +1,29 @@
+{
+  "sourceCommit": "3afe45ad481559a9ec42d200b4a1746a423adbf5",
+  "builtAtUtc": "2026-10-01T21:36:28.5241045Z",
+  "surfEntry": "5/5 ordinary run",
+  "surfCourseRamps": 16,
+  "surfSimulatedSeconds": 70.89844,
+  "files": [
+    {
+      "name": "WebGL_TEST_READY.data.unityweb",
+      "bytes": 18788259,
+      "sha256": "527b2fc080a989375a2eeba88082496fe184db8eaeb03733ddeea9fb1e720122"
+    },
+    {
+      "name": "WebGL_TEST_READY.framework.js.unityweb",
+      "bytes": 78209,
+      "sha256": "448ca56489d0427286ce7e1958f4aa5429f6882dc04de2234b698d73979deaad"
+    },
+    {
+      "name": "WebGL_TEST_READY.loader.js",
+      "bytes": 48106,
+      "sha256": "6023c724f231789a84cb46b6c0f4e9283b4d918db466f242bc24a9ff3c043906"
+    },
+    {
+      "name": "WebGL_TEST_READY.wasm.unityweb",
+      "bytes": 13339263,
+      "sha256": "f7398e3a652fee27680a91e4f5ca50cd51fc320048437a4780af2bcbe9203465"
+    }
+  ]
+}
