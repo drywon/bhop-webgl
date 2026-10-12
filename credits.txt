@@ -1,0 +1,15 @@
+THIRD-PARTY ASSET NOTICES
+
+Human first-person arms and M9 bayonet: Facepunch Studios.
+Official package pages identify both packages as CC0 (checked 3 October 2026):
+https://sbox.game/facepunch/v_first_person_arms_human
+https://sbox.game/facepunch/v_m9bayonet
+https://creativecommons.org/publicdomain/zero/1.0/
+Local combined rig: Assets/Art/FacepunchViewmodel/Facepunch_M9_Arms_Combined.fbx.
+BHOP modifications: combined rig, glove/sleeve surfaces, authored material atlases, pose and presentation.
+
+Karambit by Diamonddogkz, licensed under Creative Commons Attribution 4.0.
+https://sketchfab.com/3d-models/karambit-dfd7606f189a413681305a39b8841ce8
+https://sketchfab.com/Diamonddogkz
+https://creativecommons.org/licenses/by/4.0/
+BHOP modifications: material finishes, scale/orientation and viewmodel placement.
